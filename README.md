@@ -6,5 +6,6 @@
 |:-|:-|
 |[spring-boot-helloworld](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-helloworld)|[创建一个 Spring Boot 项目，你会几种方法？](http://springboot.javaboy.org/2019/0412/springboot-init)|
 |[spring-boot-tomcat](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-tomcat)||
+|[spring-boot-properties](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-properties)|[是时候彻底搞清楚 Spring Boot 的配置文件 application.properties 了！](http://springboot.javaboy.org/2019/0530/application.properties)|
 
 ## 文章索引
