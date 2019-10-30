@@ -9,5 +9,6 @@
 |[spring-boot-properties](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-properties)|[是时候彻底搞清楚 Spring Boot 的配置文件 application.properties 了！](http://springboot.javaboy.org/2019/0530/application.properties)|
 |[spring-boot-yaml](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-yaml)|[Spring Boot中的yaml配置简介](http://springboot.javaboy.org/2019/0416/spring-boot-yaml)|
 |[spring-boot-profile](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-profile)||
+|[spring-boot-starter](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-starter)|[徒手撸一个 Spring Boot 中的 Starter ，解密自动化配置黑魔法！](http://springboot.javaboy.org/2019/0520/springboot-starter)|
 
 ## 文章索引

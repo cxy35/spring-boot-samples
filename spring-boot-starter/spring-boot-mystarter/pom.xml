@@ -5,18 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zhengjian.sample</groupId>
-    <artifactId>spring-boot-samples</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>spring-boot-mystarter</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <modules>
-        <module>spring-boot-helloworld</module>
-        <module>spring-boot-tomcat</module>
-        <module>spring-boot-properties</module>
-        <module>spring-boot-yaml</module>
-        <module>spring-boot-profile</module>
-        <module>spring-boot-starter</module>
-    </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+            <version>2.2.0.RELEASE</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
@@ -27,6 +25,7 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
+                    <compilerVersion>1.8</compilerVersion>
                 </configuration>
             </plugin>
         </plugins>
