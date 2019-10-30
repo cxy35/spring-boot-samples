@@ -14,6 +14,7 @@
         <module>spring-boot-tomcat</module>
         <module>spring-boot-properties</module>
         <module>spring-boot-yaml</module>
+        <module>spring-boot-profile</module>
     </modules>
 
     <build>

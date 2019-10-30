@@ -9,6 +9,7 @@
         <module name="spring-boot-properties" />
         <module name="spring-boot-yaml" />
         <module name="spring-boot-helloworld" />
+        <module name="spring-boot-profile" />
         <module name="spring-boot-tomcat" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-helloworld" options="-parameters" />
+      <module name="spring-boot-profile" options="-parameters" />
       <module name="spring-boot-properties" options="-parameters" />
       <module name="spring-boot-tomcat" options="-parameters" />
       <module name="spring-boot-yaml" options="-parameters" />
