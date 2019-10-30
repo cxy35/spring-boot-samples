@@ -6,8 +6,8 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-18 7:15
+ * @Author zhengjian
+ * @Date 2019/10/30 15:12
  */
 @Component
 @PropertySource("classpath:book.properties")

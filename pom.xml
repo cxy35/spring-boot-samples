@@ -13,6 +13,7 @@
         <module>spring-boot-helloworld</module>
         <module>spring-boot-tomcat</module>
         <module>spring-boot-properties</module>
+        <module>spring-boot-yaml</module>
     </modules>
 
     <build>
