@@ -18,6 +18,7 @@
         <module>spring-boot-starter</module>
         <module>spring-boot-thymeleaf</module>
         <module>spring-boot-freemarker</module>
+        <module>spring-boot-jsp</module>
     </modules>
 
     <build>

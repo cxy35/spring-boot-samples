@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-jsp" />
         <module name="spring-boot-helloworld" />
         <module name="spring-boot-usemystarter" />
         <module name="spring-boot-tomcat" />
@@ -22,6 +23,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-freemarker" options="-parameters" />
       <module name="spring-boot-helloworld" options="-parameters" />
+      <module name="spring-boot-jsp" options="-parameters" />
       <module name="spring-boot-profile" options="-parameters" />
       <module name="spring-boot-properties" options="-parameters" />
       <module name="spring-boot-thymeleaf" options="-parameters" />
