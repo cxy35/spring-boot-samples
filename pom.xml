@@ -17,6 +17,7 @@
         <module>spring-boot-profile</module>
         <module>spring-boot-starter</module>
         <module>spring-boot-thymeleaf</module>
+        <module>spring-boot-freemarker</module>
     </modules>
 
     <build>

@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/spring-boot-yaml/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-profile/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-freemarker/pom.xml" />
       </list>
     </option>
   </component>
