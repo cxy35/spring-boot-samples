@@ -16,6 +16,7 @@
         <module>spring-boot-yaml</module>
         <module>spring-boot-profile</module>
         <module>spring-boot-starter</module>
+        <module>spring-boot-thymeleaf</module>
     </modules>
 
     <build>

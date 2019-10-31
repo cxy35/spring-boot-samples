@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/spring-boot-properties/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-yaml/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-profile/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-thymeleaf/pom.xml" />
       </list>
     </option>
   </component>

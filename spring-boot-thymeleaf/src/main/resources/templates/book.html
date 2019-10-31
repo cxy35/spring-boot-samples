@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <td>图书编号</td>
+        <td>图书名称</td>
+        <td>图书作者</td>
+        <td>图书价格</td>
+    </tr>
+    <tr th:each="book :${books}">
+        <td th:text="${book.id}"></td>
+        <td th:text="${book.name}"></td>
+        <td th:text="${book.author}"></td>
+        <td th:text="${book.price}"></td>
+    </tr>
+</table>
+
+<script th:inline="javascript">
+    var username = [[${username}]];
+    console.log("Thymeleaf 支持在 js 中直接获取 Model 中的变量。username = " + username);
+</script>
+</body>
+</html>
