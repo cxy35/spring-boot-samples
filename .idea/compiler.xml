@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-boot-gson" />
+        <module name="spring-boot-fileupload" />
         <module name="spring-boot-freemarker" />
         <module name="spring-boot-fastjson" />
         <module name="spring-boot-yaml" />
@@ -27,6 +28,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-fastjson" options="-parameters" />
+      <module name="spring-boot-fileupload" options="-parameters" />
       <module name="spring-boot-freemarker" options="-parameters" />
       <module name="spring-boot-gson" options="-parameters" />
       <module name="spring-boot-helloworld" options="-parameters" />

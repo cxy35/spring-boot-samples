@@ -15,6 +15,7 @@
 |[spring-boot-jsp](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-jsp)|Spring Boot 整合 Jsp|
 |[spring-boot-json](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-json)|[Spring Boot 整合 Json（Jackson/Gson/FastJson）](http://springboot.javaboy.org/2019/0528/javassm#64-json-%E9%85%8D%E7%BD%AE)|
 |[spring-boot-staticresources](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-staticresources)|[Spring Boot 中的静态资源到底要放在哪里？](http://springboot.javaboy.org/2019/0408/springboot-static-resources)|
+|[spring-boot-fileupload](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-fileupload)|Spring Boot 中文件上传|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
