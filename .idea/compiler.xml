@@ -17,6 +17,7 @@
         <module name="spring-boot-json" />
         <module name="spring-boot-tomcat" />
         <module name="spring-boot-properties" />
+        <module name="spring-boot-staticresources" />
         <module name="spring-boot-jackson" />
         <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-mystarter" />
@@ -33,6 +34,7 @@
       <module name="spring-boot-jsp" options="-parameters" />
       <module name="spring-boot-profile" options="-parameters" />
       <module name="spring-boot-properties" options="-parameters" />
+      <module name="spring-boot-staticresources" options="-parameters" />
       <module name="spring-boot-thymeleaf" options="-parameters" />
       <module name="spring-boot-tomcat" options="-parameters" />
       <module name="spring-boot-usemystarter" options="-parameters" />
