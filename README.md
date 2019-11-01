@@ -16,6 +16,7 @@
 |[spring-boot-json](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-json)|[Spring Boot 整合 Json（Jackson/Gson/FastJson）](http://springboot.javaboy.org/2019/0528/javassm#64-json-%E9%85%8D%E7%BD%AE)|
 |[spring-boot-staticresources](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-staticresources)|[Spring Boot 中的静态资源到底要放在哪里？](http://springboot.javaboy.org/2019/0408/springboot-static-resources)|
 |[spring-boot-fileupload](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-fileupload)|Spring Boot 中文件上传|
+|[spring-boot-controlleradvice](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-controlleradvice)|[SpringMVC 中 @ControllerAdvice 注解的三种使用场景！](http://springboot.javaboy.org/2019/0422/springmvc-controlleradvice)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
@@ -23,7 +24,6 @@
 - [Spring Boot 加入 Https 功能有那么难吗？](http://springboot.javaboy.org/2019/0813/springboot-https)
 - [条件注解，Spring Boot 的基石！](http://springboot.javaboy.org/2019/0802/springboot-conditional)
 ---
-- [SpringMVC 中 @ControllerAdvice 注解的三种使用场景！](http://springboot.javaboy.org/2019/0422/springmvc-controlleradvice)
 - [Spring Boot 中关于自定义异常处理的套路！](http://springboot.javaboy.org/2019/0417/spring-boot-exception)
 - [Spring Boot中通过CORS解决跨域问题](http://springboot.javaboy.org/2019/0412/springboot-cors)
 - [Spring Boot 定义系统启动任务，你会几种方式？](http://springboot.javaboy.org/2019/0415/springboot-commandlinerunner)

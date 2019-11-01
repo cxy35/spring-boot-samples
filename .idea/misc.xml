@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/spring-boot-json/spring-boot-fastjson/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-staticresources/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-fileupload/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-controlleradvice/pom.xml" />
       </list>
     </option>
   </component>
