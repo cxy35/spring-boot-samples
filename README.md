@@ -13,6 +13,7 @@
 |[spring-boot-thymeleaf](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-thymeleaf)|[极简 Spring Boot 整合 Thymeleaf 页面模板](http://springboot.javaboy.org/2019/0613/springboot-thymeleaf)|
 |[spring-boot-freemarker](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-freemarker)|[Spring Boot 整合 Freemarker，50 多行配置是怎么省略掉的？](http://springboot.javaboy.org/2019/0705/springboot-freemarker)|
 |[spring-boot-jsp](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-jsp)|Spring Boot 整合 Jsp|
+|[spring-boot-json](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-json)|[Spring Boot 整合 Json（Jackson/Gson/FastJson）](http://springboot.javaboy.org/2019/0528/javassm#64-json-%E9%85%8D%E7%BD%AE)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)

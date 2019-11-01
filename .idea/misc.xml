@@ -13,6 +13,9 @@
         <option value="$PROJECT_DIR$/spring-boot-thymeleaf/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-freemarker/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-json/spring-boot-jackson/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-json/spring-boot-gson/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-json/spring-boot-fastjson/pom.xml" />
       </list>
     </option>
   </component>
