@@ -23,6 +23,7 @@
         <option value="$PROJECT_DIR$/spring-boot-cors/spring-boot-corsprovider/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-cors/spring-boot-corsconsumer/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-xml/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-interceptor/pom.xml" />
       </list>
     </option>
   </component>
