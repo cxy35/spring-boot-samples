@@ -24,6 +24,7 @@
         <module>spring-boot-fileupload</module>
         <module>spring-boot-controlleradvice</module>
         <module>spring-boot-exception</module>
+        <module>spring-boot-cors</module>
     </modules>
 
     <build>
