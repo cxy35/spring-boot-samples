@@ -19,6 +19,7 @@
 |[spring-boot-controlleradvice](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-controlleradvice)|[SpringMVC 中 @ControllerAdvice 注解的三种使用场景！](http://springboot.javaboy.org/2019/0422/springmvc-controlleradvice)|
 |[spring-boot-exception](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-exception)|[Spring Boot 中关于自定义异常处理的套路！](http://springboot.javaboy.org/2019/0417/spring-boot-exception)|
 |[spring-boot-cors](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cors)|[Spring Boot中通过CORS解决跨域问题](http://springboot.javaboy.org/2019/0412/springboot-cors)|
+|[spring-boot-xml](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-xml)|Spring Boot 中使用 XML 配置|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)

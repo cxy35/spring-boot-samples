@@ -12,6 +12,7 @@
         <module name="spring-boot-freemarker" />
         <module name="spring-boot-controlleradvice" />
         <module name="spring-boot-fastjson" />
+        <module name="spring-boot-xml" />
         <module name="spring-boot-exception" />
         <module name="spring-boot-fileupload" />
         <module name="spring-boot-corsconsumer" />
@@ -50,6 +51,7 @@
       <module name="spring-boot-thymeleaf" options="-parameters" />
       <module name="spring-boot-tomcat" options="-parameters" />
       <module name="spring-boot-usemystarter" options="-parameters" />
+      <module name="spring-boot-xml" options="-parameters" />
       <module name="spring-boot-yaml" options="-parameters" />
     </option>
   </component>
