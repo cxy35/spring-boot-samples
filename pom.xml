@@ -28,6 +28,7 @@
         <module>spring-boot-xml</module>
         <module>spring-boot-interceptor</module>
         <module>spring-boot-servlet</module>
+        <module>spring-boot-runner</module>
     </modules>
 
     <build>

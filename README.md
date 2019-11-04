@@ -22,6 +22,7 @@
 |[spring-boot-xml](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-xml)|Spring Boot 中使用 XML 配置|
 |[spring-boot-interceptor](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-interceptor)|Spring Boot 中使用拦截器 Interceptor|
 |[spring-boot-servlet](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-servlet)|Spring Boot 中使用 Servlet/Filter/Listener|
+|[spring-boot-runner](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-runner)|[Spring Boot 定义系统启动任务，你会几种方式？](http://springboot.javaboy.org/2019/0415/springboot-commandlinerunner)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
@@ -29,7 +30,6 @@
 - [Spring Boot 加入 Https 功能有那么难吗？](http://springboot.javaboy.org/2019/0813/springboot-https)
 - [条件注解，Spring Boot 的基石！](http://springboot.javaboy.org/2019/0802/springboot-conditional)
 ---
-- [Spring Boot 定义系统启动任务，你会几种方式？](http://springboot.javaboy.org/2019/0415/springboot-commandlinerunner)
 - [Spring Boot 中实现定时任务的两种方式](http://springboot.javaboy.org/2019/0418/springboot-schedule-task)
 - [SpringBoot整合Swagger2，再也不用维护接口文档了！](http://springboot.javaboy.org/2019/0416/springboot-swagger)
 - [Spring Boot 中自定义 SpringMVC 配置，到底继承谁？](http://springboot.javaboy.org/2019/0912/springmvc-config)

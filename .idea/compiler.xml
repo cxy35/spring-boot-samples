@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-commandlinerunner" />
         <module name="spring-boot-gson" />
         <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-corsprovider" />
@@ -21,9 +22,11 @@
         <module name="spring-boot-usemystarter" />
         <module name="spring-boot-helloworld" />
         <module name="spring-boot-profile" />
+        <module name="spring-boot-runner" />
         <module name="spring-boot-json" />
         <module name="spring-boot-tomcat" />
         <module name="spring-boot-properties" />
+        <module name="spring-boot-applicationrunner" />
         <module name="spring-boot-jackson" />
         <module name="spring-boot-cors" />
         <module name="spring-boot-staticresources" />
@@ -35,6 +38,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-applicationrunner" options="-parameters" />
+      <module name="spring-boot-commandlinerunner" options="-parameters" />
       <module name="spring-boot-controlleradvice" options="-parameters" />
       <module name="spring-boot-cors" options="" />
       <module name="spring-boot-corsconsumer" options="-parameters" />
