@@ -23,6 +23,7 @@
         <module>spring-boot-staticresources</module>
         <module>spring-boot-fileupload</module>
         <module>spring-boot-controlleradvice</module>
+        <module>spring-boot-exception</module>
     </modules>
 
     <build>
