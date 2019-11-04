@@ -21,6 +21,7 @@
 |[spring-boot-cors](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cors)|[Spring Boot中通过CORS解决跨域问题](http://springboot.javaboy.org/2019/0412/springboot-cors)|
 |[spring-boot-xml](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-xml)|Spring Boot 中使用 XML 配置|
 |[spring-boot-interceptor](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-interceptor)|Spring Boot 中使用拦截器 Interceptor|
+|[spring-boot-servlet](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-servlet)|Spring Boot 中使用 Servlet/Filter/Listener|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)

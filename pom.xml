@@ -27,6 +27,7 @@
         <module>spring-boot-cors</module>
         <module>spring-boot-xml</module>
         <module>spring-boot-interceptor</module>
+        <module>spring-boot-servlet</module>
     </modules>
 
     <build>
