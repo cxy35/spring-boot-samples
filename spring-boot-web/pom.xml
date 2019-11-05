@@ -19,6 +19,7 @@
         <module>spring-boot-interceptor</module>
         <module>spring-boot-servlet</module>
         <module>spring-boot-runner</module>
+        <module>spring-boot-viewcontroller</module>
     </modules>
 
 </project>

@@ -8,5 +8,9 @@
     <artifactId>spring-boot-runner</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>spring-boot-applicationrunner</module>
+        <module>spring-boot-commandlinerunner</module>
+    </modules>
 
 </project>

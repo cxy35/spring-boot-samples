@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-commandlinerunner" />
         <module name="spring-boot-gson" />
         <module name="spring-boot-corsprovider" />
         <module name="spring-boot-freemarker" />
@@ -14,6 +15,7 @@
         <module name="spring-boot-fastjson" />
         <module name="spring-boot-interceptor" />
         <module name="spring-boot-exception" />
+        <module name="spring-boot-viewcontroller" />
         <module name="spring-boot-fileupload" />
         <module name="spring-boot-jsp" />
         <module name="spring-boot-corsconsumer" />
@@ -27,23 +29,12 @@
         <module name="spring-boot-staticresources" />
         <module name="spring-boot-mystarter" />
         <module name="spring-boot-jackson" />
+        <module name="spring-boot-applicationrunner" />
         <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-servlet" />
         <module name="spring-boot-web" />
         <module name="spring-boot-xml" />
         <module name="spring-boot-cors" />
-      </profile>
-      <profile name="Annotation profile for spring-boot-applicationrunner" enabled="true">
-        <sourceOutputDir name="../../../spring-boot-runner/spring-boot-applicationrunner/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../spring-boot-runner/spring-boot-applicationrunner/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-applicationrunner" />
-      </profile>
-      <profile name="Annotation profile for spring-boot-commandlinerunner" enabled="true">
-        <sourceOutputDir name="../../../spring-boot-runner/spring-boot-commandlinerunner/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../spring-boot-runner/spring-boot-commandlinerunner/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-commandlinerunner" />
       </profile>
     </annotationProcessing>
   </component>
@@ -71,6 +62,7 @@
       <module name="spring-boot-thymeleaf" options="-parameters" />
       <module name="spring-boot-tomcat" options="-parameters" />
       <module name="spring-boot-usemystarter" options="-parameters" />
+      <module name="spring-boot-viewcontroller" options="-parameters" />
       <module name="spring-boot-xml" options="-parameters" />
       <module name="spring-boot-yaml" options="-parameters" />
     </option>

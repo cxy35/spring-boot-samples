@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/spring-boot-servlet/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-runner/spring-boot-commandlinerunner/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-runner/spring-boot-applicationrunner/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-web/spring-boot-mvc/pom.xml" />
       </list>
     </option>
   </component>
