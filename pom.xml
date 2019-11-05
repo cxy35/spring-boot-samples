@@ -19,16 +19,7 @@
         <module>spring-boot-thymeleaf</module>
         <module>spring-boot-freemarker</module>
         <module>spring-boot-jsp</module>
-        <module>spring-boot-json</module>
-        <module>spring-boot-staticresources</module>
-        <module>spring-boot-fileupload</module>
-        <module>spring-boot-controlleradvice</module>
-        <module>spring-boot-exception</module>
-        <module>spring-boot-cors</module>
-        <module>spring-boot-xml</module>
-        <module>spring-boot-interceptor</module>
-        <module>spring-boot-servlet</module>
-        <module>spring-boot-runner</module>
+        <module>spring-boot-web</module>
     </modules>
 
     <build>

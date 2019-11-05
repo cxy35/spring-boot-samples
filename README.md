@@ -13,16 +13,17 @@
 |[spring-boot-thymeleaf](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-thymeleaf)|[极简 Spring Boot 整合 Thymeleaf 页面模板](http://springboot.javaboy.org/2019/0613/springboot-thymeleaf)|
 |[spring-boot-freemarker](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-freemarker)|[Spring Boot 整合 Freemarker，50 多行配置是怎么省略掉的？](http://springboot.javaboy.org/2019/0705/springboot-freemarker)|
 |[spring-boot-jsp](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-jsp)|Spring Boot 整合 Jsp|
-|[spring-boot-json](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-json)|[Spring Boot 整合 Json（Jackson/Gson/FastJson）](http://springboot.javaboy.org/2019/0528/javassm#64-json-%E9%85%8D%E7%BD%AE)|
-|[spring-boot-staticresources](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-staticresources)|[Spring Boot 中的静态资源到底要放在哪里？](http://springboot.javaboy.org/2019/0408/springboot-static-resources)|
-|[spring-boot-fileupload](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-fileupload)|Spring Boot 中文件上传|
-|[spring-boot-controlleradvice](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-controlleradvice)|[SpringMVC 中 @ControllerAdvice 注解的三种使用场景！](http://springboot.javaboy.org/2019/0422/springmvc-controlleradvice)|
-|[spring-boot-exception](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-exception)|[Spring Boot 中关于自定义异常处理的套路！](http://springboot.javaboy.org/2019/0417/spring-boot-exception)|
-|[spring-boot-cors](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cors)|[Spring Boot中通过CORS解决跨域问题](http://springboot.javaboy.org/2019/0412/springboot-cors)|
-|[spring-boot-xml](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-xml)|Spring Boot 中使用 XML 配置|
-|[spring-boot-interceptor](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-interceptor)|Spring Boot 中使用拦截器 Interceptor|
-|[spring-boot-servlet](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-servlet)|Spring Boot 中使用 Servlet/Filter/Listener|
-|[spring-boot-runner](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-runner)|[Spring Boot 定义系统启动任务，你会几种方式？](http://springboot.javaboy.org/2019/0415/springboot-commandlinerunner)|
+|[spring-boot-web](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web)|Spring Boot 整合 Web|
+|[spring-boot-web/spring-boot-json](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-json)|[Spring Boot 整合 Json（Jackson/Gson/FastJson）](http://springboot.javaboy.org/2019/0528/javassm#64-json-%E9%85%8D%E7%BD%AE)|
+|[spring-boot-web/spring-boot-staticresources](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-staticresources)|[Spring Boot 中的静态资源到底要放在哪里？](http://springboot.javaboy.org/2019/0408/springboot-static-resources)|
+|[spring-boot-web/spring-boot-fileupload](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-fileupload)|Spring Boot 中文件上传|
+|[spring-boot-web/spring-boot-controlleradvice](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-controlleradvice)|[SpringMVC 中 @ControllerAdvice 注解的三种使用场景！](http://springboot.javaboy.org/2019/0422/springmvc-controlleradvice)|
+|[spring-boot-web/spring-boot-exception](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-exception)|[Spring Boot 中关于自定义异常处理的套路！](http://springboot.javaboy.org/2019/0417/spring-boot-exception)|
+|[spring-boot-web/spring-boot-cors](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-cors)|[Spring Boot中通过CORS解决跨域问题](http://springboot.javaboy.org/2019/0412/springboot-cors)|
+|[spring-boot-web/spring-boot-xml](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-xml)|Spring Boot 中使用 XML 配置|
+|[spring-boot-web/spring-boot-interceptor](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-interceptor)|Spring Boot 中使用拦截器 Interceptor|
+|[spring-boot-web/spring-boot-servlet](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-servlet)|Spring Boot 中使用 Servlet/Filter/Listener|
+|[spring-boot-web/spring-boot-runner](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-runner)|[Spring Boot 定义系统启动任务，你会几种方式？](http://springboot.javaboy.org/2019/0415/springboot-commandlinerunner)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
