@@ -6,35 +6,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-commandlinerunner" />
-        <module name="spring-boot-gson" />
-        <module name="spring-boot-corsprovider" />
-        <module name="spring-boot-freemarker" />
-        <module name="spring-boot-yaml" />
         <module name="spring-boot-controlleradvice" />
-        <module name="spring-boot-fastjson" />
-        <module name="spring-boot-interceptor" />
-        <module name="spring-boot-exception" />
-        <module name="spring-boot-viewcontroller" />
-        <module name="spring-boot-fileupload" />
-        <module name="spring-boot-jsp" />
         <module name="spring-boot-corsconsumer" />
-        <module name="spring-boot-helloworld" />
-        <module name="spring-boot-profile" />
-        <module name="spring-boot-runner" />
+        <module name="spring-boot-fileupload" />
+        <module name="spring-boot-staticresources" />
+        <module name="spring-boot-commandlinerunner" />
+        <module name="spring-boot-exception" />
         <module name="spring-boot-json" />
+        <module name="spring-boot-corsprovider" />
+        <module name="spring-boot-paramconverter" />
+        <module name="spring-boot-jsp" />
+        <module name="spring-boot-cors" />
+        <module name="spring-boot-applicationrunner" />
+        <module name="spring-boot-mystarter" />
+        <module name="spring-boot-profile" />
+        <module name="spring-boot-servlet" />
+        <module name="spring-boot-yaml" />
+        <module name="spring-boot-gson" />
+        <module name="spring-boot-freemarker" />
+        <module name="spring-boot-interceptor" />
+        <module name="spring-boot-xml" />
         <module name="spring-boot-tomcat" />
+        <module name="spring-boot-thymeleaf" />
+        <module name="spring-boot-fastjson" />
         <module name="spring-boot-properties" />
         <module name="spring-boot-usemystarter" />
-        <module name="spring-boot-staticresources" />
-        <module name="spring-boot-mystarter" />
-        <module name="spring-boot-jackson" />
-        <module name="spring-boot-applicationrunner" />
-        <module name="spring-boot-thymeleaf" />
-        <module name="spring-boot-servlet" />
+        <module name="spring-boot-runner" />
         <module name="spring-boot-web" />
-        <module name="spring-boot-xml" />
-        <module name="spring-boot-cors" />
+        <module name="spring-boot-helloworld" />
+        <module name="spring-boot-viewcontroller" />
+        <module name="spring-boot-jackson" />
       </profile>
     </annotationProcessing>
   </component>
@@ -55,6 +56,7 @@
       <module name="spring-boot-interceptor" options="-parameters" />
       <module name="spring-boot-jackson" options="-parameters" />
       <module name="spring-boot-jsp" options="-parameters" />
+      <module name="spring-boot-paramconverter" options="-parameters" />
       <module name="spring-boot-profile" options="-parameters" />
       <module name="spring-boot-properties" options="-parameters" />
       <module name="spring-boot-servlet" options="-parameters" />

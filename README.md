@@ -25,6 +25,7 @@
 |[spring-boot-web/spring-boot-servlet](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-servlet)|Spring Boot 中使用 Servlet/Filter/Listener|
 |[spring-boot-web/spring-boot-runner](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-runner)|[Spring Boot 定义系统启动任务，你会几种方式？](http://springboot.javaboy.org/2019/0415/springboot-commandlinerunner)|
 |[spring-boot-web/spring-boot-viewcontroller](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-viewcontroller)|Spring Boot 中的配置 ViewController|
+|[spring-boot-web/spring-boot-paramconverter](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-paramconverter)|Spring Boot 中的配置 Converter|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)

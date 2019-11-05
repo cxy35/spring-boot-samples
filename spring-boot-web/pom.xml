@@ -20,6 +20,7 @@
         <module>spring-boot-servlet</module>
         <module>spring-boot-runner</module>
         <module>spring-boot-viewcontroller</module>
+        <module>spring-boot-paramconverter</module>
     </modules>
 
 </project>
