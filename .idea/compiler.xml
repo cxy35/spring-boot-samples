@@ -18,29 +18,31 @@
         <module name="spring-boot-jsp" />
         <module name="spring-boot-cors" />
         <module name="spring-boot-applicationrunner" />
-        <module name="spring-boot-mystarter" />
-        <module name="spring-boot-profile" />
+        <module name="spring-boot-aop" />
+        <module name="spring-boot-xml" />
         <module name="spring-boot-servlet" />
         <module name="spring-boot-yaml" />
         <module name="spring-boot-gson" />
         <module name="spring-boot-freemarker" />
         <module name="spring-boot-interceptor" />
-        <module name="spring-boot-xml" />
         <module name="spring-boot-tomcat" />
         <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-fastjson" />
         <module name="spring-boot-properties" />
-        <module name="spring-boot-usemystarter" />
+        <module name="spring-boot-mystarter" />
         <module name="spring-boot-runner" />
         <module name="spring-boot-web" />
         <module name="spring-boot-helloworld" />
+        <module name="spring-boot-profile" />
         <module name="spring-boot-viewcontroller" />
         <module name="spring-boot-jackson" />
+        <module name="spring-boot-usemystarter" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-aop" options="-parameters" />
       <module name="spring-boot-applicationrunner" options="-parameters" />
       <module name="spring-boot-commandlinerunner" options="-parameters" />
       <module name="spring-boot-controlleradvice" options="-parameters" />
