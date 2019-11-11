@@ -22,6 +22,7 @@
         <module>spring-boot-viewcontroller</module>
         <module>spring-boot-paramconverter</module>
         <module>spring-boot-aop</module>
+        <module>spring-boot-welcome</module>
     </modules>
 
 </project>

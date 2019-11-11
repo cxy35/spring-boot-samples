@@ -25,12 +25,13 @@
         <module name="spring-boot-gson" />
         <module name="spring-boot-freemarker" />
         <module name="spring-boot-interceptor" />
+        <module name="spring-boot-runner" />
         <module name="spring-boot-tomcat" />
         <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-fastjson" />
         <module name="spring-boot-properties" />
         <module name="spring-boot-mystarter" />
-        <module name="spring-boot-runner" />
+        <module name="spring-boot-welcome" />
         <module name="spring-boot-web" />
         <module name="spring-boot-helloworld" />
         <module name="spring-boot-profile" />
@@ -67,6 +68,7 @@
       <module name="spring-boot-tomcat" options="-parameters" />
       <module name="spring-boot-usemystarter" options="-parameters" />
       <module name="spring-boot-viewcontroller" options="-parameters" />
+      <module name="spring-boot-welcome" options="-parameters" />
       <module name="spring-boot-xml" options="-parameters" />
       <module name="spring-boot-yaml" options="-parameters" />
     </option>

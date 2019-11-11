@@ -27,6 +27,7 @@
 |[spring-boot-web/spring-boot-viewcontroller](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-viewcontroller)|Spring Boot 中配置 ViewController|
 |[spring-boot-web/spring-boot-paramconverter](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-paramconverter)|Spring Boot 中配置 Converter|
 |[spring-boot-web/spring-boot-aop](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-aop)|Spring Boot 中配置 AOP|
+|[spring-boot-web/spring-boot-welcome](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-welcome)|Spring Boot 中配置欢迎页和 Favicon|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)

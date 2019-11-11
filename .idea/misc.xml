@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/spring-boot-web/spring-boot-mvc/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-web/spring-boot-paramconverter/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-web/spring-boot-aop/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-web/spring-boot-welcome/pom.xml" />
       </list>
     </option>
   </component>
