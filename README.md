@@ -24,6 +24,7 @@
 |[spring-boot-web/spring-boot-interceptor](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-interceptor)|Spring Boot 中配置拦截器 Interceptor|
 |[spring-boot-web/spring-boot-servlet](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-servlet)|Spring Boot 中配置 Servlet/Filter/Listener|
 |[spring-boot-web/spring-boot-runner](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-runner)|[Spring Boot 定义系统启动任务，你会几种方式？](http://springboot.javaboy.org/2019/0415/springboot-commandlinerunner)|
+|[spring-boot-web/spring-boot-task](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-task)|[Spring Boot 中实现定时任务的两种方式](http://springboot.javaboy.org/2019/0418/springboot-schedule-task)|
 |[spring-boot-web/spring-boot-viewcontroller](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-viewcontroller)|Spring Boot 中配置 ViewController|
 |[spring-boot-web/spring-boot-paramconverter](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-paramconverter)|Spring Boot 中配置 Converter|
 |[spring-boot-web/spring-boot-aop](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-aop)|Spring Boot 中配置 AOP|
@@ -35,7 +36,6 @@
 - [Spring Boot 加入 Https 功能有那么难吗？](http://springboot.javaboy.org/2019/0813/springboot-https)
 - [条件注解，Spring Boot 的基石！](http://springboot.javaboy.org/2019/0802/springboot-conditional)
 ---
-- [Spring Boot 中实现定时任务的两种方式](http://springboot.javaboy.org/2019/0418/springboot-schedule-task)
 - [SpringBoot整合Swagger2，再也不用维护接口文档了！](http://springboot.javaboy.org/2019/0416/springboot-swagger)
 - [Spring Boot 中自定义 SpringMVC 配置，到底继承谁？](http://springboot.javaboy.org/2019/0912/springmvc-config)
 ---

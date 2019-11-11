@@ -6,6 +6,7 @@
 
     <groupId>com.zhengjian.sample</groupId>
     <artifactId>spring-boot-web</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
     <modules>
@@ -19,6 +20,7 @@
         <module>spring-boot-interceptor</module>
         <module>spring-boot-servlet</module>
         <module>spring-boot-runner</module>
+        <module>spring-boot-task</module>
         <module>spring-boot-viewcontroller</module>
         <module>spring-boot-paramconverter</module>
         <module>spring-boot-aop</module>
