@@ -19,7 +19,7 @@
 |[spring-boot-web/spring-boot-fileupload](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-fileupload)|Spring Boot 中文件上传|
 |[spring-boot-web/spring-boot-controlleradvice](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-controlleradvice)|[SpringMVC 中 @ControllerAdvice 注解的三种使用场景！](http://springboot.javaboy.org/2019/0422/springmvc-controlleradvice)|
 |[spring-boot-web/spring-boot-exception](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-exception)|[Spring Boot 中关于自定义异常处理的套路！](http://springboot.javaboy.org/2019/0417/spring-boot-exception)|
-|[spring-boot-web/spring-boot-cors](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-cors)|[Spring Boot中通过CORS解决跨域问题](http://springboot.javaboy.org/2019/0412/springboot-cors)|
+|[spring-boot-web/spring-boot-cors](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-cors)|[Spring Boot 中通过 CORS 解决跨域问题](http://springboot.javaboy.org/2019/0412/springboot-cors)|
 |[spring-boot-web/spring-boot-xml](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-xml)|Spring Boot 中使用 XML 配置文件|
 |[spring-boot-web/spring-boot-interceptor](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-interceptor)|Spring Boot 中配置拦截器 Interceptor|
 |[spring-boot-web/spring-boot-servlet](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-servlet)|Spring Boot 中配置 Servlet/Filter/Listener|
@@ -29,6 +29,7 @@
 |[spring-boot-web/spring-boot-paramconverter](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-paramconverter)|Spring Boot 中配置 Converter|
 |[spring-boot-web/spring-boot-aop](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-aop)|Spring Boot 中配置 AOP|
 |[spring-boot-web/spring-boot-welcome](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-welcome)|Spring Boot 中配置欢迎页和 Favicon|
+|[spring-boot-web/spring-boot-swagger2](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-swagger2)|[SpringBoot 整合 Swagger2，再也不用维护接口文档了！](http://springboot.javaboy.org/2019/0416/springboot-swagger)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
@@ -36,7 +37,6 @@
 - [Spring Boot 加入 Https 功能有那么难吗？](http://springboot.javaboy.org/2019/0813/springboot-https)
 - [条件注解，Spring Boot 的基石！](http://springboot.javaboy.org/2019/0802/springboot-conditional)
 ---
-- [SpringBoot整合Swagger2，再也不用维护接口文档了！](http://springboot.javaboy.org/2019/0416/springboot-swagger)
 - [Spring Boot 中自定义 SpringMVC 配置，到底继承谁？](http://springboot.javaboy.org/2019/0912/springmvc-config)
 ---
 - [Spring Boot数据持久化之JdbcTemplate](http://springboot.javaboy.org/2019/0406/jdbctemplate)

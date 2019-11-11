@@ -33,6 +33,7 @@
         <option value="$PROJECT_DIR$/spring-boot-web/spring-boot-welcome/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-web/spring-boot-task/spring-boot-scheduled/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-web/spring-boot-task/spring-boot-quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-web/spring-boot-swagger2/pom.xml" />
       </list>
     </option>
   </component>

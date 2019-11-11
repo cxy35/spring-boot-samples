@@ -25,6 +25,7 @@
         <module>spring-boot-paramconverter</module>
         <module>spring-boot-aop</module>
         <module>spring-boot-welcome</module>
+        <module>spring-boot-swagger2</module>
     </modules>
 
 </project>

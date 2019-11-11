@@ -15,6 +15,7 @@
         <module name="spring-boot-exception" />
         <module name="spring-boot-json" />
         <module name="spring-boot-corsprovider" />
+        <module name="spring-boot-swagger2" />
         <module name="spring-boot-paramconverter" />
         <module name="spring-boot-jsp" />
         <module name="spring-boot-cors" />
@@ -68,6 +69,7 @@
       <module name="spring-boot-scheduled" options="-parameters" />
       <module name="spring-boot-servlet" options="-parameters" />
       <module name="spring-boot-staticresources" options="-parameters" />
+      <module name="spring-boot-swagger2" options="-parameters" />
       <module name="spring-boot-thymeleaf" options="-parameters" />
       <module name="spring-boot-tomcat" options="-parameters" />
       <module name="spring-boot-usemystarter" options="-parameters" />
