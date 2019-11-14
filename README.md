@@ -13,7 +13,7 @@
 |[spring-boot-thymeleaf](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-thymeleaf)|[极简 Spring Boot 整合 Thymeleaf 页面模板](http://springboot.javaboy.org/2019/0613/springboot-thymeleaf)|
 |[spring-boot-freemarker](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-freemarker)|[Spring Boot 整合 Freemarker，50 多行配置是怎么省略掉的？](http://springboot.javaboy.org/2019/0705/springboot-freemarker)|
 |[spring-boot-jsp](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-jsp)|Spring Boot 整合 Jsp|
-|[spring-boot-web](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web)|Spring Boot 整合 Web|
+|[spring-boot-web](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web)|Spring Boot 整合 Web 开发|
 |[spring-boot-web/spring-boot-json](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-json)|[Spring Boot 整合 Json（Jackson/Gson/FastJson）](http://springboot.javaboy.org/2019/0528/javassm#64-json-%E9%85%8D%E7%BD%AE)|
 |[spring-boot-web/spring-boot-staticresources](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-staticresources)|[Spring Boot 中的静态资源到底要放在哪里？](http://springboot.javaboy.org/2019/0408/springboot-static-resources)|
 |[spring-boot-web/spring-boot-fileupload](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-fileupload)|Spring Boot 中文件上传|
@@ -30,6 +30,8 @@
 |[spring-boot-web/spring-boot-aop](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-aop)|Spring Boot 中配置 AOP|
 |[spring-boot-web/spring-boot-welcome](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-welcome)|Spring Boot 中配置欢迎页和 Favicon|
 |[spring-boot-web/spring-boot-swagger2](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-swagger2)|[SpringBoot 整合 Swagger2，再也不用维护接口文档了！](http://springboot.javaboy.org/2019/0416/springboot-swagger)|
+|[spring-boot-dao](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao)|Spring Boot 整合持久层技术|
+|[spring-boot-dao/spring-boot-jdbctemplate](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplate)|[Spring Boot 数据持久化之 JdbcTemplate](http://springboot.javaboy.org/2019/0406/jdbctemplate)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
@@ -39,7 +41,6 @@
 ---
 - [Spring Boot 中自定义 SpringMVC 配置，到底继承谁？](http://springboot.javaboy.org/2019/0912/springmvc-config)
 ---
-- [Spring Boot数据持久化之JdbcTemplate](http://springboot.javaboy.org/2019/0406/jdbctemplate)
 - [Spring Boot多数据源配置之JdbcTemplate](http://springboot.javaboy.org/2019/0406/springboot-jdbctemplate)
 - [最简单的SpringBoot整合MyBatis教程](http://springboot.javaboy.org/2019/0407/springboot-mybatis)
 - [极简Spring Boot整合MyBatis多数据源](http://springboot.javaboy.org/2019/0407/mybatis-multi)

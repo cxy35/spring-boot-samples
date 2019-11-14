@@ -34,6 +34,12 @@
         <option value="$PROJECT_DIR$/spring-boot-web/spring-boot-task/spring-boot-scheduled/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-web/spring-boot-task/spring-boot-quartz/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-web/spring-boot-swagger2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-dao/spring-boot-jdbctemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-dao/spring-boot-jdbctemplatemulti/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-dao/spring-boot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-dao/spring-boot-mybatismulti/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-dao/spring-boot-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-dao/spring-boot-jpamulti/pom.xml" />
       </list>
     </option>
   </component>
