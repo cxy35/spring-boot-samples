@@ -34,6 +34,7 @@
 |[spring-boot-dao/spring-boot-jdbctemplate](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplate)|[Spring Boot 整合 JdbcTemplate](http://springboot.javaboy.org/2019/0406/jdbctemplate)|
 |[spring-boot-dao/spring-boot-jdbctemplatemulti](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplatemulti)|[Spring Boot 整合 JdbcTemplate 多数据源](http://springboot.javaboy.org/2019/0406/springboot-jdbctemplate)|
 |[spring-boot-dao/spring-boot-mybatis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis)|[SpringBoot 整合 MyBatis](http://springboot.javaboy.org/2019/0407/springboot-mybatis)|
+|[spring-boot-dao/spring-boot-mybatismulti](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatismulti)|[Spring Boot 整合 MyBatis 多数据源](http://springboot.javaboy.org/2019/0407/mybatis-multi)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
@@ -43,7 +44,6 @@
 ---
 - [Spring Boot 中自定义 SpringMVC 配置，到底继承谁？](http://springboot.javaboy.org/2019/0912/springmvc-config)
 ---
-- [Spring Boot 整合 MyBatis 多数据源](http://springboot.javaboy.org/2019/0407/mybatis-multi)
 - [一文读懂 Spring Data Jpa！](http://springboot.javaboy.org/2019/0412/springdata-jpa)
 - [Spring Boot 整合 Jpa](http://springboot.javaboy.org/2019/0407/springboot-jpa)
 - [Spring Boot 整合 Jpa 多数据源](http://springboot.javaboy.org/2019/0407/springboot-jpa-multi)
