@@ -10,8 +10,8 @@
 |[spring-boot-yaml](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-yaml)|[Spring Boot中的yaml配置简介](http://springboot.javaboy.org/2019/0416/spring-boot-yaml)|
 |[spring-boot-profile](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-profile)|Spring Boot 中配置 Profile|
 |[spring-boot-starter](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-starter)|[徒手撸一个 Spring Boot 中的 Starter ，解密自动化配置黑魔法！](http://springboot.javaboy.org/2019/0520/springboot-starter)|
-|[spring-boot-thymeleaf](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-thymeleaf)|[极简 Spring Boot 整合 Thymeleaf 页面模板](http://springboot.javaboy.org/2019/0613/springboot-thymeleaf)|
-|[spring-boot-freemarker](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-freemarker)|[Spring Boot 整合 Freemarker，50 多行配置是怎么省略掉的？](http://springboot.javaboy.org/2019/0705/springboot-freemarker)|
+|[spring-boot-thymeleaf](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-thymeleaf)|[Spring Boot 整合 Thymeleaf](http://springboot.javaboy.org/2019/0613/springboot-thymeleaf)|
+|[spring-boot-freemarker](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-freemarker)|[Spring Boot 整合 Freemarker](http://springboot.javaboy.org/2019/0705/springboot-freemarker)|
 |[spring-boot-jsp](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-jsp)|Spring Boot 整合 Jsp|
 |[spring-boot-web](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web)|Spring Boot 整合 Web 开发|
 |[spring-boot-web/spring-boot-json](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-json)|[Spring Boot 整合 Json（Jackson/Gson/FastJson）](http://springboot.javaboy.org/2019/0528/javassm#64-json-%E9%85%8D%E7%BD%AE)|
@@ -29,9 +29,10 @@
 |[spring-boot-web/spring-boot-paramconverter](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-paramconverter)|Spring Boot 中配置 Converter|
 |[spring-boot-web/spring-boot-aop](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-aop)|Spring Boot 中配置 AOP|
 |[spring-boot-web/spring-boot-welcome](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-welcome)|Spring Boot 中配置欢迎页和 Favicon|
-|[spring-boot-web/spring-boot-swagger2](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-swagger2)|[SpringBoot 整合 Swagger2，再也不用维护接口文档了！](http://springboot.javaboy.org/2019/0416/springboot-swagger)|
+|[spring-boot-web/spring-boot-swagger2](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-swagger2)|[SpringBoot 整合 Swagger2](http://springboot.javaboy.org/2019/0416/springboot-swagger)|
 |[spring-boot-dao](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao)|Spring Boot 整合持久层技术|
-|[spring-boot-dao/spring-boot-jdbctemplate](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplate)|[Spring Boot 数据持久化之 JdbcTemplate](http://springboot.javaboy.org/2019/0406/jdbctemplate)|
+|[spring-boot-dao/spring-boot-jdbctemplate](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplate)|[Spring Boot 整合 JdbcTemplate](http://springboot.javaboy.org/2019/0406/jdbctemplate)|
+|[spring-boot-dao/spring-boot-jdbctemplatemulti](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplatemulti)|[Spring Boot 整合 JdbcTemplate 多数据源](http://springboot.javaboy.org/2019/0406/springboot-jdbctemplate)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
@@ -41,7 +42,6 @@
 ---
 - [Spring Boot 中自定义 SpringMVC 配置，到底继承谁？](http://springboot.javaboy.org/2019/0912/springmvc-config)
 ---
-- [Spring Boot多数据源配置之JdbcTemplate](http://springboot.javaboy.org/2019/0406/springboot-jdbctemplate)
 - [最简单的SpringBoot整合MyBatis教程](http://springboot.javaboy.org/2019/0407/springboot-mybatis)
 - [极简Spring Boot整合MyBatis多数据源](http://springboot.javaboy.org/2019/0407/mybatis-multi)
 - [一文读懂 Spring Data Jpa！](http://springboot.javaboy.org/2019/0412/springdata-jpa)
