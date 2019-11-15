@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 位置2：放在resources目录下，不能自动被扫描到，不用配置maven，但需要在application.properties中告诉mybatis去哪里扫描mapper -->
+<mapper namespace="com.zhengjian.sample.springboot.mybatis.mapper.UserMapper">
+    <insert id="addUser" parameterType="com.zhengjian.sample.springboot.mybatis.pojo.User">
+        insert into user (username,address) values (#{username},#{address});
+    </insert>
+
+    <delete id="deleteUserById">
+        delete from user where id=#{id}
+    </delete>
+
+    <update id="updateUserById" parameterType="com.zhengjian.sample.springboot.mybatis.pojo.User">
+        update user set username=#{username},address=#{address} where id=#{id}
+    </update>
+
+    <select id="getAllUser" resultType="com.zhengjian.sample.springboot.mybatis.pojo.User">
+        select * from user;
+    </select>
+</mapper>
