@@ -9,6 +9,7 @@
         <module name="spring-boot-jpamulti" />
         <module name="spring-boot-quartz" />
         <module name="spring-boot-corsconsumer" />
+        <module name="spring-boot-tomcat" />
         <module name="spring-boot-fileupload" />
         <module name="spring-boot-swagger2" />
         <module name="spring-boot-staticresources" />
@@ -16,8 +17,6 @@
         <module name="spring-boot-exception" />
         <module name="spring-boot-json" />
         <module name="spring-boot-corsprovider" />
-        <module name="spring-boot-jpa" />
-        <module name="spring-boot-welcome" />
         <module name="spring-boot-paramconverter" />
         <module name="spring-boot-jsp" />
         <module name="spring-boot-cors" />
@@ -33,8 +32,9 @@
         <module name="spring-boot-freemarker" />
         <module name="spring-boot-interceptor" />
         <module name="spring-boot-task" />
+        <module name="spring-boot-runner" />
         <module name="spring-boot-mybatismulti" />
-        <module name="spring-boot-tomcat" />
+        <module name="spring-boot-jpa" />
         <module name="spring-boot-thymeleaf" />
         <module name="spring-boot-yaml" />
         <module name="spring-boot-fastjson" />
@@ -42,7 +42,7 @@
         <module name="spring-boot-jdbctemplatemulti" />
         <module name="spring-boot-mystarter" />
         <module name="spring-boot-jdbctemplate" />
-        <module name="spring-boot-runner" />
+        <module name="spring-boot-welcome" />
         <module name="spring-boot-helloworld" />
         <module name="spring-boot-profile" />
         <module name="spring-boot-viewcontroller" />
