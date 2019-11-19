@@ -12,6 +12,7 @@
         <module name="spring-boot-fileupload" />
         <module name="spring-boot-swagger2" />
         <module name="spring-boot-staticresources" />
+        <module name="spring-boot-redis" />
         <module name="spring-boot-commandlinerunner" />
         <module name="spring-boot-exception" />
         <module name="spring-boot-json" />
@@ -43,6 +44,7 @@
         <module name="spring-boot-mystarter" />
         <module name="spring-boot-jdbctemplate" />
         <module name="spring-boot-runner" />
+        <module name="spring-boot-nosql" />
         <module name="spring-boot-helloworld" />
         <module name="spring-boot-profile" />
         <module name="spring-boot-viewcontroller" />
@@ -79,6 +81,7 @@
       <module name="spring-boot-profile" options="-parameters" />
       <module name="spring-boot-properties" options="-parameters" />
       <module name="spring-boot-quartz" options="-parameters" />
+      <module name="spring-boot-redis" options="-parameters" />
       <module name="spring-boot-scheduled" options="-parameters" />
       <module name="spring-boot-servlet" options="-parameters" />
       <module name="spring-boot-staticresources" options="-parameters" />
