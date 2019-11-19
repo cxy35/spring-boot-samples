@@ -39,6 +39,7 @@
 |[spring-boot-dao/spring-boot-jpamulti](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpamulti)|[Spring Boot 整合 Jpa 多数据源](http://springboot.javaboy.org/2019/0407/springboot-jpa-multi)|
 |[spring-boot-nosql](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql)|Spring Boot 整合 NoSQL|
 |[spring-boot-nosql/spring-boot-redis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis)|[Spring Boot 整合 Redis](http://springboot.javaboy.org/2019/0603/springboot-redis)|
+|[spring-boot-nosql/spring-boot-redis-springsession](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis-springsession)|[Spring Boot 整合 Redis 和 Spring Session，实现 Session 共享](http://springboot.javaboy.org/2019/0604/springboot-springsession)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
@@ -51,7 +52,6 @@
 - [一文读懂 Spring Data Jpa！](http://springboot.javaboy.org/2019/0412/springdata-jpa)
 ---
 - [Nginx 极简入门教程！](http://springboot.javaboy.org/2019/0605/nginx-guide)
-- [Spring Boot 一个依赖搞定 session 共享，没有比这更简单的方案了！](http://springboot.javaboy.org/2019/0604/springboot-springsession)
 ---
 - [Spring Boot中，Redis缓存还能这么用！](http://springboot.javaboy.org/2019/0416/springboot-redis)
 - [另一种缓存，Spring Boot 整合 Ehcache](http://springboot.javaboy.org/2019/0612/springboot-ehcache)

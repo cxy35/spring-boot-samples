@@ -10,5 +10,6 @@
 
     <modules>
         <module>spring-boot-redis</module>
+        <module>spring-boot-redis-springsession</module>
     </modules>
 </project>

@@ -41,6 +41,7 @@
         <option value="$PROJECT_DIR$/spring-boot-dao/spring-boot-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-dao/spring-boot-jpamulti/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-nosql/spring-boot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-nosql/spring-boot-redis-springsession/pom.xml" />
       </list>
     </option>
   </component>
