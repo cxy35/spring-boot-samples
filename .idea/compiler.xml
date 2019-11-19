@@ -25,6 +25,7 @@
         <module name="spring-boot-applicationrunner" />
         <module name="spring-boot-aop" />
         <module name="spring-boot-dao" />
+        <module name="spring-boot-mongodb" />
         <module name="spring-boot-xml" />
         <module name="spring-boot-servlet" />
         <module name="spring-boot-controlleradvice" />
@@ -76,6 +77,7 @@
       <module name="spring-boot-jpa" options="-parameters" />
       <module name="spring-boot-jpamulti" options="-parameters" />
       <module name="spring-boot-jsp" options="-parameters" />
+      <module name="spring-boot-mongodb" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-mybatismulti" options="-parameters" />
       <module name="spring-boot-paramconverter" options="-parameters" />

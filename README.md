@@ -40,6 +40,7 @@
 |[spring-boot-nosql](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql)|Spring Boot 整合 NoSQL|
 |[spring-boot-nosql/spring-boot-redis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis)|[Spring Boot 整合 Redis](http://springboot.javaboy.org/2019/0603/springboot-redis)|
 |[spring-boot-nosql/spring-boot-redis-springsession](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis-springsession)|[Spring Boot 整合 Redis 和 Spring Session，实现 Session 共享](http://springboot.javaboy.org/2019/0604/springboot-springsession)|
+|[spring-boot-nosql/spring-boot-mongodb](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-mongodb)|[Spring Boot 整合 MongoDB|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
