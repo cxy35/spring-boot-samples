@@ -36,6 +36,7 @@
 |[spring-boot-dao/spring-boot-mybatis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis)|[SpringBoot 整合 MyBatis](http://springboot.javaboy.org/2019/0407/springboot-mybatis)|
 |[spring-boot-dao/spring-boot-mybatismulti](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatismulti)|[Spring Boot 整合 MyBatis 多数据源](http://springboot.javaboy.org/2019/0407/mybatis-multi)|
 |[spring-boot-dao/spring-boot-jpa](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpa)|[Spring Boot 整合 Jpa](http://springboot.javaboy.org/2019/0407/springboot-jpa)|
+|[spring-boot-dao/spring-boot-jpamulti](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpamulti)|[Spring Boot 整合 Jpa 多数据源](http://springboot.javaboy.org/2019/0407/springboot-jpa-multi)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
@@ -46,7 +47,6 @@
 - [Spring Boot 中自定义 SpringMVC 配置，到底继承谁？](http://springboot.javaboy.org/2019/0912/springmvc-config)
 ---
 - [一文读懂 Spring Data Jpa！](http://springboot.javaboy.org/2019/0412/springdata-jpa)
-- [Spring Boot 整合 Jpa 多数据源](http://springboot.javaboy.org/2019/0407/springboot-jpa-multi)
 ---
 - [Spring Boot 操作 Redis，三种方案全解析！](http://springboot.javaboy.org/2019/0603/springboot-redis)
 - [Nginx 极简入门教程！](http://springboot.javaboy.org/2019/0605/nginx-guide)
