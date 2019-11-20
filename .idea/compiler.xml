@@ -9,6 +9,7 @@
         <module name="spring-boot-jpamulti" />
         <module name="spring-boot-quartz" />
         <module name="spring-boot-runner" />
+        <module name="spring-boot-mongodbrest" />
         <module name="spring-boot-rest" />
         <module name="spring-boot-fileupload" />
         <module name="spring-boot-yaml" />
@@ -81,6 +82,7 @@
       <module name="spring-boot-jparest" options="-parameters" />
       <module name="spring-boot-jsp" options="-parameters" />
       <module name="spring-boot-mongodb" options="-parameters" />
+      <module name="spring-boot-mongodbrest" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-mybatismulti" options="-parameters" />
       <module name="spring-boot-paramconverter" options="-parameters" />
