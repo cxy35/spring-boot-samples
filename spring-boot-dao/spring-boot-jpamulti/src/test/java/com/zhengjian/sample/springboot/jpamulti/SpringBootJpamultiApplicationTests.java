@@ -29,13 +29,13 @@ class SpringBootJpamultiApplicationTests {
     @Test
     public void save() {
         Book book = new Book();
-        book.setName("三国演义");
         book.setAuthor("罗贯中");
+        book.setName("三国演义");
         bookDao1.save(book);
 
         Book book2 = new Book();
-        book2.setName("三国演义3");
         book2.setAuthor("罗贯中3");
+        book2.setName("三国演义3");
         bookDao2.save(book2);
     }
 
@@ -43,8 +43,8 @@ class SpringBootJpamultiApplicationTests {
     public void update() {
         Book book = new Book();
         book.setId(1);
-        book.setAuthor("三国演义2");
-        book.setName("罗贯中2");
+        book.setAuthor("罗贯中2");
+        book.setName("三国演义2");
         bookDao1.saveAndFlush(book);
     }
 
