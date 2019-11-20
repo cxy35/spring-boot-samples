@@ -43,6 +43,7 @@
         <option value="$PROJECT_DIR$/spring-boot-nosql/spring-boot-redis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-nosql/spring-boot-redis-springsession/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-nosql/spring-boot-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-rest/spring-boot-jparest/pom.xml" />
       </list>
     </option>
   </component>

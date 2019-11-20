@@ -22,6 +22,7 @@
         <module>spring-boot-web</module>
         <module>spring-boot-dao</module>
         <module>spring-boot-nosql</module>
+        <module>spring-boot-rest</module>
     </modules>
 
     <build>

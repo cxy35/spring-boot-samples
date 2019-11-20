@@ -41,6 +41,8 @@
 |[spring-boot-nosql/spring-boot-redis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis)|[Spring Boot 整合 Redis](http://springboot.javaboy.org/2019/0603/springboot-redis)|
 |[spring-boot-nosql/spring-boot-redis-springsession](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis-springsession)|[Spring Boot 整合 Redis 和 Spring Session，实现 Session 共享](http://springboot.javaboy.org/2019/0604/springboot-springsession)|
 |[spring-boot-nosql/spring-boot-mongodb](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-mongodb)|[Spring Boot 整合 MongoDB|
+|[spring-boot-rest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest)|Spring Boot 整合 Rest|
+|[spring-boot-rest/spring-boot-jparest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-jparest)|[Spring Boot 整合 Rest，结合Jpa](http://springboot.javaboy.org/2019/0606/springboot-restful)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
@@ -56,8 +58,6 @@
 ---
 - [Spring Boot中，Redis缓存还能这么用！](http://springboot.javaboy.org/2019/0416/springboot-redis)
 - [另一种缓存，Spring Boot 整合 Ehcache](http://springboot.javaboy.org/2019/0612/springboot-ehcache)
----
-- [Spring Boot 中 10 行代码构建 RESTful 风格应用](http://springboot.javaboy.org/2019/0606/springboot-restful)
 ---
 - [Spring Boot 整合 Shiro ，两种方式全总结！](http://springboot.javaboy.org/2019/0611/springboot-shiro)
 - [手把手带你入门 Spring Security！](http://springboot.javaboy.org/2019/0725/springboot-springsecurity)
