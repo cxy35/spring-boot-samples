@@ -7,6 +7,7 @@
 |[spring-boot-helloworld](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-helloworld)|[创建一个 Spring Boot 项目，你会几种方法？](http://springboot.javaboy.org/2019/0412/springboot-init)|
 |[spring-boot-tomcat](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-tomcat)|Spring Boot 配置 Tomcat|
 |[spring-boot-devtools](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-devtools)|[Spring Boot 整合 devtools 和 LiveReload](http://springboot.javaboy.org/2019/0808/springboot-livereload)|
+|[spring-boot-test](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-test)|Spring Boot 配置单元测试|
 |[spring-boot-properties](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-properties)|[Spring Boot 配置 properties](http://springboot.javaboy.org/2019/0530/application.properties)|
 |[spring-boot-yaml](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-yaml)|[Spring Boot 配置 yaml](http://springboot.javaboy.org/2019/0416/spring-boot-yaml)|
 |[spring-boot-profile](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-profile)|Spring Boot 配置 profile|
@@ -40,11 +41,11 @@
 |[spring-boot-dao/spring-boot-jpamulti](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpamulti)|[Spring Boot 整合 Jpa 多数据源](http://springboot.javaboy.org/2019/0407/springboot-jpa-multi)|
 |[spring-boot-nosql](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql)|Spring Boot 整合 NoSQL|
 |[spring-boot-nosql/spring-boot-redis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis)|[Spring Boot 整合 Redis](http://springboot.javaboy.org/2019/0603/springboot-redis)|
-|[spring-boot-nosql/spring-boot-redis-springsession](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis-springsession)|[Spring Boot 整合 Redis 和 Spring Session，实现 Session 共享](http://springboot.javaboy.org/2019/0604/springboot-springsession)|
+|[spring-boot-nosql/spring-boot-redis-springsession](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis-springsession)|[Spring Boot 整合 Redis + Spring Session，实现 Session 共享](http://springboot.javaboy.org/2019/0604/springboot-springsession)|
 |[spring-boot-nosql/spring-boot-mongodb](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-mongodb)|[Spring Boot 整合 MongoDB|
 |[spring-boot-rest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest)|Spring Boot 整合 Rest|
-|[spring-boot-rest/spring-boot-jparest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-jparest)|[Spring Boot 整合 Rest 和 Jpa](http://springboot.javaboy.org/2019/0606/springboot-restful)|
-|[spring-boot-rest/spring-boot-mongodbrest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-mongodbrest)|Spring Boot 整合 Rest 和 MongoDB|
+|[spring-boot-rest/spring-boot-jparest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-jparest)|[Spring Boot 整合 Rest + Jpa](http://springboot.javaboy.org/2019/0606/springboot-restful)|
+|[spring-boot-rest/spring-boot-mongodbrest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-mongodbrest)|Spring Boot 整合 Rest + MongoDB|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
