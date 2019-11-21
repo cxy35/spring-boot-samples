@@ -8,13 +8,13 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 @Service
-@CacheConfig(cacheNames = "c1")
+@CacheConfig(cacheNames = "cache-user")
 public class UserService {
 
     // 注意要在启动类上配置开启缓存@EnableCaching
 
     // 默认缓存的key为所有参数的值（可通过key或keyGenerator修改），缓存的value为方法的返回值
-    // c1::1
+    // cache-user::1
     // 查询
     @Cacheable
 //    @Cacheable(key = "#root.methodName")
