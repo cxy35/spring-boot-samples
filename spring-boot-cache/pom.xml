@@ -13,6 +13,7 @@
 
     <modules>
         <module>spring-boot-springcache-redis</module>
+        <module>spring-boot-springcache-ehcache</module>
     </modules>
 
 </project>

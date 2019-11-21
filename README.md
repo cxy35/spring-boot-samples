@@ -48,6 +48,7 @@
 |[spring-boot-rest/spring-boot-mongodbrest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-mongodbrest)|Spring Boot 整合 Rest + MongoDB|
 |[spring-boot-cache](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cache)|Spring Boot 整合缓存技术|
 |[spring-boot-cache/spring-boot-springcache-redis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cache/spring-boot-springcache-redis)|[Spring Boot 整合 Spring Cache + Redis](http://springboot.javaboy.org/2019/0416/springboot-redis)|
+|[spring-boot-cache/spring-boot-springcache-ehcache](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cache/spring-boot-springcache-ehcache)|[Spring Boot 整合 Spring Cache + Ehcache](http://springboot.javaboy.org/2019/0612/springboot-ehcache)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
@@ -60,8 +61,6 @@
 - [一文读懂 Spring Data Jpa！](http://springboot.javaboy.org/2019/0412/springdata-jpa)
 ---
 - [Nginx 极简入门教程！](http://springboot.javaboy.org/2019/0605/nginx-guide)
----
-- [另一种缓存，Spring Boot 整合 Ehcache](http://springboot.javaboy.org/2019/0612/springboot-ehcache)
 ---
 - [Spring Boot 整合 Shiro ，两种方式全总结！](http://springboot.javaboy.org/2019/0611/springboot-shiro)
 - [手把手带你入门 Spring Security！](http://springboot.javaboy.org/2019/0725/springboot-springsecurity)
