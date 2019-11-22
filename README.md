@@ -50,7 +50,8 @@
 |[spring-boot-cache/spring-boot-springcache-redis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cache/spring-boot-springcache-redis)|[Spring Boot 整合 Spring Cache + Redis](http://springboot.javaboy.org/2019/0416/springboot-redis)|
 |[spring-boot-cache/spring-boot-springcache-ehcache](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cache/spring-boot-springcache-ehcache)|[Spring Boot 整合 Spring Cache + Ehcache](http://springboot.javaboy.org/2019/0612/springboot-ehcache)|
 |[spring-boot-security](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security)|Spring Boot 整合安全管理框架|
-|[spring-boot-security/spring-boot-shirojava](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-shirojava)|[Spring Boot 整合 Shiro（原生）](http://springboot.javaboy.org/2019/0611/springboot-shiro)|
+|[spring-boot-security/spring-boot-shirojava](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-shirojava)|[Spring Boot 整合 Shiro（原生的整合）](http://springboot.javaboy.org/2019/0611/springboot-shiro)|
+|[spring-boot-security/spring-boot-shirostarter](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-shirostarter)|[Spring Boot 整合 Shiro（使用 Shiro Starter）](http://springboot.javaboy.org/2019/0611/springboot-shiro#%E4%BD%BF%E7%94%A8-shiro-starter)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
