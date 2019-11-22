@@ -32,7 +32,7 @@
 |[spring-boot-web/spring-boot-aop](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-aop)|Spring Boot 配置 AOP|
 |[spring-boot-web/spring-boot-welcome](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-welcome)|Spring Boot 配置欢迎页和 Favicon|
 |[spring-boot-web/spring-boot-swagger2](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-swagger2)|[SpringBoot 整合 Swagger2](http://springboot.javaboy.org/2019/0416/springboot-swagger)|
-|[spring-boot-dao](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao)|Spring Boot 整合持久层技术|
+|[spring-boot-dao](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao)|Spring Boot 整合持久层框架|
 |[spring-boot-dao/spring-boot-jdbctemplate](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplate)|[Spring Boot 整合 JdbcTemplate](http://springboot.javaboy.org/2019/0406/jdbctemplate)|
 |[spring-boot-dao/spring-boot-jdbctemplatemulti](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplatemulti)|[Spring Boot 整合 JdbcTemplate 多数据源](http://springboot.javaboy.org/2019/0406/springboot-jdbctemplate)|
 |[spring-boot-dao/spring-boot-mybatis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis)|[SpringBoot 整合 MyBatis](http://springboot.javaboy.org/2019/0407/springboot-mybatis)|
@@ -46,9 +46,11 @@
 |[spring-boot-rest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest)|Spring Boot 整合 Rest|
 |[spring-boot-rest/spring-boot-jparest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-jparest)|[Spring Boot 整合 Rest + Jpa](http://springboot.javaboy.org/2019/0606/springboot-restful)|
 |[spring-boot-rest/spring-boot-mongodbrest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-mongodbrest)|Spring Boot 整合 Rest + MongoDB|
-|[spring-boot-cache](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cache)|Spring Boot 整合缓存技术|
+|[spring-boot-cache](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cache)|Spring Boot 整合缓存框架|
 |[spring-boot-cache/spring-boot-springcache-redis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cache/spring-boot-springcache-redis)|[Spring Boot 整合 Spring Cache + Redis](http://springboot.javaboy.org/2019/0416/springboot-redis)|
 |[spring-boot-cache/spring-boot-springcache-ehcache](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cache/spring-boot-springcache-ehcache)|[Spring Boot 整合 Spring Cache + Ehcache](http://springboot.javaboy.org/2019/0612/springboot-ehcache)|
+|[spring-boot-security](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security)|Spring Boot 整合安全管理框架|
+|[spring-boot-security/spring-boot-shirojava](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-shirojava)|[Spring Boot 整合 Shiro（原生）](http://springboot.javaboy.org/2019/0611/springboot-shiro)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
@@ -62,7 +64,6 @@
 ---
 - [Nginx 极简入门教程！](http://springboot.javaboy.org/2019/0605/nginx-guide)
 ---
-- [Spring Boot 整合 Shiro ，两种方式全总结！](http://springboot.javaboy.org/2019/0611/springboot-shiro)
 - [手把手带你入门 Spring Security！](http://springboot.javaboy.org/2019/0725/springboot-springsecurity)
 - [Spring Security 登录添加验证码](http://springboot.javaboy.org/2019/0613/springsecurity-verifycode)
 - [Spring Security 登录使用 JSON 格式数据](http://springboot.javaboy.org/2019/0613/springsecurity-json)

@@ -26,6 +26,7 @@
         <module>spring-boot-nosql</module>
         <module>spring-boot-rest</module>
         <module>spring-boot-cache</module>
+        <module>spring-boot-security</module>
     </modules>
 
     <build>
