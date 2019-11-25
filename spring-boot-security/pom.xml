@@ -13,9 +13,9 @@
         <module>spring-boot-shriostarter</module>
         <module>spring-boot-springsecurity-helloworld</module>
         <module>spring-boot-springsecurity-user</module>
-        <module>spring-boot-springsecurity-method</module>
+        <module>spring-boot-springsecurity-methodsecurity</module>
         <module>spring-boot-springsecurity-httpsecurity</module>
         <module>spring-boot-springsecurity-httpsecuritymuitl</module>
-<!--        <module>spring-boot-springsecurity-methodsecurity</module>-->
+        <module>spring-boot-springsecurity-login</module>
     </modules>
 </project>
