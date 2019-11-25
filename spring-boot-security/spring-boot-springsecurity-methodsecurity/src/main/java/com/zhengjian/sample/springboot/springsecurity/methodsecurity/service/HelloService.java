@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.method.service;
+package com.zhengjian.sample.springboot.springsecurity.methodsecurity.service;
 
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.access.prepost.PreAuthorize;

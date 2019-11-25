@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.method.config;
+package com.zhengjian.sample.springboot.springsecurity.methodsecurity.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,7 +10,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 // 方法2：通过SecurityConfig配置用户名/密码
 @Configuration
-@EnableGlobalMethodSecurity(prePostEnabled = true,securedEnabled = true)// 开启全局方法安全
+// 开启全局方法安全
+@EnableGlobalMethodSecurity(prePostEnabled = true,securedEnabled = true)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Bean
     PasswordEncoder passwordEncoder() {
