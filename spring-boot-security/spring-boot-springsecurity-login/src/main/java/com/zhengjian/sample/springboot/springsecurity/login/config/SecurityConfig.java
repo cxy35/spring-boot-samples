@@ -131,6 +131,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         out.close();
                     }
                 })
+                .permitAll()
                 .and()
                 .csrf().disable()
                 .exceptionHandling()
@@ -141,7 +142,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         resp.setContentType("application/json;charset=utf-8");
                         PrintWriter out = resp.getWriter();
                         Map<String, Object> map = new HashMap<>();
-                        map.put("status", 401);
+                        map.put("status", 403);
                         map.put("msg", "无访问权限!");
                         out.write(new ObjectMapper().writeValueAsString(map));
                         out.flush();
