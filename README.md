@@ -55,7 +55,8 @@
 |[spring-boot-security/spring-boot-springsecurity-helloworld](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-helloworld)|[Spring Boot 整合 Spring Security（初次体验）](http://springboot.javaboy.org/2019/0725/springboot-springsecurity#2%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8C)|
 |[spring-boot-security/spring-boot-springsecurity-user](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-user)|[Spring Boot 整合 Spring Security（用户名密码配置）](http://springboot.javaboy.org/2019/0725/springboot-springsecurity#3%E7%94%A8%E6%88%B7%E5%90%8D%E9%85%8D%E7%BD%AE)|
 |[spring-boot-security/spring-boot-springsecurity-methodsecurity](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-methodsecurity)|Spring Boot 整合 Spring Security（方法安全配置）|
-|[spring-boot-security/spring-boot-springsecurity-httpsecurity](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-httpsecurity)|Spring Boot 整合 Spring Security（HttpSecurity配置）|
+|[spring-boot-security/spring-boot-springsecurity-httpsecurity](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-httpsecurity)|Spring Boot 整合 Spring Security（HttpSecurity 配置）|
+|[spring-boot-security/spring-boot-springsecurity-httpsecuritymulti](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-httpsecuritymulti)|Spring Boot 整合 Spring Security（HttpSecurity 配置多个）|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
