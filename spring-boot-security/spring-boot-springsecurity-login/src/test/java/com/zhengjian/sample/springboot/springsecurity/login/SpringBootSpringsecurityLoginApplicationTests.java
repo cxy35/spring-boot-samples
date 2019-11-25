@@ -1,11 +1,11 @@
-package com.zhengjian.sample.springboot.springsecurity.method;
+package com.zhengjian.sample.springboot.springsecurity.login;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @SpringBootTest
-class SpringBootSpringsecurityMethodApplicationTests {
+class SpringBootSpringsecurityLoginApplicationTests {
 
     @Test
     void contextLoads() {

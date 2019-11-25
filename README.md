@@ -57,6 +57,7 @@
 |[spring-boot-security/spring-boot-springsecurity-methodsecurity](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-methodsecurity)|Spring Boot 整合 Spring Security（方法安全配置）|
 |[spring-boot-security/spring-boot-springsecurity-httpsecurity](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-httpsecurity)|Spring Boot 整合 Spring Security（HttpSecurity 配置）|
 |[spring-boot-security/spring-boot-springsecurity-httpsecuritymulti](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-httpsecuritymulti)|Spring Boot 整合 Spring Security（HttpSecurity 配置多个）|
+|[spring-boot-security/spring-boot-springsecurity-login](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-login)|[Spring Boot 整合 Spring Security（登录登出配置）](http://springboot.javaboy.org/2019/0725/springboot-springsecurity#4%E7%99%BB%E5%BD%95%E9%85%8D%E7%BD%AE)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)

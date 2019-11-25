@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.zhengjian.sample</groupId>
-    <artifactId>spring-boot-springsecurity-method</artifactId>
+    <artifactId>spring-boot-springsecurity-login</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-springsecurity-method</name>
+    <name>spring-boot-springsecurity-login</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
