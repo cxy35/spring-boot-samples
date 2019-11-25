@@ -13,6 +13,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.AuthenticationEntryPoint;
 import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
 import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
@@ -63,9 +64,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .anyRequest().authenticated()
                 .and()
                 .formLogin()
-                // 定义登录页面，未登录时，访问一个需要登录之后才能访问的接口，会自动跳转到该页面
+                // 表示登录页的地址，例如当你访问一个需要登录后才能访问的资源时，系统就会自动给你通过【重定向】跳转到这个页面上来
                 .loginPage("/login")
-                // 定义登录处理接口，默认为 doLogin
+                // 表示处理登录请求的接口地址，默认为 doLogin
                 .loginProcessingUrl("/doLogin")
                 // 定义登录时，用户名的 key，默认为 username
                 .usernameParameter("uname")
@@ -142,6 +143,25 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                         Map<String, Object> map = new HashMap<>();
                         map.put("status", 401);
                         map.put("msg", "无访问权限!");
+                        out.write(new ObjectMapper().writeValueAsString(map));
+                        out.flush();
+                        out.close();
+                    }
+                })
+                // 默认情况下用户直接访问一个需要认证之后才可以访问的请求时，会被重定向到.loginPage("/login")，前后端分离时会导致跨域。
+                // 增加如下配置后，就不会发生重定向操作了，服务端会直接给浏览器一个 JSON 提示
+                .authenticationEntryPoint(new AuthenticationEntryPoint() {
+                    @Override
+                    public void commence(HttpServletRequest req, HttpServletResponse resp, AuthenticationException authException) throws IOException, ServletException {
+                        resp.setContentType("application/json;charset=utf-8");
+                        PrintWriter out = resp.getWriter();
+                        Map<String, Object> map = new HashMap<>();
+                        map.put("status", 401);
+                        if (authException instanceof InsufficientAuthenticationException) {
+                            map.put("msg", "访问失败，请先登录!");
+                        } else {
+                            map.put("msg", "访问失败!");
+                        }
                         out.write(new ObjectMapper().writeValueAsString(map));
                         out.flush();
                         out.close();
