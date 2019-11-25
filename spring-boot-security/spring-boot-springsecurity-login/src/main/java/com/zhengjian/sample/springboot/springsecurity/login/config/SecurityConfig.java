@@ -50,11 +50,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         // 开启登录配置
         http.authorizeRequests()
-                // 表示只有admin角色可以访问
+                // 表示admin角色能访问
                 .antMatchers("/admin/**").hasRole("admin")
-                // 表示admin和user角色都能访问
+                // 表示admin或user角色都能访问
                 // .antMatchers("/user/**").hasAnyRole("admin", "user")
-                // 表示admin和user角色都能访问
+                // 表示admin或user角色都能访问
                 .antMatchers("/user/**").access("hasAnyRole('user','admin')")
                 // 表示剩余的其他接口，登录之后就能访问
                 .anyRequest().authenticated()
