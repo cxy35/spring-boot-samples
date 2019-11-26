@@ -20,5 +20,6 @@
         <module>spring-boot-springsecurity-httpsecuritymulti</module>
         <module>spring-boot-springsecurity-verifycode</module>
         <module>spring-boot-springsecurity-login</module>
+        <module>spring-boot-springsecurity-loginbyjson</module>
     </modules>
 </project>
