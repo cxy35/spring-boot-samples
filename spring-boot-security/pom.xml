@@ -17,6 +17,7 @@
         <module>spring-boot-springsecurity-methodsecurity</module>
         <module>spring-boot-springsecurity-httpsecurity</module>
         <module>spring-boot-springsecurity-httpsecuritymulti</module>
+        <module>spring-boot-springsecurity-verifycode</module>
         <module>spring-boot-springsecurity-login</module>
     </modules>
 </project>
