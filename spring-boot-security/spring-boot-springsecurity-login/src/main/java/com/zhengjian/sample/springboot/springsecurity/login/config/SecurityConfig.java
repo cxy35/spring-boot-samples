@@ -66,7 +66,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .formLogin()
                 // 表示登录页的地址，例如当你访问一个需要登录后才能访问的资源时，系统就会自动给你通过【重定向】跳转到这个页面上来
                 .loginPage("/login")
-                // 表示处理登录请求的接口地址，默认为 doLogin
+                // 表示处理登录请求的接口地址，默认为 /login
                 .loginProcessingUrl("/doLogin")
                 // 定义登录时，用户名的 key，默认为 username
                 .usernameParameter("uname")
