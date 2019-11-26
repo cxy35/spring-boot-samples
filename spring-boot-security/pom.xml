@@ -21,5 +21,6 @@
         <module>spring-boot-springsecurity-verifycode</module>
         <module>spring-boot-springsecurity-login</module>
         <module>spring-boot-springsecurity-loginbyjson</module>
+        <module>spring-boot-springsecurity-jwt</module>
     </modules>
 </project>

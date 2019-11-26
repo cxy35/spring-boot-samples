@@ -62,6 +62,7 @@
 |[spring-boot-security/spring-boot-springsecurity-verifycode](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-verifycode)|[Spring Boot 整合 Spring Security（验证码配置）](http://springboot.javaboy.org/2019/0613/springsecurity-verifycode)|
 |[spring-boot-security/spring-boot-springsecurity-login](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-login)|[Spring Boot 整合 Spring Security（登录登出配置）](http://springboot.javaboy.org/2019/0725/springboot-springsecurity#4%E7%99%BB%E5%BD%95%E9%85%8D%E7%BD%AE)|
 |[spring-boot-security/spring-boot-springsecurity-loginbyjson](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-loginbyjson)|[Spring Boot 整合 Spring Security（使用 JSON 格式数据登录）](http://springboot.javaboy.org/2019/0613/springsecurity-json)|
+|[spring-boot-security/spring-boot-springsecurity-jwt](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-jwt)|[Spring Boot 整合 Spring Security + JWT](http://springboot.javaboy.org/2019/0408/springboot-jwt)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
@@ -76,7 +77,6 @@
 - [Nginx 极简入门教程！](http://springboot.javaboy.org/2019/0605/nginx-guide)
 ---
 - [Spring Security 中的角色继承问题](http://springboot.javaboy.org/2019/0613/springsecurity-role)
-- [干货|一个案例学会Spring Security 中使用 JWT](http://springboot.javaboy.org/2019/0408/springboot-jwt)
 - [Spring Security 前后端分离登录，非法请求直接返回 JSON](http://springboot.javaboy.org/2019/1016/springsecurity-login-json)
 ---
 - [Spring Boot 打包成的可执行 jar ，为什么不能被其他项目依赖？](http://springboot.javaboy.org/2019/0709/springboot-jar)
