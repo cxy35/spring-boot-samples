@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Date;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-26 7:17
+ * @Author zhengjian
+ * @Date 2019-07-26 7:17
  */
 @RestController
 public class HelloController {

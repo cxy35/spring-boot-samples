@@ -1,8 +1,8 @@
 package com.zhengjian.sample.springboot.mybatismulti.pojo;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-28 11:18
+ * @Author zhengjian
+ * @Date 2019-07-28 11:18
  */
 public class User {
     private Integer id;

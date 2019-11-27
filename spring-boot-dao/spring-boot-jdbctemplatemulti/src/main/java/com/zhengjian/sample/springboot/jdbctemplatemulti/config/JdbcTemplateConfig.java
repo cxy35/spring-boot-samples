@@ -8,8 +8,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import javax.sql.DataSource;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-28 9:09
+ * @Author zhengjian
+ * @Date 2019-07-28 9:09
  */
 @Configuration
 public class JdbcTemplateConfig {

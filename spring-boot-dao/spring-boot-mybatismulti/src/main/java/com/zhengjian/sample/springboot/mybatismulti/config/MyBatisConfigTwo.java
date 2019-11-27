@@ -11,8 +11,8 @@ import javax.annotation.Resource;
 import javax.sql.DataSource;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-28 11:14
+ * @Author zhengjian
+ * @Date 2019-07-28 11:14
  */
 @Configuration
 @MapperScan(basePackages = "com.zhengjian.sample.springboot.mybatismulti.mapper2", sqlSessionFactoryRef = "sqlSessionFactory2", sqlSessionTemplateRef = "sqlSessionTemplate2")

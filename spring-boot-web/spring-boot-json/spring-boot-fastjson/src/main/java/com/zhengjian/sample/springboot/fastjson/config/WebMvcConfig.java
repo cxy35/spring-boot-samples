@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-23 6:54
+ * @Author zhengjian
+ * @Date 2019-07-23 6:54
  */
 @Configuration
 public class WebMvcConfig {

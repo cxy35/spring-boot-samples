@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-24 16:17
+ * @Author zhengjian
+ * @Date 2019-07-24 16:17
  */
 @RestController
 //@CrossOrigin(origins = "http://localhost:8081")

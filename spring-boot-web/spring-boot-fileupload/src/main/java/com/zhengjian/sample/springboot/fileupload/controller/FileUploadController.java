@@ -12,8 +12,8 @@ import java.util.Date;
 import java.util.UUID;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-23 7:52
+ * @Author zhengjian
+ * @Date 2019-07-23 7:52
  */
 @RestController
 public class FileUploadController {

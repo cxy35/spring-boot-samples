@@ -3,8 +3,8 @@ package com.zhengjian.sample.springboot.aop.service;
 import org.springframework.stereotype.Service;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-26 7:33
+ * @Author zhengjian
+ * @Date 2019-07-26 7:33
  */
 @Service
 public class UserService {

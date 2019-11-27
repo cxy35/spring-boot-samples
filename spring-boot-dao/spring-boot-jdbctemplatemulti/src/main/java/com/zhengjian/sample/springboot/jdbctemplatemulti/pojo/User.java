@@ -1,8 +1,8 @@
 package com.zhengjian.sample.springboot.jdbctemplatemulti.pojo;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-28 9:11
+ * @Author zhengjian
+ * @Date 2019-07-28 9:11
  */
 public class User {
     private Integer id;

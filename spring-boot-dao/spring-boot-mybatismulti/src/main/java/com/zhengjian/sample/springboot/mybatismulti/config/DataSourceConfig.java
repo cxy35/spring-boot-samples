@@ -8,8 +8,8 @@ import org.springframework.context.annotation.Configuration;
 import javax.sql.DataSource;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-28 11:13
+ * @Author zhengjian
+ * @Date 2019-07-28 11:13
  */
 @Configuration
 public class DataSourceConfig {

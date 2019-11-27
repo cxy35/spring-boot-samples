@@ -14,8 +14,8 @@ import org.springframework.transaction.PlatformTransactionManager;
 import javax.sql.DataSource;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-29 7:25
+ * @Author zhengjian
+ * @Date 2019-07-29 7:25
  */
 @Configuration
 @EnableJpaRepositories(basePackages = "com.zhengjian.sample.springboot.jpamulti.dao2", entityManagerFactoryRef = "localContainerEntityManagerFactoryBean2", transactionManagerRef = "platformTransactionManager2")

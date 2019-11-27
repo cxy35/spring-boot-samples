@@ -12,10 +12,10 @@
 |[spring-boot-yaml](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-yaml)|[Spring Boot 配置 yaml](http://springboot.javaboy.org/2019/0416/spring-boot-yaml)|
 |[spring-boot-profile](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-profile)|Spring Boot 配置 profile|
 |[spring-boot-starter](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-starter)|[徒手撸一个 Spring Boot 中的 Starter ，解密自动化配置黑魔法！](http://springboot.javaboy.org/2019/0520/springboot-starter)|
-|[spring-boot-thymeleaf](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-thymeleaf)|[Spring Boot 整合 Thymeleaf](http://springboot.javaboy.org/2019/0613/springboot-thymeleaf)|
-|[spring-boot-freemarker](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-freemarker)|[Spring Boot 整合 Freemarker](http://springboot.javaboy.org/2019/0705/springboot-freemarker)|
-|[spring-boot-jsp](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-jsp)|Spring Boot 整合 Jsp|
 |[spring-boot-web](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web)|Spring Boot 整合 Web 开发|
+|[spring-boot-web/spring-boot-thymeleaf](https://github.com/zhengjian511/spring-boot-samples/tree/masterspring-boot-web//spring-boot-thymeleaf)|[Spring Boot 整合 Thymeleaf](http://springboot.javaboy.org/2019/0613/springboot-thymeleaf)|
+|[spring-boot-web/spring-boot-freemarker](https://github.com/zhengjian511/spring-boot-samples/tree/masterspring-boot-web//spring-boot-freemarker)|[Spring Boot 整合 Freemarker](http://springboot.javaboy.org/2019/0705/springboot-freemarker)|
+|[spring-boot-web/spring-boot-jsp](https://github.com/zhengjian511/spring-boot-samples/tree/masterspring-boot-web//spring-boot-jsp)|Spring Boot 整合 Jsp|
 |[spring-boot-web/spring-boot-json](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-json)|[Spring Boot 整合 Json（Jackson/Gson/FastJson）](http://springboot.javaboy.org/2019/0528/javassm#64-json-%E9%85%8D%E7%BD%AE)|
 |[spring-boot-web/spring-boot-staticresources](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-staticresources)|[Spring Boot 中的静态资源到底要放在哪里？](http://springboot.javaboy.org/2019/0408/springboot-static-resources)|
 |[spring-boot-web/spring-boot-fileupload](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-fileupload)|Spring Boot 文件上传|
@@ -30,28 +30,28 @@
 |[spring-boot-web/spring-boot-paramconverter](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-paramconverter)|Spring Boot 配置 Converter|
 |[spring-boot-web/spring-boot-aop](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-aop)|Spring Boot 配置 AOP|
 |[spring-boot-web/spring-boot-welcome](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-welcome)|Spring Boot 配置欢迎页和 Favicon|
-|[spring-boot-web/spring-boot-swagger2](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-swagger2)|[SpringBoot 整合 Swagger2](http://springboot.javaboy.org/2019/0416/springboot-swagger)|
-|[spring-boot-dao](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao)|Spring Boot 整合持久层框架|
+|[spring-boot-dao](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao)|Spring Boot 整合持久层框架（JdbcTemplate / MyBatis / Jpa）|
 |[spring-boot-dao/spring-boot-jdbctemplate](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplate)|[Spring Boot 整合 JdbcTemplate](http://springboot.javaboy.org/2019/0406/jdbctemplate)|
 |[spring-boot-dao/spring-boot-jdbctemplatemulti](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplatemulti)|[Spring Boot 整合 JdbcTemplate 多数据源](http://springboot.javaboy.org/2019/0406/springboot-jdbctemplate)|
 |[spring-boot-dao/spring-boot-mybatis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis)|[SpringBoot 整合 MyBatis](http://springboot.javaboy.org/2019/0407/springboot-mybatis)|
 |[spring-boot-dao/spring-boot-mybatismulti](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatismulti)|[Spring Boot 整合 MyBatis 多数据源](http://springboot.javaboy.org/2019/0407/mybatis-multi)|
 |[spring-boot-dao/spring-boot-jpa](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpa)|[Spring Boot 整合 Jpa](http://springboot.javaboy.org/2019/0407/springboot-jpa)|
 |[spring-boot-dao/spring-boot-jpamulti](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpamulti)|[Spring Boot 整合 Jpa 多数据源](http://springboot.javaboy.org/2019/0407/springboot-jpa-multi)|
-|[spring-boot-nosql](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql)|Spring Boot 整合 NoSQL|
+|[spring-boot-nosql](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql)|Spring Boot 整合 NoSQL（Redis / MongoDB）|
 |[spring-boot-nosql/spring-boot-redis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis)|[Spring Boot 整合 Redis](http://springboot.javaboy.org/2019/0603/springboot-redis)|
 |[spring-boot-nosql/spring-boot-redis-springsession](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis-springsession)|[Spring Boot 整合 Redis + Spring Session，实现 Session 共享](http://springboot.javaboy.org/2019/0604/springboot-springsession)|
 |[spring-boot-nosql/spring-boot-mongodb](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-mongodb)|[Spring Boot 整合 MongoDB|
-|[spring-boot-task](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-task)|[Spring Boot 整合定时任务](http://springboot.javaboy.org/2019/0418/springboot-schedule-task)|
+|[spring-boot-task](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-task)|[Spring Boot 整合定时任务（Scheduled / Quartz）](http://springboot.javaboy.org/2019/0418/springboot-schedule-task)|
 |[spring-boot-task/spring-boot-scheduled](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-task/spring-boot-scheduled)|[Spring Boot 整合定时任务（Scheduled）](http://springboot.javaboy.org/2019/0418/springboot-schedule-task#scheduled)|
 |[spring-boot-task/spring-boot-quartz](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-task/spring-boot-quartz)|[Spring Boot 整合定时任务（Quartz）](http://springboot.javaboy.org/2019/0418/springboot-schedule-task#quartz)|
+|[spring-boot-swagger2](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-swagger2)|[SpringBoot 整合 Swagger2](http://springboot.javaboy.org/2019/0416/springboot-swagger)|
 |[spring-boot-rest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest)|Spring Boot 整合 Rest|
 |[spring-boot-rest/spring-boot-jparest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-jparest)|[Spring Boot 整合 Rest + Jpa](http://springboot.javaboy.org/2019/0606/springboot-restful)|
 |[spring-boot-rest/spring-boot-mongodbrest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-mongodbrest)|Spring Boot 整合 Rest + MongoDB|
-|[spring-boot-cache](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cache)|Spring Boot 整合缓存框架|
+|[spring-boot-cache](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cache)|Spring Boot 整合缓存框架（Spring Cache + Redis / Ehcache）|
 |[spring-boot-cache/spring-boot-springcache-redis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cache/spring-boot-springcache-redis)|[Spring Boot 整合 Spring Cache + Redis](http://springboot.javaboy.org/2019/0416/springboot-redis)|
 |[spring-boot-cache/spring-boot-springcache-ehcache](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-cache/spring-boot-springcache-ehcache)|[Spring Boot 整合 Spring Cache + Ehcache](http://springboot.javaboy.org/2019/0612/springboot-ehcache)|
-|[spring-boot-security](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security)|Spring Boot 整合安全管理框架|
+|[spring-boot-security](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security)|Spring Boot 整合安全管理框架（Shiro / Spring Security / OAuth2）|
 |[spring-boot-security/spring-boot-shirojava](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-shirojava)|[Spring Boot 整合 Shiro（原生的整合）](http://springboot.javaboy.org/2019/0611/springboot-shiro)|
 |[spring-boot-security/spring-boot-shirostarter](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-shirostarter)|[Spring Boot 整合 Shiro（使用 Shiro Starter）](http://springboot.javaboy.org/2019/0611/springboot-shiro#%E4%BD%BF%E7%94%A8-shiro-starter)|
 |[spring-boot-security/spring-boot-springsecurity-helloworld](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-helloworld)|[Spring Boot 整合 Spring Security（初次体验）](http://springboot.javaboy.org/2019/0725/springboot-springsecurity#2%E5%88%9D%E6%AC%A1%E4%BD%93%E9%AA%8C)|
@@ -67,6 +67,7 @@
 |[spring-boot-security/spring-boot-springsecurity-jwt](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-jwt)|[Spring Boot 整合 Spring Security + JWT](http://springboot.javaboy.org/2019/0408/springboot-jwt)|
 |[spring-boot-security/spring-boot-springsecurity-oauth2](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-oauth2)|Spring Boot 整合 Spring Security + OAuth2 + Redis|
 |[spring-boot-mail](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-mail)|[Spring Boot 整合邮件发送](http://springboot.javaboy.org/2019/0717/springboot-mail)|
+|[spring-boot-message](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-message)|Spring Boot 整合消息服务（WebSocket / ActiveMQ / RabbitMQ）|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)

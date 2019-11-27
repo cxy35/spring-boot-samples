@@ -9,8 +9,8 @@ import org.springframework.context.annotation.Primary;
 import javax.sql.DataSource;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-29 7:23
+ * @Author zhengjian
+ * @Date 2019-07-29 7:23
  */
 @Configuration
 public class DataSourceConfig {

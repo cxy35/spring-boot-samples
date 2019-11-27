@@ -5,8 +5,8 @@ import org.quartz.JobExecutionException;
 import org.springframework.scheduling.quartz.QuartzJobBean;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-06-04 15:15
+ * @Author zhengjian
+ * @Date 2019-06-04 15:15
  */
 public class MyJob2 extends QuartzJobBean {
     HelloService helloService;

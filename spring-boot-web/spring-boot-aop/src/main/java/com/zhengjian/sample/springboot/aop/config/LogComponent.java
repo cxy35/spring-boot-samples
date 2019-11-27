@@ -6,8 +6,8 @@ import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-26 7:36
+ * @Author zhengjian
+ * @Date 2019-07-26 7:36
  */
 @Component
 @Aspect

@@ -3,8 +3,8 @@ package com.zhengjian.sample.springboot.jackson.pojo;
 import java.util.Date;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-23 6:36
+ * @Author zhengjian
+ * @Date 2019-07-23 6:36
  */
 public class User {
     private Integer id;

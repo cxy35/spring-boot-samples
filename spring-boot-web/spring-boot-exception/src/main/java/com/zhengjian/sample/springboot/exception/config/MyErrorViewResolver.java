@@ -11,8 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-24 15:56
+ * @Author zhengjian
+ * @Date 2019-07-24 15:56
  */
 @Component
 public class MyErrorViewResolver extends DefaultErrorViewResolver {

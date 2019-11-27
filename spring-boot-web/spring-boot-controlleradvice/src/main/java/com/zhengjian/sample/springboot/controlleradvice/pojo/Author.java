@@ -1,8 +1,8 @@
 package com.zhengjian.sample.springboot.controlleradvice.pojo;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-24 14:53
+ * @Author zhengjian
+ * @Date 2019-07-24 14:53
  */
 public class Author {
     private String name;

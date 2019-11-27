@@ -8,8 +8,8 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 import java.text.SimpleDateFormat;
 
 /**
- * @Author 江南一点雨
- * @Site www.javaboy.org 2019-07-23 6:54
+ * @Author zhengjian
+ * @Date 2019-07-23 6:54
  */
 @Configuration
 public class WebMvcConfig {
