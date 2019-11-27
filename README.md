@@ -65,6 +65,7 @@
 |[spring-boot-security/spring-boot-springsecurity-login](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-login)|[Spring Boot 整合 Spring Security（登录登出配置）](http://springboot.javaboy.org/2019/0725/springboot-springsecurity#4%E7%99%BB%E5%BD%95%E9%85%8D%E7%BD%AE)|
 |[spring-boot-security/spring-boot-springsecurity-loginbyjson](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-loginbyjson)|[Spring Boot 整合 Spring Security（使用 JSON 格式数据登录）](http://springboot.javaboy.org/2019/0613/springsecurity-json)|
 |[spring-boot-security/spring-boot-springsecurity-jwt](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-jwt)|[Spring Boot 整合 Spring Security + JWT](http://springboot.javaboy.org/2019/0408/springboot-jwt)|
+|[spring-boot-mail](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-mail)|[Spring Boot 整合邮件发送](http://springboot.javaboy.org/2019/0717/springboot-mail)|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
@@ -83,8 +84,6 @@
 ---
 - [Spring Boot 打包成的可执行 jar ，为什么不能被其他项目依赖？](http://springboot.javaboy.org/2019/0709/springboot-jar)
 - [一键部署 Spring Boot 到远程 Docker 容器，就是这么秀！](http://springboot.javaboy.org/2019/0830/springboot-docker)
----
-- [Spring Boot 邮件发送的 5 种姿势！](http://springboot.javaboy.org/2019/0717/springboot-mail)
 ---
 - [Spring Boot 中的同一个 Bug，竟然把我坑了两次！](http://springboot.javaboy.org/2019/0814/springboot-bug)
 

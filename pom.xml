@@ -28,6 +28,7 @@
         <module>spring-boot-rest</module>
         <module>spring-boot-cache</module>
         <module>spring-boot-security</module>
+        <module>spring-boot-mail</module>
     </modules>
 
     <build>
