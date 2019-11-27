@@ -68,6 +68,8 @@
 |[spring-boot-security/spring-boot-springsecurity-oauth2](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-oauth2)|Spring Boot 整合 Spring Security + OAuth2 + Redis|
 |[spring-boot-mail](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-mail)|[Spring Boot 整合邮件发送](http://springboot.javaboy.org/2019/0717/springboot-mail)|
 |[spring-boot-message](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-message)|Spring Boot 整合消息服务（WebSocket / ActiveMQ / RabbitMQ）|
+|[spring-boot-message/spring-boot-websocket-groupchat](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-message/spring-boot-websocket-groupchat)|Spring Boot 整合 WebSocket，实现在线群聊|
+|[spring-boot-message/spring-boot-websocket-privatechat](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-message/spring-boot-websocket-privatechat)|Spring Boot 整合 WebSocket，实现在线私聊|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
