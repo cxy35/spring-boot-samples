@@ -65,8 +65,8 @@
 |[spring-boot-security/spring-boot-springsecurity-login](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-login)|[Spring Boot 整合 Spring Security（登录登出配置）](http://springboot.javaboy.org/2019/0725/springboot-springsecurity#4%E7%99%BB%E5%BD%95%E9%85%8D%E7%BD%AE)|
 |[spring-boot-security/spring-boot-springsecurity-loginbyjson](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-loginbyjson)|[Spring Boot 整合 Spring Security（使用 JSON 格式数据登录）](http://springboot.javaboy.org/2019/0613/springsecurity-json)|
 |[spring-boot-security/spring-boot-springsecurity-jwt](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-jwt)|[Spring Boot 整合 Spring Security + JWT](http://springboot.javaboy.org/2019/0408/springboot-jwt)|
+|[spring-boot-security/spring-boot-springsecurity-oauth2](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-oauth2)|Spring Boot 整合 Spring Security + OAuth2 + Redis|
 |[spring-boot-mail](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-mail)|[Spring Boot 整合邮件发送](http://springboot.javaboy.org/2019/0717/springboot-mail)|
-|[spring-boot-oauth2](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-oauth2)|Spring Boot 整合 Spring Security + OAuth2 + Redis|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
