@@ -24,6 +24,7 @@
         <module>spring-boot-web</module>
         <module>spring-boot-dao</module>
         <module>spring-boot-nosql</module>
+        <module>spring-boot-task</module>
         <module>spring-boot-rest</module>
         <module>spring-boot-cache</module>
         <module>spring-boot-security</module>

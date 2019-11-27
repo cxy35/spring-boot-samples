@@ -26,7 +26,6 @@
 |[spring-boot-web/spring-boot-interceptor](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-interceptor)|Spring Boot 配置拦截器 Interceptor|
 |[spring-boot-web/spring-boot-servlet](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-servlet)|Spring Boot 配置 Servlet/Filter/Listener|
 |[spring-boot-web/spring-boot-runner](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-runner)|[Spring Boot 定义系统启动任务，你会几种方式？](http://springboot.javaboy.org/2019/0415/springboot-commandlinerunner)|
-|[spring-boot-web/spring-boot-task](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-task)|[Spring Boot 中实现定时任务的两种方式](http://springboot.javaboy.org/2019/0418/springboot-schedule-task)|
 |[spring-boot-web/spring-boot-viewcontroller](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-viewcontroller)|Spring Boot 配置 ViewController|
 |[spring-boot-web/spring-boot-paramconverter](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-paramconverter)|Spring Boot 配置 Converter|
 |[spring-boot-web/spring-boot-aop](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-web/spring-boot-aop)|Spring Boot 配置 AOP|
@@ -43,6 +42,9 @@
 |[spring-boot-nosql/spring-boot-redis](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis)|[Spring Boot 整合 Redis](http://springboot.javaboy.org/2019/0603/springboot-redis)|
 |[spring-boot-nosql/spring-boot-redis-springsession](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis-springsession)|[Spring Boot 整合 Redis + Spring Session，实现 Session 共享](http://springboot.javaboy.org/2019/0604/springboot-springsession)|
 |[spring-boot-nosql/spring-boot-mongodb](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-mongodb)|[Spring Boot 整合 MongoDB|
+|[spring-boot-task](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-task)|[Spring Boot 整合定时任务](http://springboot.javaboy.org/2019/0418/springboot-schedule-task)|
+|[spring-boot-task/spring-boot-scheduled](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-task/spring-boot-scheduled)|[Spring Boot 整合定时任务（Scheduled）](http://springboot.javaboy.org/2019/0418/springboot-schedule-task#scheduled)|
+|[spring-boot-task/spring-boot-quartz](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-task/spring-boot-quartz)|[Spring Boot 整合定时任务（Quartz）](http://springboot.javaboy.org/2019/0418/springboot-schedule-task#quartz)|
 |[spring-boot-rest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest)|Spring Boot 整合 Rest|
 |[spring-boot-rest/spring-boot-jparest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-jparest)|[Spring Boot 整合 Rest + Jpa](http://springboot.javaboy.org/2019/0606/springboot-restful)|
 |[spring-boot-rest/spring-boot-mongodbrest](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-mongodbrest)|Spring Boot 整合 Rest + MongoDB|
