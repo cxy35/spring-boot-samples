@@ -71,6 +71,7 @@
 |[spring-boot-message/spring-boot-websocket-groupchat](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-message/spring-boot-websocket-groupchat)|Spring Boot 整合 WebSocket，实现在线群聊|
 |[spring-boot-message/spring-boot-websocket-privatechat](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-message/spring-boot-websocket-privatechat)|Spring Boot 整合 WebSocket，实现在线私聊|
 |[spring-boot-message/spring-boot-activemq](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-message/spring-boot-activemq)|Spring Boot 整合 ActiveMQ|
+|[spring-boot-message/spring-boot-rabbitmq](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-message/spring-boot-rabbitmq)|Spring Boot 整合 RabbitMQ|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
