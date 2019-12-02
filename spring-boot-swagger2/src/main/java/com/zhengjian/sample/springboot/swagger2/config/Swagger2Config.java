@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.swagger2;
+package com.zhengjian.sample.springboot.swagger2.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,7 +16,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  */
 @Configuration
 @EnableSwagger2
-public class SwaggerConfig {
+public class Swagger2Config {
     @Bean
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
@@ -27,7 +27,7 @@ public class SwaggerConfig {
                 .build().apiInfo(new ApiInfoBuilder()
                         .title("这是网站的标题...")
                         .description("这是网站的描述...")
-                        .version("9.0")
+                        .version("v1.0")
                         .contact(new Contact("这是联系人名称","http://www.baidu.com","baidu@gmail.com"))
                         .license("The Apache License")
                         .licenseUrl("http://www.baidu.com")

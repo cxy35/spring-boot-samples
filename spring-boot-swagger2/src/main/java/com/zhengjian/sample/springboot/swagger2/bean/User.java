@@ -7,20 +7,20 @@ import io.swagger.annotations.ApiModelProperty;
  * @Author zhengjian
  * @Date 2019-06-05 9:43
  */
-@ApiModel
+@ApiModel(value = "用户实体类",description = "用户信息描述类")
 public class User {
-    @ApiModelProperty("用户id")
-    private Long id;
-    @ApiModelProperty("用户名")
+    @ApiModelProperty(value = "用户id")
+    private Integer id;
+    @ApiModelProperty(value = "用户名")
     private String username;
-    @ApiModelProperty("用户地址")
+    @ApiModelProperty(value = "用户地址")
     private String address;
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

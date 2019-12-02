@@ -1,11 +1,9 @@
 package com.zhengjian.sample.springboot.swagger2.controller;
 
 import com.zhengjian.sample.springboot.swagger2.bean.User;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiImplicitParam;
-import io.swagger.annotations.ApiImplicitParams;
-import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.*;
 import org.springframework.web.bind.annotation.*;
+import springfox.documentation.annotations.ApiIgnore;
 
 /**
  * @Author zhengjian
@@ -13,13 +11,12 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @Api(tags = "用户管理接口")
-@RequestMapping("/user")
 public class UserController {
 
-    @ApiOperation("根据id查询用户")
-    @ApiImplicitParam(name = "id", value = "用户id", defaultValue = "99")
-    @GetMapping("/")
-    public User getUserById(Long id) {
+    @GetMapping("/user")
+    @ApiOperation(value = "查询用户", notes = "根据用户id查询用户")
+    @ApiImplicitParam(name = "id", value = "用户id", required = true, defaultValue = "99")
+    public User getUserById(Integer id) {
         User user = new User();
         user.setId(id);
         user.setUsername("zhangsan");
@@ -27,27 +24,33 @@ public class UserController {
         return user;
     }
 
-    @ApiOperation("根据id更新用户名")
+    @PutMapping("/user")
+    @ApiOperation(value = "更新用户", notes = "根据用户id更新用户名")
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "id", value = "用户id", defaultValue = "99"),
-            @ApiImplicitParam(name = "username", value = "用户名", defaultValue = "javaboy")
+            @ApiImplicitParam(name = "id", value = "用户id", required = true, defaultValue = "99"),
+            @ApiImplicitParam(name = "username", value = "用户名", required = true, defaultValue = "javaboy")
     })
-    @PutMapping("/")
-    public User updateUsernameById(String username, Long id) {
+//    @ApiIgnore
+    public User updateUsernameById(String username, Integer id) {
         User user = new User();
         user.setId(id);
         user.setUsername(username);
         return user;
     }
 
-    @PostMapping("/")
-    @ApiOperation("添加用户")
+    @PostMapping("/user")
+    @ApiOperation(value = "添加用户", notes = "添加用户接口")
     public User addUser(@RequestBody User user) {
         return user;
     }
 
-    @DeleteMapping("/{id}")
-    @ApiOperation("根据id 删除用户")
+    @DeleteMapping("/user/{id}")
+    @ApiOperation(value = "删除用户", notes = "根据用户id删除用户")
+    @ApiImplicitParam(name = "id", value = "用户id", required = true, defaultValue = "99")
+    @ApiResponses({
+            @ApiResponse(code = 200, message = "删除成功"),
+            @ApiResponse(code = 500, message = "删除失败")
+    })
     public void deleteUserById(@PathVariable Long id) {
 
     }
