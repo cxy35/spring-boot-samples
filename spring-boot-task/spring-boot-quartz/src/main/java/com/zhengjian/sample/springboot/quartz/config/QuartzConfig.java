@@ -1,5 +1,6 @@
-package com.zhengjian.sample.springboot.quartz;
+package com.zhengjian.sample.springboot.quartz.config;
 
+import com.zhengjian.sample.springboot.quartz.job.MyJob2;
 import org.quartz.JobDataMap;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -28,14 +29,14 @@ public class QuartzConfig {
         return bean;
     }
 
-    // 方式2-MyJob2
+    // 方式2-MyJob2：可传参
     @Bean
     JobDetailFactoryBean jobDetailFactoryBean() {
         JobDetailFactoryBean bean = new JobDetailFactoryBean();
-        bean.setJobClass(MyJob2.class);
         JobDataMap map = new JobDataMap();
-        map.put("helloService", helloService());
+        map.put("name", "zhangsan");
         bean.setJobDataMap(map);
+        bean.setJobClass(MyJob2.class);
         return bean;
     }
 
@@ -52,7 +53,7 @@ public class QuartzConfig {
 
     // Trigger2
     @Bean
-    CronTriggerFactoryBean cronTrigger() {
+    CronTriggerFactoryBean cronTriggerFactoryBean() {
         CronTriggerFactoryBean bean = new CronTriggerFactoryBean();
         bean.setCronExpression("0/10 * * * * ?");
         bean.setJobDetail(jobDetailFactoryBean().getObject());
@@ -63,12 +64,8 @@ public class QuartzConfig {
     @Bean
     SchedulerFactoryBean schedulerFactoryBean() {
         SchedulerFactoryBean bean = new SchedulerFactoryBean();
-        bean.setTriggers(cronTrigger().getObject(), simpleTriggerFactoryBean().getObject());
+        bean.setTriggers(simpleTriggerFactoryBean().getObject(), cronTriggerFactoryBean().getObject());
         return bean;
     }
 
-    @Bean
-    HelloService helloService() {
-        return new HelloService();
-    }
 }

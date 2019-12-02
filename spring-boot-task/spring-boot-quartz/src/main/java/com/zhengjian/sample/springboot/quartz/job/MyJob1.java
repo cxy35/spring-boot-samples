@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.quartz;
+package com.zhengjian.sample.springboot.quartz.job;
 
 import org.springframework.stereotype.Component;
 
