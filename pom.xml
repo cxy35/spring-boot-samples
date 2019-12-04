@@ -29,6 +29,7 @@
         <module>spring-boot-mail</module>
         <module>spring-boot-message</module>
         <module>spring-boot-monitor</module>
+        <module>spring-boot-war</module>
     </modules>
 
     <build>

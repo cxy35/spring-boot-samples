@@ -75,6 +75,7 @@
 |[spring-boot-monitor](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-monitor)|Spring Boot 整合监控服务（Admin）|
 |[spring-boot-monitor/spring-boot-admin-server](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-monitor/spring-boot-admin-server)|Spring Boot Admin Server|
 |[spring-boot-monitor/spring-boot-admin-client](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-monitor/spring-boot-admin-client)|Spring Boot Admin Client|
+|[spring-boot-war](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-war)|Spring Boot 打 War 包|
 
 ## 文章索引
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
