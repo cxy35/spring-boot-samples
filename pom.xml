@@ -28,6 +28,7 @@
         <module>spring-boot-security</module>
         <module>spring-boot-mail</module>
         <module>spring-boot-message</module>
+        <module>spring-boot-monitor</module>
     </modules>
 
     <build>
