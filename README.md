@@ -78,6 +78,8 @@
 |[spring-boot-war](https://github.com/zhengjian511/spring-boot-samples/tree/master/spring-boot-war)|Spring Boot 打 War 包|
 
 ## 文章索引
+- [Spring Boot2 教程合集](http://springboot.javaboy.org/)
+---
 - [你真的理解 Spring Boot 项目中的 parent 吗？](http://springboot.javaboy.org/2019/0413/spring-boot-parent)
 ---
 - [Spring Boot 加入 Https 功能有那么难吗？](http://springboot.javaboy.org/2019/0813/springboot-https)
@@ -94,6 +96,14 @@
 ---
 - [Spring Boot 打包成的可执行 jar ，为什么不能被其他项目依赖？](http://springboot.javaboy.org/2019/0709/springboot-jar)
 - [一键部署 Spring Boot 到远程 Docker 容器，就是这么秀！](http://springboot.javaboy.org/2019/0830/springboot-docker)
+- [还在用 Dockerfile 部署 Spring Boot？out 啦！试试谷歌的大杀器 Jib](http://springboot.javaboy.org/2019/1107/springboot-docker)
 ---
 - [Spring Boot 中的同一个 Bug，竟然把我坑了两次！](http://springboot.javaboy.org/2019/0814/springboot-bug)
+---
+- [Spring Boot 开发微信公众号后台](http://springboot.javaboy.org/2019/1029/springboot-weixin)
+- [Spring Boot 开发微信公众号后台(二)](http://springboot.javaboy.org/2019/1031/springboot-weixin)
+---
+- [给大家整理了几个开源免费的 Spring Boot + Vue 学习资料](http://springboot.javaboy.org/2019/1120/springboot-vue)
+- [整理了八个开源的 Spring Boot 学习资源](http://springboot.javaboy.org/2019/0517/springboot-samples)
+- [松哥整理了 15 道 Spring Boot 高频面试题，看完当面霸](http://springboot.javaboy.org/2019/0619/interview)
 
