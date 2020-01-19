@@ -1,10 +1,10 @@
 package com.zhengjian.sample.springboot.activemq;
 
-import com.zhengjian.sample.springboot.activemq.config.ActiveMQComponent;
 import com.zhengjian.sample.springboot.activemq.pojo.Message;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.jms.core.JmsMessagingTemplate;
 
 import java.util.Date;
 
@@ -12,14 +12,14 @@ import java.util.Date;
 class SpringBootActivemqApplicationTests {
 
     @Autowired
-    ActiveMQComponent activeMQComponent;
+    JmsMessagingTemplate jmsMessagingTemplate;
 
     @Test
     void contextLoads() {
         Message message = new Message();
         message.setContent("Hello ActiveMQ...");
         message.setSendDate(new Date());
-        activeMQComponent.send(message);
+        jmsMessagingTemplate.convertAndSend("myQueue", message);
     }
 
 }
