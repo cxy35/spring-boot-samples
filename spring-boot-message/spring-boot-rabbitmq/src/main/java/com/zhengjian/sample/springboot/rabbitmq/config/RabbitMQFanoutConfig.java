@@ -9,23 +9,23 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class RabbitMQFanoutConfig {
-    public static final String NAME_FANOUT = "name_fanout";
-    public static final String QUEUE_FANOUT_ONE = "queue_fanout_one";
-    public static final String QUEUE_FANOUT_TWO = "queue_fanout_two";
+    public static final String QUEUE_NAME_FANOUT_ONE = "queue_fanout_one";
+    public static final String QUEUE_NAME_FANOUT_TWO = "queue_fanout_two";
+    public static final String EXCHANGE_NAME_FANOUT = "exchange_fanout";
 
     @Bean
     Queue queueOne() {
-        return new Queue(RabbitMQFanoutConfig.QUEUE_FANOUT_ONE);
+        return new Queue(RabbitMQFanoutConfig.QUEUE_NAME_FANOUT_ONE);
     }
 
     @Bean
     Queue queueTwo() {
-        return new Queue(RabbitMQFanoutConfig.QUEUE_FANOUT_TWO);
+        return new Queue(RabbitMQFanoutConfig.QUEUE_NAME_FANOUT_TWO);
     }
 
     @Bean
     FanoutExchange fanoutExchange() {
-        return new FanoutExchange(NAME_FANOUT, true, false);
+        return new FanoutExchange(EXCHANGE_NAME_FANOUT, true, false);
     }
 
     @Bean

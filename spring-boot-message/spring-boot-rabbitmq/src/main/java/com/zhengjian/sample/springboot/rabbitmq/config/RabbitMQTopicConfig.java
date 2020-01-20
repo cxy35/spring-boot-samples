@@ -9,29 +9,29 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class RabbitMQTopicConfig {
-    public static final String NAME_TOPIC = "name_topic";
-    public static final String QUEUE_TOPIC_XIAOMI = "queue_topic_xiaomi";
-    public static final String QUEUE_TOPIC_HUAWEI = "queue_topic_huawei";
-    public static final String QUEUE_TOPIC_PHONE = "queue_topic_phone";
-
-    @Bean
-    TopicExchange topicExchange() {
-        return new TopicExchange(NAME_TOPIC, true, false);
-    }
+    public static final String QUEUE_NAME_TOPIC_XIAOMI = "queue_topic_xiaomi";
+    public static final String QUEUE_NAME_TOPIC_HUAWEI = "queue_topic_huawei";
+    public static final String QUEUE_NAME_TOPIC_PHONE = "queue_topic_phone";
+    public static final String EXCHANGE_NAME_TOPIC = "exchange_topic";
 
     @Bean
     Queue xiaomi() {
-        return new Queue(RabbitMQTopicConfig.QUEUE_TOPIC_XIAOMI);
+        return new Queue(RabbitMQTopicConfig.QUEUE_NAME_TOPIC_XIAOMI);
     }
 
     @Bean
     Queue huawei() {
-        return new Queue(RabbitMQTopicConfig.QUEUE_TOPIC_HUAWEI);
+        return new Queue(RabbitMQTopicConfig.QUEUE_NAME_TOPIC_HUAWEI);
     }
 
     @Bean
     Queue phone() {
-        return new Queue(RabbitMQTopicConfig.QUEUE_TOPIC_PHONE);
+        return new Queue(RabbitMQTopicConfig.QUEUE_NAME_TOPIC_PHONE);
+    }
+
+    @Bean
+    TopicExchange topicExchange() {
+        return new TopicExchange(EXCHANGE_NAME_TOPIC, true, false);
     }
 
     @Bean

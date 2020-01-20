@@ -12,23 +12,23 @@ import java.util.Map;
 
 @Configuration
 public class RabbitMQHeaderConfig {
-    public static final String NAME_HEADER = "name_header";
-    public static final String QUEUE_HEADER_NAME = "queue_header_name";
-    public static final String QUEUE_HEADER_AGE = "queue_header_age";
-
-    @Bean
-    HeadersExchange headersExchange() {
-        return new HeadersExchange(NAME_HEADER, true, false);
-    }
+    public static final String QUEUE_NAME_HEADER_NAME = "queue_header_name";
+    public static final String QUEUE_NAME_HEADER_AGE = "queue_header_age";
+    public static final String EXCHANGE_NAME_HEADER = "exchange_header";
 
     @Bean
     Queue queueName() {
-        return new Queue(RabbitMQHeaderConfig.QUEUE_HEADER_NAME);
+        return new Queue(RabbitMQHeaderConfig.QUEUE_NAME_HEADER_NAME);
     }
 
     @Bean
     Queue queueAge() {
-        return new Queue(RabbitMQHeaderConfig.QUEUE_HEADER_AGE);
+        return new Queue(RabbitMQHeaderConfig.QUEUE_NAME_HEADER_AGE);
+    }
+
+    @Bean
+    HeadersExchange headersExchange() {
+        return new HeadersExchange(EXCHANGE_NAME_HEADER, true, false);
     }
 
     @Bean

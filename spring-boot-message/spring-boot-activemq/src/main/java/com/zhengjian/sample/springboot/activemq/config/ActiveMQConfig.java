@@ -12,8 +12,10 @@ import javax.jms.Queue;
  */
 @Configuration
 public class ActiveMQConfig {
+    public final static String QUEUE_NAME = "myQueue";
+
     @Bean
     Queue queue() {
-        return new ActiveMQQueue("myQueue");
+        return new ActiveMQQueue(ActiveMQConfig.QUEUE_NAME);
     }
 }

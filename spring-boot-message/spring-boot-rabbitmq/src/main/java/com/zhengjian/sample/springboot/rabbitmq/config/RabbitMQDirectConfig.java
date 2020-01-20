@@ -9,17 +9,17 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class RabbitMQDirectConfig {
-    public final static String NAME_DIRECT = "name_direct";
-    public final static String QUEUE_DIRECT = "queue_direct";
+    public final static String QUEUE_NAME_DIRECT = "queue_direct";
+    public final static String EXCHANGE_NAME_DIRECT = "exchange_direct";
 
     @Bean
     Queue queue() {
-        return new Queue(RabbitMQDirectConfig.QUEUE_DIRECT);
+        return new Queue(RabbitMQDirectConfig.QUEUE_NAME_DIRECT);
     }
 
     @Bean
     DirectExchange directExchange() {
-        return new DirectExchange(NAME_DIRECT, true, false);
+        return new DirectExchange(EXCHANGE_NAME_DIRECT, true, false);
     }
 
     @Bean
