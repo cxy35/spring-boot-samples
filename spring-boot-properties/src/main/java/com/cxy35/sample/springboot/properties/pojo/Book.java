@@ -1,17 +1,13 @@
-package com.zhengjian.sample.springboot.properties.pojo;
+package com.cxy35.sample.springboot.properties.pojo;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
-/**
- * @Author zhengjian
- * @Date 2019/10/30 15:12
- */
 @Component
 @PropertySource("classpath:book.properties")
-@ConfigurationProperties(prefix = "book")
+@ConfigurationProperties(prefix = "book") // 在 Spring Boot 中引入了类型安全的属性注入
 public class Book {
 //    @Value("${book.id}")
     private Long id;

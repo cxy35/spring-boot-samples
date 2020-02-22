@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.properties;
+package com.cxy35.sample.springboot.properties;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
