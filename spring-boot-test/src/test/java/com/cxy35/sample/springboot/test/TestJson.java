@@ -1,6 +1,6 @@
-package com.zhengjian.sample.springboot.test;
+package com.cxy35.sample.springboot.test;
 
-import com.zhengjian.sample.springboot.test.pojo.Book;
+import com.cxy35.sample.springboot.test.pojo.Book;
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,14 +11,14 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.io.IOException;
 
 @RunWith(SpringRunner.class)
-//@SpringBootTest
+// @SpringBootTest
 @org.springframework.boot.test.autoconfigure.json.JsonTest
 public class TestJson {
     @Autowired
     JacksonTester<Book> jacksonTester;
 
     @Test
-    public void contextLoads() throws IOException {
+    public void test() throws IOException {
         // 序列化
         Book book = new Book();
         book.setId(99);

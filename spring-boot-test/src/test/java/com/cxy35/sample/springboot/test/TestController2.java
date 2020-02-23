@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.test;
+package com.cxy35.sample.springboot.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,7 +15,7 @@ public class TestController2 {
 
     @Test
     public void contextLoads() {
-        String javaboy = testRestTemplate.getForObject("/hello?name={1}", String.class, "javaboy");
-        System.out.println(javaboy);
+        String cxy35 = testRestTemplate.getForObject("/hello?name={1}", String.class, "cxy35");
+        System.out.println(cxy35);
     }
 }

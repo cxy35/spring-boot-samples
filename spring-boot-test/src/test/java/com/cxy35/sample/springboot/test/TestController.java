@@ -1,7 +1,7 @@
-package com.zhengjian.sample.springboot.test;
+package com.cxy35.sample.springboot.test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.zhengjian.sample.springboot.test.pojo.Book;
+import com.cxy35.sample.springboot.test.pojo.Book;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -40,7 +40,7 @@ public class TestController {
         MvcResult mvcResult = mockMvc.perform(
                 MockMvcRequestBuilders.get("/hello")
                         .contentType(MediaType.APPLICATION_FORM_URLENCODED)
-                        .param("name", "javaboy"))
+                        .param("name", "cxy35"))
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andDo(MockMvcResultHandlers.print())
                 .andReturn();

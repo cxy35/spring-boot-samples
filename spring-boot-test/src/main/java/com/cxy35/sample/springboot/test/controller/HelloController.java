@@ -1,6 +1,6 @@
-package com.zhengjian.sample.springboot.test.controller;
+package com.cxy35.sample.springboot.test.controller;
 
-import com.zhengjian.sample.springboot.test.pojo.Book;
+import com.cxy35.sample.springboot.test.pojo.Book;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

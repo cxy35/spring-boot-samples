@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.test.pojo;
+package com.cxy35.sample.springboot.test.pojo;
 
 public class Book {
     private Integer id;
