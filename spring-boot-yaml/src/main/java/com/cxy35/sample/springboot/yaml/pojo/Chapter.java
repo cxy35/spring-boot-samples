@@ -1,9 +1,5 @@
-package com.zhengjian.sample.springboot.yaml.pojo;
+package com.cxy35.sample.springboot.yaml.pojo;
 
-/**
- * @Author zhengjian
- * @Date 2019/10/30 15:26
- */
 public class Chapter {
     private Long id;
     private String name;

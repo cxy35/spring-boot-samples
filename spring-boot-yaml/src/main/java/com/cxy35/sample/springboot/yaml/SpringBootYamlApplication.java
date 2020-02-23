@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.yaml;
+package com.cxy35.sample.springboot.yaml;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

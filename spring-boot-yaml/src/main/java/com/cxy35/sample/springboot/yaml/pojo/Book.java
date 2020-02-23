@@ -1,22 +1,18 @@
-package com.zhengjian.sample.springboot.yaml.pojo;
+package com.cxy35.sample.springboot.yaml.pojo;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-/**
- * @Author zhengjian
- * @Date 2019/10/30 15:22
- */
 @Component
 @ConfigurationProperties(prefix = "book")
 public class Book {
     private Long id;
     private String name;
     private String author;
-    private List<String> editors;
-    private List<Chapter> chapters;
+    private List<String> editors; // 普通数组/列表注入
+    private List<Chapter> chapters; // 对象数组/列表注入
 
     public Long getId() {
         return id;
