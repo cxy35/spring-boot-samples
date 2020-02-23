@@ -1,15 +1,11 @@
-package com.zhengjian.sample.springboot.mystarter;
+package com.cxy35.sample.springboot.mystarter;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-/**
- * @Author zhengjian
- * @Date 2019-05-08 21:19
- */
-@ConfigurationProperties(prefix = "javaboy")
+@ConfigurationProperties(prefix = "cxy35") // 类型安全的属性注入，指定配置的前缀
 public class HelloProperties {
-    private static final String DEFAULT_NAME = "江南一点雨";
-    private static final String DEFAULT_MSG = "牧码小子";
+    private static final String DEFAULT_NAME = "默认名称";
+    private static final String DEFAULT_MSG = "默认消息";
     private String name = DEFAULT_NAME;
     private String msg = DEFAULT_MSG;
 

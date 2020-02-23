@@ -8,7 +8,7 @@
         <version>2.2.0.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.zhengjian.sample</groupId>
+    <groupId>com.cxy35.sample</groupId>
     <artifactId>spring-boot-usemystarter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-usemystarter</name>
@@ -35,7 +35,7 @@
             </exclusions>
         </dependency>
         <dependency>
-            <groupId>com.zhengjian.sample</groupId>
+            <groupId>com.cxy35.sample</groupId>
             <artifactId>spring-boot-mystarter</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.usemystarter;
+package com.cxy35.sample.springboot.usemystarter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

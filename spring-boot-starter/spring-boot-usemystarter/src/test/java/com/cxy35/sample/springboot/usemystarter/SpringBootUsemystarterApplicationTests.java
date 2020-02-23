@@ -1,6 +1,6 @@
-package com.zhengjian.sample.springboot.usemystarter;
+package com.cxy35.sample.springboot.usemystarter;
 
-import com.zhengjian.sample.springboot.mystarter.HelloService;
+import com.cxy35.sample.springboot.mystarter.HelloService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,7 +14,5 @@ public class SpringBootUsemystarterApplicationTests {
     @Test
     void contextLoads() {
         System.out.println(helloService.sayHello());
-
     }
-
 }

@@ -1,23 +1,11 @@
-package com.zhengjian.sample.springboot.mystarter;
+package com.cxy35.sample.springboot.mystarter;
 
-/**
- * @Author zhengjian
- * @Date 2019-05-08 21:19
- */
 public class HelloService {
-    private String msg;
     private String name;
+    private String msg;
 
     public String sayHello() {
         return name + " say " + msg + " !";
-    }
-
-    public String getMsg() {
-        return msg;
-    }
-
-    public void setMsg(String msg) {
-        this.msg = msg;
     }
 
     public String getName() {
@@ -26,5 +14,13 @@ public class HelloService {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
     }
 }

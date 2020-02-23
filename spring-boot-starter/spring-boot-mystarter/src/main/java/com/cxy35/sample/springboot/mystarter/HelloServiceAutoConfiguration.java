@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.mystarter;
+package com.cxy35.sample.springboot.mystarter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
@@ -6,10 +6,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-/**
- * @Author zhengjian
- * @Date 2019-05-08 21:25
- */
 @Configuration
 @EnableConfigurationProperties(HelloProperties.class)
 @ConditionalOnClass(HelloService.class)

@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.zhengjian.sample.springboot.mystarter.HelloServiceAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.cxy35.sample.springboot.mystarter.HelloServiceAutoConfiguration
