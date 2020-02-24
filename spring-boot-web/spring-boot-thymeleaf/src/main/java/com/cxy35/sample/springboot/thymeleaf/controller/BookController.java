@@ -1,6 +1,6 @@
-package com.zhengjian.sample.springboot.thymeleaf.controller;
+package com.cxy35.sample.springboot.thymeleaf.controller;
 
-import com.zhengjian.sample.springboot.thymeleaf.pojo.Book;
+import com.cxy35.sample.springboot.thymeleaf.pojo.Book;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,10 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * @Author zhengjian
- * @Date 2019-07-20 7:59
- */
 @Controller
 public class BookController {
     @GetMapping("/book")
@@ -27,6 +23,8 @@ public class BookController {
         }
         model.addAttribute("books", bookList);
         model.addAttribute("username","张三");
+
+        // 返回视图，默认为 src/main/resources/templates/book.html
         return "book";
     }
 }

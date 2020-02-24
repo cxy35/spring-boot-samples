@@ -1,9 +1,5 @@
-package com.zhengjian.sample.springboot.thymeleaf.pojo;
+package com.cxy35.sample.springboot.thymeleaf.pojo;
 
-/**
- * @Author zhengjian
- * @Date 2019-07-20 7:59
- */
 public class Book {
     private Integer id;
     private String name;
