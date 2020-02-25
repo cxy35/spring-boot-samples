@@ -33,13 +33,13 @@ ${world}
             <td>${u.username}</td>
             <td>${u.address}</td>
             <td>
-            <#--                <#if u.gender==0>
-                                男
-                            <#elseif u.gender==1>
-                                女
-                            <#else>
-                                未知
-                            </#if>-->
+<#--                <#if u.gender==0>-->
+<#--                    男-->
+<#--                <#elseif u.gender==1>-->
+<#--                    女-->
+<#--                <#else>-->
+<#--                    未知-->
+<#--                </#if>-->
                 <#switch u.gender>
                     <#case 0>男<#break>
                     <#case 1>女<#break>

@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.freemarker;
+package com.cxy35.sample.springboot.freemarker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

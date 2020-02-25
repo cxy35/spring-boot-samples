@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.freemarker;
+package com.cxy35.sample.springboot.freemarker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

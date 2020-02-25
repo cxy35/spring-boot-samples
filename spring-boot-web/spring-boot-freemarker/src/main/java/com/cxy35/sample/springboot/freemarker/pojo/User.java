@@ -1,9 +1,5 @@
-package com.zhengjian.sample.springboot.freemarker.pojo;
+package com.cxy35.sample.springboot.freemarker.pojo;
 
-/**
- * @Author zhengjian
- * @Date 2019-07-20 6:59
- */
 public class User {
     private Long id;
     private String username;
