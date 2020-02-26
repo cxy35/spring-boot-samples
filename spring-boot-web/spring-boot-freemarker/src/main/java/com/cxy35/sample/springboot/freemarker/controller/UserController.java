@@ -19,7 +19,7 @@ public class UserController {
             User user = new User();
             user.setId((long) i);
             user.setUsername("cxy35 >>> " + i);
-            user.setAddress("www.cxy35.org >>> " + i);
+            user.setAddress("https://cxy35.com >>> " + i);
             // 0 表示 男 1 表示 女 其他数字表示未知
             user.setGender(random.nextInt(3));
             users.add(user);
