@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.staticresources;
+package com.cxy35.sample.springboot.staticresources;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
