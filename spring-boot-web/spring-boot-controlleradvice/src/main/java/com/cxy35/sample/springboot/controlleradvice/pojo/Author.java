@@ -1,9 +1,5 @@
-package com.zhengjian.sample.springboot.controlleradvice.pojo;
+package com.cxy35.sample.springboot.controlleradvice.pojo;
 
-/**
- * @Author zhengjian
- * @Date 2019-07-24 14:53
- */
 public class Author {
     private String name;
     private Integer age;

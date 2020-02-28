@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.controlleradvice;
+package com.cxy35.sample.springboot.controlleradvice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

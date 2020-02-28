@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.controlleradvice.controller;
+package com.cxy35.sample.springboot.controlleradvice.controller;
 
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.ControllerAdvice;
@@ -14,13 +14,8 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @Author zhengjian
- * @Date 2019/11/01 20:22
- */
 @ControllerAdvice
 public class MyControllerAdvice {
-
     @ExceptionHandler(ArrayIndexOutOfBoundsException.class)
     public void globalException(ArrayIndexOutOfBoundsException e, HttpServletResponse resp) throws IOException {
         resp.setContentType("text/html;charset=utf-8");
@@ -30,18 +25,18 @@ public class MyControllerAdvice {
         out.close();
     }
 
-//    @ExceptionHandler(ArrayIndexOutOfBoundsException.class)
-//    public ModelAndView globalException2(ArrayIndexOutOfBoundsException e) throws IOException {
-//        ModelAndView mv = new ModelAndView("myerror");
-//        mv.addObject("error", "出错了：globalException2");
-//        return mv;
-//    }
+    /*@ExceptionHandler(ArrayIndexOutOfBoundsException.class)
+    public ModelAndView globalException2(ArrayIndexOutOfBoundsException e) throws IOException {
+        ModelAndView mv = new ModelAndView("myerror");
+        mv.addObject("error", "出错了：globalException2");
+        return mv;
+    }*/
 
     @ModelAttribute(value = "dataKey")
     public Map<String,Object> globalData() {
         Map<String, Object> map = new HashMap<>();
-        map.put("name", "javaboy");
-        map.put("address", "www.javaboy.org");
+        map.put("name", "cxy35");
+        map.put("address", "https://cxy35.com");
         return map;
     }
 

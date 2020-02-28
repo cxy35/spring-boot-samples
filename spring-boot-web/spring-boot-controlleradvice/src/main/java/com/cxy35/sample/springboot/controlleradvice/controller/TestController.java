@@ -1,7 +1,7 @@
-package com.zhengjian.sample.springboot.controlleradvice.controller;
+package com.cxy35.sample.springboot.controlleradvice.controller;
 
-import com.zhengjian.sample.springboot.controlleradvice.pojo.Author;
-import com.zhengjian.sample.springboot.controlleradvice.pojo.Book;
+import com.cxy35.sample.springboot.controlleradvice.pojo.Author;
+import com.cxy35.sample.springboot.controlleradvice.pojo.Book;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,12 +12,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * @Author zhengjian
- * @Date 2019/11/01 20:22
- */
 @Controller
-public class MyController {
+public class TestController {
 
     @ResponseBody
     @GetMapping("/globalException")
