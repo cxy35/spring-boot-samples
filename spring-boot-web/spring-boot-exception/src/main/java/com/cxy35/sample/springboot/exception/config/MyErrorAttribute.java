@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.exception.config;
+package com.cxy35.sample.springboot.exception.config;
 
 import org.springframework.boot.web.servlet.error.DefaultErrorAttributes;
 import org.springframework.stereotype.Component;
@@ -6,10 +6,6 @@ import org.springframework.web.context.request.WebRequest;
 
 import java.util.Map;
 
-/**
- * @Author zhengjian
- * @Date 2019/11/04 12:35
- */
 @Component
 public class MyErrorAttribute extends DefaultErrorAttributes {
     @Override

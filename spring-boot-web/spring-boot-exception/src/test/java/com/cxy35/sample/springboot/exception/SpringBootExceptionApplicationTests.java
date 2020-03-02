@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.exception;
+package com.cxy35.sample.springboot.exception;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
