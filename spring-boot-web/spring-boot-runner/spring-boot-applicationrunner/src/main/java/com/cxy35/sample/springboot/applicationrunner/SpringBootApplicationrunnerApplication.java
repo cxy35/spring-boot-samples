@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.applicationrunner;
+package com.cxy35.sample.springboot.applicationrunner;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.commandlinerunner;
+package com.cxy35.sample.springboot.commandlinerunner;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
