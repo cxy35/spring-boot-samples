@@ -1,10 +1,10 @@
-package com.zhengjian.sample.springboot.corsconsumer;
+package com.cxy35.sample.springboot.corsprovider;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootCorsconsumerApplicationTests {
+class SpringBootCorsproviderApplicationTests {
 
     @Test
     void contextLoads() {

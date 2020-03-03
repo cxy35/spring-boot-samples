@@ -11,7 +11,7 @@
 <input type="button" value="PUT" onclick="putData()">
 <script>
     function getData() {
-        $.get('http://localhost:8080/hello', function (msg) {
+        $.get('http://127.0.0.1:8080/get', function (msg) {
             $("#app").html(msg);
         });
     }
@@ -19,7 +19,7 @@
     function putData() {
         $.ajax({
             type: 'put',
-            url: 'http://localhost:8080/doPut',
+            url: 'http://127.0.0.1:8080/put',
             success: function (msg) {
                 $("#app").html(msg);
             }

@@ -1,18 +1,15 @@
-package com.zhengjian.sample.springboot.corsprovider.config;
+package com.cxy35.sample.springboot.corsprovider.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-/**
- * @Author zhengjian
- * @Date 2019-07-24 16:23
- */
 @Configuration
-public class WebMvcConfig implements WebMvcConfigurer {
+public class MyWebMvcConfigurer implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/**").allowedOrigins("http://localhost:8081")
+        registry.addMapping("/**")
+                .allowedOrigins("http://127.0.0.1:8081")
                 .allowedHeaders("*")
                 .allowedMethods("*")
                 .maxAge(30 * 1000);
