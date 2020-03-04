@@ -12,7 +12,7 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019/11/26 10:33
  */
 @RestController

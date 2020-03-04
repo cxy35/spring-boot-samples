@@ -10,7 +10,7 @@ import java.util.Random;
 /**
  * 生成验证码的工具类
  *
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019/11/26 10:31
  */
 public class VerifyCode {

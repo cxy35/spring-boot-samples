@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.*;
 import java.util.List;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019/11/12 17:14
  */
 // 方式2：通过全注解的方式来写SQL >> UserMapper2.java，不写XML文件

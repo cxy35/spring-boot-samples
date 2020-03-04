@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import springfox.documentation.annotations.ApiIgnore;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019-06-05 9:38
  */
 @RestController
@@ -28,7 +28,7 @@ public class UserController {
     @ApiOperation(value = "更新用户", notes = "根据用户id更新用户名")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "id", value = "用户id", required = true, defaultValue = "99"),
-            @ApiImplicitParam(name = "username", value = "用户名", required = true, defaultValue = "javaboy")
+            @ApiImplicitParam(name = "username", value = "用户名", required = true, defaultValue = "cxy35")
     })
 //    @ApiIgnore
     public User updateUsernameById(String username, Integer id) {

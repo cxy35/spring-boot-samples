@@ -11,7 +11,7 @@ import javax.annotation.Resource;
 import javax.sql.DataSource;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019-07-28 11:14
  */
 @Configuration

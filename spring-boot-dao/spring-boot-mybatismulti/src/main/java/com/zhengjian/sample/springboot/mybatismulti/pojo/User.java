@@ -1,7 +1,7 @@
 package com.zhengjian.sample.springboot.mybatismulti.pojo;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019-07-28 11:18
  */
 public class User {

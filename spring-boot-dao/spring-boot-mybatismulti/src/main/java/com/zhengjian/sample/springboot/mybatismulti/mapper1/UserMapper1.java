@@ -5,7 +5,7 @@ import com.zhengjian.sample.springboot.mybatismulti.pojo.User;
 import java.util.List;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019/11/12 17:06
  */
 // 方式1：在XML中写SQL >> UserMapper1.xml

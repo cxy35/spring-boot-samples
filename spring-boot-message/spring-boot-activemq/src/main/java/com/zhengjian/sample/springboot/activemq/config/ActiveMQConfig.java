@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.jms.Queue;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019/11/29 15:25
  */
 @Configuration

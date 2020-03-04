@@ -3,7 +3,7 @@ package com.zhengjian.sample.springboot.jpa.pojo;
 import javax.persistence.*;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019-07-28 22:36
  */
 @Entity(name = "t_book")

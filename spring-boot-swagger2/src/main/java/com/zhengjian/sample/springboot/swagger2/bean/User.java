@@ -4,7 +4,7 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019-06-05 9:43
  */
 @ApiModel(value = "用户实体类",description = "用户信息描述类")

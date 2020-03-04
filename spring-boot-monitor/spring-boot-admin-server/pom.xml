@@ -9,7 +9,7 @@
         <version>2.1.7.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.zhengjian.sample</groupId>
+    <groupId>com.cxy35.sample</groupId>
     <artifactId>spring-boot-admin-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-admin-server</name>

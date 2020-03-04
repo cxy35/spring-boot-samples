@@ -5,7 +5,7 @@ import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019-07-21 11:18
  */
 // @Configuration

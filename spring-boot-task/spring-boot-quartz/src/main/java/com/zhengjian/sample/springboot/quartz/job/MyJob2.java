@@ -7,7 +7,7 @@ import org.springframework.scheduling.quartz.QuartzJobBean;
 import java.util.Date;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019-06-04 15:15
  */
 public class MyJob2 extends QuartzJobBean {

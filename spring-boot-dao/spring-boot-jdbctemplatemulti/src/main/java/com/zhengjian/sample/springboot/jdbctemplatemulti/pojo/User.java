@@ -1,7 +1,7 @@
 package com.zhengjian.sample.springboot.jdbctemplatemulti.pojo;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019-07-28 9:11
  */
 public class User {

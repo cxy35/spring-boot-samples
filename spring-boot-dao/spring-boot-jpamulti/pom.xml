@@ -8,7 +8,7 @@
         <version>2.2.1.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.zhengjian.sample</groupId>
+    <groupId>com.cxy35.sample</groupId>
     <artifactId>spring-boot-jpamulti</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-jpamulti</name>

@@ -6,7 +6,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019-07-29 7:22
  */
 @Entity(name = "t_book")

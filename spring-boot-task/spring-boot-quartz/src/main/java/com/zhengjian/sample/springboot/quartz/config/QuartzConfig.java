@@ -9,7 +9,7 @@ import org.springframework.scheduling.quartz.*;
 import java.util.Date;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019-06-04 15:18
  * <p>
  * 在 Quartz  配置类中，主要配置两个东西：1. JobDetail（要做的事情） 2. Trigger（什么时候做）

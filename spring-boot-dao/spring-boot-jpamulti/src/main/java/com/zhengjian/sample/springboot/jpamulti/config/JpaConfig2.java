@@ -14,7 +14,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import javax.sql.DataSource;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019-07-29 7:25
  */
 @Configuration

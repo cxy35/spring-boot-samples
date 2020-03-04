@@ -6,7 +6,7 @@ import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
 /**
- * @Author zhengjian
+ * @Author cxy35
  * @Date 2019-07-26 7:36
  */
 @Component
@@ -47,6 +47,6 @@ public class LogComponent {
         return proceed;
 
         // 改变所有方法的返回值
-        // return "www.javaboy.org";
+        // return "https://cxy35.com";
     }
 }
