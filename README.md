@@ -38,8 +38,8 @@
 |[spring-boot-web/spring-boot-aop](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-web/spring-boot-aop)|Spring Boot 配置 AOP|
 |[spring-boot-web/spring-boot-welcome](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-web/spring-boot-welcome)|Spring Boot 配置欢迎页和 Favicon|
 |[spring-boot-dao](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao)|Spring Boot 整合持久层框架（JdbcTemplate / MyBatis / Jpa）|
-|[spring-boot-dao/spring-boot-jdbctemplate](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplate)|[TODO - Spring Boot 整合 JdbcTemplate]()|
-|[spring-boot-dao/spring-boot-jdbctemplatemulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplatemulti)|[TODO - Spring Boot 整合 JdbcTemplate 多数据源]()|
+|[spring-boot-dao/spring-boot-jdbctemplate](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplate)|[Spring Boot 整合 JdbcTemplate](https://www.cxy35.com/2019/12/04/SpringBoot/SpringBoot%E6%95%B4%E5%90%88JdbcTemplate/)|
+|[spring-boot-dao/spring-boot-jdbctemplatemulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplatemulti)|[Spring Boot 整合 JdbcTemplate 多数据源](https://www.cxy35.com/2019/12/05/SpringBoot/SpringBoot%E6%95%B4%E5%90%88JdbcTemplate%E5%A4%9A%E6%95%B0%E6%8D%AE%E6%BA%90/)|
 |[spring-boot-dao/spring-boot-mybatis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis)|[TODO - SpringBoot 整合 MyBatis]()|
 |[spring-boot-dao/spring-boot-mybatismulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatismulti)|[TODO - Spring Boot 整合 MyBatis 多数据源]()|
 |[spring-boot-dao/spring-boot-jpa](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpa)|[TODO - Spring Boot 整合 Jpa]()|
