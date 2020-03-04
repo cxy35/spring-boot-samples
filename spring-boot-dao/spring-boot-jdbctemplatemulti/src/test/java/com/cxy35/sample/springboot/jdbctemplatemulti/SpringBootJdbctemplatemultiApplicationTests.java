@@ -1,16 +1,12 @@
-package com.zhengjian.sample.springboot.jdbctemplatemulti;
+package com.cxy35.sample.springboot.jdbctemplatemulti;
 
-import com.zhengjian.sample.springboot.jdbctemplatemulti.pojo.User;
-import com.zhengjian.sample.springboot.jdbctemplatemulti.service1.UserService1;
-import com.zhengjian.sample.springboot.jdbctemplatemulti.service2.UserService2;
+import com.cxy35.sample.springboot.jdbctemplatemulti.pojo.User;
+import com.cxy35.sample.springboot.jdbctemplatemulti.service1.UserService1;
+import com.cxy35.sample.springboot.jdbctemplatemulti.service2.UserService2;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
-import org.springframework.jdbc.core.JdbcTemplate;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 @SpringBootTest
@@ -21,10 +17,6 @@ class SpringBootJdbctemplatemultiApplicationTests {
 
     @Autowired
     UserService2 userService2;
-
-    @Test
-    void contextLoads() {
-    }
 
     @Test
     public void addUser() {
@@ -69,6 +61,7 @@ class SpringBootJdbctemplatemultiApplicationTests {
         List<User> allUsers = userService1.getAllUsers();
         System.out.println(allUsers);
     }
+
     @Test
     public void getAllUsers2() {
         List<User> allUsers = userService1.getAllUsers2();

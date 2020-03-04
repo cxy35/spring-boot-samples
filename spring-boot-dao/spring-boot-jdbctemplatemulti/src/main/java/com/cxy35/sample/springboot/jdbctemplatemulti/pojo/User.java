@@ -1,9 +1,5 @@
-package com.zhengjian.sample.springboot.jdbctemplatemulti.pojo;
+package com.cxy35.sample.springboot.jdbctemplatemulti.pojo;
 
-/**
- * @Author cxy35
- * @Date 2019-07-28 9:11
- */
 public class User {
     private Integer id;
     private String username;

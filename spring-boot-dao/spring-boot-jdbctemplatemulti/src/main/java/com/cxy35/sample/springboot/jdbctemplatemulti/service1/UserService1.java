@@ -1,6 +1,6 @@
-package com.zhengjian.sample.springboot.jdbctemplatemulti.service1;
+package com.cxy35.sample.springboot.jdbctemplatemulti.service1;
 
-import com.zhengjian.sample.springboot.jdbctemplatemulti.pojo.User;
+import com.cxy35.sample.springboot.jdbctemplatemulti.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
@@ -11,7 +11,6 @@ import org.springframework.jdbc.support.GeneratedKeyHolder;
 import org.springframework.jdbc.support.KeyHolder;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
 import java.sql.*;
 import java.util.List;
 
@@ -27,16 +26,18 @@ public class UserService1 {
     // @Resource(name = "jdbcTemplateOne")
     // JdbcTemplate jdbcTemplateOne;
 
+    // 新增
     public int addUser(User user) {
-        return jdbcTemplateOne.update("insert into user (username,address) values (?,?);", user.getUsername(), user.getAddress());
+        return jdbcTemplateOne.update("insert into t_user (username,address) values (?,?);", user.getUsername(), user.getAddress());
     }
 
+    // 新增，主键回填
     public int addUser2(User user) {
         KeyHolder keyHolder = new GeneratedKeyHolder();
         int update = jdbcTemplateOne.update(new PreparedStatementCreator() {
             @Override
             public PreparedStatement createPreparedStatement(Connection connection) throws SQLException {
-                PreparedStatement ps = connection.prepareStatement("insert into user (username,address) values (?,?);", Statement.RETURN_GENERATED_KEYS);
+                PreparedStatement ps = connection.prepareStatement("insert into t_user (username,address) values (?,?);", Statement.RETURN_GENERATED_KEYS);
                 ps.setString(1, user.getUsername());
                 ps.setString(2, user.getAddress());
                 return ps;
@@ -46,16 +47,19 @@ public class UserService1 {
         return update;
     }
 
+    // 删除
     public int deleteUserById(Integer id) {
-        return jdbcTemplateOne.update("delete from user where id=?", id);
+        return jdbcTemplateOne.update("delete from t_user where id=?", id);
     }
 
+    // 修改
     public int updateUserById(User user) {
-        return jdbcTemplateOne.update("update user set username=?,address=? where id=?", user.getUsername(), user.getAddress(), user.getId());
+        return jdbcTemplateOne.update("update t_user set username=?,address=? where id=?", user.getUsername(), user.getAddress(), user.getId());
     }
 
+    // 查询，使用 RowMapper 手动实现数据库字段和对象属性的映射
     public List<User> getAllUsers() {
-        return jdbcTemplateOne.query("select * from user", new RowMapper<User>() {
+        return jdbcTemplateOne.query("select * from t_user", new RowMapper<User>() {
             @Override
             public User mapRow(ResultSet resultSet, int i) throws SQLException {
                 User user = new User();
@@ -70,7 +74,8 @@ public class UserService1 {
         });
     }
 
+    // 查询，使用 BeanPropertyRowMapper 简单实现，前提是数据库字段和对象属性名称一致
     public List<User> getAllUsers2() {
-        return jdbcTemplateOne.query("select * from user", new BeanPropertyRowMapper<>(User.class));
+        return jdbcTemplateOne.query("select * from t_user", new BeanPropertyRowMapper<>(User.class));
     }
 }
