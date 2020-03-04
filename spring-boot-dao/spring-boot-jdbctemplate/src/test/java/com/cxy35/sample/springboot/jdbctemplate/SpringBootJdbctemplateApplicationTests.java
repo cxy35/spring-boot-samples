@@ -1,7 +1,7 @@
-package com.zhengjian.sample.springboot.jdbctemplate;
+package com.cxy35.sample.springboot.jdbctemplate;
 
-import com.zhengjian.sample.springboot.jdbctemplate.pojo.User;
-import com.zhengjian.sample.springboot.jdbctemplate.service.UserService;
+import com.cxy35.sample.springboot.jdbctemplate.pojo.User;
+import com.cxy35.sample.springboot.jdbctemplate.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,10 +13,6 @@ class SpringBootJdbctemplateApplicationTests {
 
     @Autowired
     UserService userService;
-
-    @Test
-    void contextLoads() {
-    }
 
     @Test
     public void addUser() {
@@ -55,6 +51,7 @@ class SpringBootJdbctemplateApplicationTests {
         List<User> allUsers = userService.getAllUsers();
         System.out.println(allUsers);
     }
+
     @Test
     public void getAllUsers2() {
         List<User> allUsers = userService.getAllUsers2();
