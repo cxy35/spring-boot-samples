@@ -1,14 +1,10 @@
-package com.zhengjian.sample.springboot.mybatis.mapper;
+package com.cxy35.sample.springboot.mybatis.mapper;
 
-import com.zhengjian.sample.springboot.mybatis.pojo.User;
+import com.cxy35.sample.springboot.mybatis.pojo.User;
 
 import java.util.List;
 
-/**
- * @Author cxy35
- * @Date 2019/11/12 17:06
- */
-// 方式1：在XML中写SQL >> UserMapper.xml
+// 方式1：在 XML 中写 SQL >> UserMapper.xml
 // @Mapper // 可在启动类中全局配置
 public interface UserMapper {
     Integer addUser(User user);

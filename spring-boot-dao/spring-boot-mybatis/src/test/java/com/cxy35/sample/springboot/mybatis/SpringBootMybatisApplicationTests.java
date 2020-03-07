@@ -1,7 +1,7 @@
-package com.zhengjian.sample.springboot.mybatis;
+package com.cxy35.sample.springboot.mybatis;
 
-import com.zhengjian.sample.springboot.mybatis.mapper.UserMapper;
-import com.zhengjian.sample.springboot.mybatis.pojo.User;
+import com.cxy35.sample.springboot.mybatis.mapper.UserMapper;
+import com.cxy35.sample.springboot.mybatis.pojo.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -15,17 +15,12 @@ class SpringBootMybatisApplicationTests {
     UserMapper userMapper;
 
     @Test
-    void contextLoads() {
-    }
-
-    @Test
     public void addUser() {
         User user = new User();
         user.setUsername("zhangsan");
         user.setAddress("杭州");
         userMapper.addUser(user);
     }
-
 
     @Test
     public void deleteUserById() {

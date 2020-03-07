@@ -1,9 +1,5 @@
-package com.zhengjian.sample.springboot.mybatis.pojo;
+package com.cxy35.sample.springboot.mybatis.pojo;
 
-/**
- * @Author cxy35
- * @Date 2019-07-28 9:27
- */
 public class User {
     private Integer id;
     private String username;
