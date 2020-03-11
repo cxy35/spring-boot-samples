@@ -1,11 +1,7 @@
-package com.zhengjian.sample.springboot.jpa.pojo;
+package com.cxy35.sample.springboot.jpa.pojo;
 
 import javax.persistence.*;
 
-/**
- * @Author cxy35
- * @Date 2019-07-28 22:36
- */
 @Entity(name = "t_book")
 public class Book {
     @Id

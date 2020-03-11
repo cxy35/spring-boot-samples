@@ -1,6 +1,6 @@
-package com.zhengjian.sample.springboot.jpa.dao;
+package com.cxy35.sample.springboot.jpa.dao;
 
-import com.zhengjian.sample.springboot.jpa.pojo.Book;
+import com.cxy35.sample.springboot.jpa.pojo.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -33,25 +33,28 @@ public interface BookDao extends JpaRepository<Book, Integer> {
 
     Book readBookById(Integer id);
 
-    // @Query注解：JPQL或SQL
+    // @Query 注解： JPQL 或 SQL
     @Query(value = "select b.* from t_book b where b.id>?1 and b.name=?2", nativeQuery = true)
-    List<Book> getByParam(Integer id, String name);// 参数要按顺序
+    // 参数要按顺序
+    List<Book> getByParam(Integer id, String name);
 
     @Query(value = "select b.* from t_book b where id>:id and name=:name", nativeQuery = true)
-    List<Book> getByParam2(@Param("name") String name, @Param("id") Integer id);// 参数可以不按顺序（推荐）
+    // 使用 @Param ，参数可以不按顺序（推荐）
+    List<Book> getByParam2(@Param("name") String name, @Param("id") Integer id);
 
-     @Query(value = "select * from t_book where id=(select max(id) from t_book)", nativeQuery = true)
+    @Query(value = "select * from t_book where id=(select max(id) from t_book)", nativeQuery = true)
     Book getMaxIdBook();
 
-    // @Modifying注解、@Transactional注解
+    // @Modifying 注解、 @Transactional 注解
     @Query(value = "insert into t_book(name,author) values(?1,?2)", nativeQuery = true)
     @Modifying
     @Transactional
-    Integer addBook(String name, String author);// 参数要按顺序
+    // 参数要按顺序
+    Integer addBook(String name, String author);
 
     @Query(value = "insert into t_book(name,author) values(:name,:author)", nativeQuery = true)
     @Modifying
     @Transactional
-    Integer addBook2(@Param("name") String name, @Param("author") String author);// 参数可以不按顺序（推荐）
-
+    // 使用 @Param ，参数可以不按顺序（推荐）
+    Integer addBook2(@Param("name") String name, @Param("author") String author);
 }

@@ -1,7 +1,7 @@
-package com.zhengjian.sample.springboot.jpa;
+package com.cxy35.sample.springboot.jpa;
 
-import com.zhengjian.sample.springboot.jpa.dao.BookDao;
-import com.zhengjian.sample.springboot.jpa.pojo.Book;
+import com.cxy35.sample.springboot.jpa.dao.BookDao;
+import com.cxy35.sample.springboot.jpa.pojo.Book;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,7 +10,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -19,10 +18,6 @@ class SpringBootJpaApplicationTests {
 
     @Autowired
     BookDao bookDao;
-
-    @Test
-    void contextLoads() {
-    }
 
     @Test
     public void save() {
