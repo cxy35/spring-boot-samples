@@ -1,8 +1,8 @@
-package com.zhengjian.sample.springboot.mybatismulti;
+package com.cxy35.sample.springboot.mybatismulti;
 
-import com.zhengjian.sample.springboot.mybatismulti.mapper1.UserMapper1;
-import com.zhengjian.sample.springboot.mybatismulti.mapper2.UserMapper2;
-import com.zhengjian.sample.springboot.mybatismulti.pojo.User;
+import com.cxy35.sample.springboot.mybatismulti.mapper1.UserMapper1;
+import com.cxy35.sample.springboot.mybatismulti.pojo.User;
+import com.cxy35.sample.springboot.mybatismulti.mapper2.UserMapper2;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

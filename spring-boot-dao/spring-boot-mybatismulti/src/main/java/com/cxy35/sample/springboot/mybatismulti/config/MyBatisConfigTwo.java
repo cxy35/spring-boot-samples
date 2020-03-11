@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.mybatismulti.config;
+package com.cxy35.sample.springboot.mybatismulti.config;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -10,21 +10,18 @@ import org.springframework.context.annotation.Configuration;
 import javax.annotation.Resource;
 import javax.sql.DataSource;
 
-/**
- * @Author cxy35
- * @Date 2019-07-28 11:14
- */
 @Configuration
-@MapperScan(basePackages = "com.zhengjian.sample.springboot.mybatismulti.mapper1", sqlSessionFactoryRef = "sqlSessionFactory1", sqlSessionTemplateRef = "sqlSessionTemplate1")
-public class MyBatisConfigOne {
-    @Resource(name = "dsOne")
-    DataSource dsOne;
+@MapperScan(basePackages = "com.cxy35.sample.springboot.mybatismulti.mapper2", sqlSessionFactoryRef = "sqlSessionFactory2", sqlSessionTemplateRef = "sqlSessionTemplate2")
+public class MyBatisConfigTwo {
+    // 此时 Spring 容器中有两个 DataSource 类型的 Bean ，所以这里需要按名称 byName 查找
+    @Resource(name = "dsTwo")
+    DataSource dsTwo;
 
     @Bean
-    SqlSessionFactory sqlSessionFactory1() {
+    SqlSessionFactory sqlSessionFactory2() {
         SqlSessionFactoryBean factory = new SqlSessionFactoryBean();
         try {
-            factory.setDataSource(dsOne);
+            factory.setDataSource(dsTwo);
             return factory.getObject();
         } catch (Exception e) {
             e.printStackTrace();
@@ -33,7 +30,7 @@ public class MyBatisConfigOne {
     }
 
     @Bean
-    SqlSessionTemplate sqlSessionTemplate1() {
-        return new SqlSessionTemplate(sqlSessionFactory1());
+    SqlSessionTemplate sqlSessionTemplate2() {
+        return new SqlSessionTemplate(sqlSessionFactory2());
     }
 }

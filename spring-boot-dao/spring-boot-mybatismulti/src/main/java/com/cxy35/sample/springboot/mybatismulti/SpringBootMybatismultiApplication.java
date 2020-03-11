@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.mybatismulti;
+package com.cxy35.sample.springboot.mybatismulti;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
