@@ -38,9 +38,9 @@
 |[spring-boot-web/spring-boot-aop](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-web/spring-boot-aop)|Spring Boot 配置 AOP|
 |[spring-boot-web/spring-boot-welcome](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-web/spring-boot-welcome)|Spring Boot 配置欢迎页和 Favicon|
 |[spring-boot-dao](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao)|Spring Boot 整合持久层框架（JdbcTemplate / MyBatis / Jpa）|
-|[spring-boot-dao/spring-boot-jdbctemplate](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplate)|[Spring Boot 整合 JdbcTemplate]()|
-|[spring-boot-dao/spring-boot-jdbctemplatemulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplatemulti)|[Spring Boot 整合 JdbcTemplate 多数据源]()|
-|[spring-boot-dao/spring-boot-mybatis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis)|[Spring Boot 整合 MyBatis]()|
+|[spring-boot-dao/spring-boot-jdbctemplate](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplate)|[Spring Boot 整合 JdbcTemplate](https://mp.weixin.qq.com/s/ExH3Z_9bAzBKWLaOB1IIpw)|
+|[spring-boot-dao/spring-boot-jdbctemplatemulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplatemulti)|[Spring Boot 整合 JdbcTemplate 多数据源](https://mp.weixin.qq.com/s/Gwr5j4bro06V_CWIXh3Iow)|
+|[spring-boot-dao/spring-boot-mybatis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis)|TODO - Spring Boot 整合 MyBatis|
 |[spring-boot-dao/spring-boot-mybatismulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatismulti)|TODO - Spring Boot 整合 MyBatis 多数据源|
 |[spring-boot-dao/spring-boot-jpa](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpa)|TODO - Spring Boot 整合 Jpa|
 |[spring-boot-dao/spring-boot-jpamulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpamulti)|TODO - Spring Boot 整合 Jpa 多数据源|
