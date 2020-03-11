@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.jpamulti.pojo;
+package com.cxy35.sample.springboot.jpamulti.pojo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

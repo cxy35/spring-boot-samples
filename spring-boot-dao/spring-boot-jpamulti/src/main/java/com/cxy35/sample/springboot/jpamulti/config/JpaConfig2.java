@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.jpamulti.config;
+package com.cxy35.sample.springboot.jpamulti.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -13,13 +13,10 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.sql.DataSource;
 
-/**
- * @Author cxy35
- * @Date 2019-07-29 7:25
- */
 @Configuration
-@EnableJpaRepositories(basePackages = "com.zhengjian.sample.springboot.jpamulti.dao2", entityManagerFactoryRef = "localContainerEntityManagerFactoryBean2", transactionManagerRef = "platformTransactionManager2")
+@EnableJpaRepositories(basePackages = "com.cxy35.sample.springboot.jpamulti.dao2", entityManagerFactoryRef = "localContainerEntityManagerFactoryBean2", transactionManagerRef = "platformTransactionManager2")
 public class JpaConfig2 {
+    // 此时 Spring 容器中有两个 DataSource 类型的 Bean ，所以这里需要按名称 byName 查找
     @Autowired
     @Qualifier("dsTwo")
     DataSource dsTwo;
@@ -32,7 +29,7 @@ public class JpaConfig2 {
         return builder.dataSource(dsTwo)
                 .properties(jpaProperties.getProperties())
                 .persistenceUnit("pu2")
-                .packages("com.zhengjian.sample.springboot.jpamulti.pojo")
+                .packages("com.cxy35.sample.springboot.jpamulti.pojo")
                 .build();
     }
 

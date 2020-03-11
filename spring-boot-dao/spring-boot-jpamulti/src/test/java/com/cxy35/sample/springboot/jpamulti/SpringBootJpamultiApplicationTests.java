@@ -1,8 +1,8 @@
-package com.zhengjian.sample.springboot.jpamulti;
+package com.cxy35.sample.springboot.jpamulti;
 
-import com.zhengjian.sample.springboot.jpamulti.dao1.BookDao1;
-import com.zhengjian.sample.springboot.jpamulti.dao2.BookDao2;
-import com.zhengjian.sample.springboot.jpamulti.pojo.Book;
+import com.cxy35.sample.springboot.jpamulti.pojo.Book;
+import com.cxy35.sample.springboot.jpamulti.dao1.BookDao1;
+import com.cxy35.sample.springboot.jpamulti.dao2.BookDao2;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

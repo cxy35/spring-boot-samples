@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.jpamulti.config;
+package com.cxy35.sample.springboot.jpamulti.config;
 
 import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceBuilder;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -8,10 +8,6 @@ import org.springframework.context.annotation.Primary;
 
 import javax.sql.DataSource;
 
-/**
- * @Author cxy35
- * @Date 2019-07-29 7:23
- */
 @Configuration
 public class DataSourceConfig {
     @Bean
