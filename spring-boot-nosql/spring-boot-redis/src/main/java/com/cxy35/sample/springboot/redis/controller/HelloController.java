@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.redis.controller;
+package com.cxy35.sample.springboot.redis.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -8,10 +8,6 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @Author cxy35
- * @Date 2019-07-29 7:53
- */
 @RestController
 public class HelloController {
     // 模板1：<Object, Object>
@@ -23,7 +19,7 @@ public class HelloController {
 
     @GetMapping("/set")
     public void set() {
-        // RedisTemplate 中，key 默认的序列化方案是 JdkSerializationRedisSerializer，key不易读
+        // RedisTemplate 中，key 默认的序列化方案是 JdkSerializationRedisSerializer， key 不易读
         // 下面这句可修改为 StringRedisSerializer
         redisTemplate.setKeySerializer(new StringRedisSerializer());
         ValueOperations ops = redisTemplate.opsForValue();
