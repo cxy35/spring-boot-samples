@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.redis.springsession;
+package com.cxy35.sample.springboot.redis.springsession;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.redis.springsession;
+package com.cxy35.sample.springboot.redis.springsession;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

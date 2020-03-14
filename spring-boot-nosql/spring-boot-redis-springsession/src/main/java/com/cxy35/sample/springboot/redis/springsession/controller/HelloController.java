@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.redis.springsession.controller;
+package com.cxy35.sample.springboot.redis.springsession.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,14 +9,14 @@ import javax.servlet.http.HttpSession;
 @RestController
 public class HelloController {
 
-    // java -jar spring-boot-redis-springsession-0.0.1-SNAPSHOT.jar -- server.port=9080
-    // java -jar spring-boot-redis-springsession-0.0.1-SNAPSHOT.jar -- server.port=9081
+    // java -jar spring-boot-redis-springsession-0.0.1-SNAPSHOT.jar -- server.port=8080
+    // java -jar spring-boot-redis-springsession-0.0.1-SNAPSHOT.jar -- server.port=8081
     @Value("${server.port}")
     Integer port;
 
     @GetMapping("/set")
     public String set(HttpSession session) {
-        session.setAttribute("name", "zhengjian");
+        session.setAttribute("name", "cxy35");
         return String.valueOf(port);
     }
 
