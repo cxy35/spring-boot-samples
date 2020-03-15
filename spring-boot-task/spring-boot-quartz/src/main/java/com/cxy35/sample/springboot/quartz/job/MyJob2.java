@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.quartz.job;
+package com.cxy35.sample.springboot.quartz.job;
 
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
@@ -6,10 +6,7 @@ import org.springframework.scheduling.quartz.QuartzJobBean;
 
 import java.util.Date;
 
-/**
- * @Author cxy35
- * @Date 2019-06-04 15:15
- */
+// Job 定义方式2：继承 QuartzJobBean 并实现默认的方法（支持传参）
 public class MyJob2 extends QuartzJobBean {
     private String name;
 
@@ -19,6 +16,6 @@ public class MyJob2 extends QuartzJobBean {
 
     @Override
     protected void executeInternal(JobExecutionContext jobExecutionContext) throws JobExecutionException {
-        System.out.println("MyJob2:" + name + ":" + new Date());
+        System.out.println("MyJob2 >>> " + name + ":" + new Date());
     }
 }

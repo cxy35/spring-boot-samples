@@ -1,6 +1,6 @@
-package com.zhengjian.sample.springboot.quartz.config;
+package com.cxy35.sample.springboot.quartz.config;
 
-import com.zhengjian.sample.springboot.quartz.job.MyJob2;
+import com.cxy35.sample.springboot.quartz.job.MyJob2;
 import org.quartz.JobDataMap;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,10 +9,7 @@ import org.springframework.scheduling.quartz.*;
 import java.util.Date;
 
 /**
- * @Author cxy35
- * @Date 2019-06-04 15:18
- * <p>
- * 在 Quartz  配置类中，主要配置两个东西：1. JobDetail（要做的事情） 2. Trigger（什么时候做）
+ * 在 Quartz 配置类中，主要配置两个东西：1.JobDetail（要做的事情） 2.Trigger（什么时候做）
  * <p>
  * JobDetail 有两种不同的配置方式：
  * 1. MethodInvokingJobDetailFactoryBean
@@ -20,7 +17,8 @@ import java.util.Date;
  */
 @Configuration
 public class QuartzConfig {
-    // 方式1-MyJob1：指定bean和方法，无法传参
+    // JobDetail1
+    // JobDetail 配置方式1：这里使用 MyJob1 测试，指定 bean 和方法，无法传参
     @Bean
     MethodInvokingJobDetailFactoryBean methodInvokingJobDetailFactoryBean() {
         MethodInvokingJobDetailFactoryBean bean = new MethodInvokingJobDetailFactoryBean();
@@ -29,18 +27,19 @@ public class QuartzConfig {
         return bean;
     }
 
-    // 方式2-MyJob2：可传参
+    // JobDetail2
+    // JobDetail 配置方式2：这里使用 MyJob2 测试，支持传参
     @Bean
     JobDetailFactoryBean jobDetailFactoryBean() {
         JobDetailFactoryBean bean = new JobDetailFactoryBean();
         JobDataMap map = new JobDataMap();
-        map.put("name", "zhangsan");
+        map.put("name", "cxy35");
         bean.setJobDataMap(map);
         bean.setJobClass(MyJob2.class);
         return bean;
     }
 
-    // Trigger1
+    // Trigger1：这里使用 JobDetail1 测试
     @Bean
     SimpleTriggerFactoryBean simpleTriggerFactoryBean() {
         SimpleTriggerFactoryBean bean = new SimpleTriggerFactoryBean();
@@ -51,7 +50,7 @@ public class QuartzConfig {
         return bean;
     }
 
-    // Trigger2
+    // Trigger2：这里使用 JobDetail2 测试
     @Bean
     CronTriggerFactoryBean cronTriggerFactoryBean() {
         CronTriggerFactoryBean bean = new CronTriggerFactoryBean();
@@ -60,12 +59,11 @@ public class QuartzConfig {
         return bean;
     }
 
-    // 注册Trigger1、Trigger2
+    // 注册 Trigger1 和 Trigger2
     @Bean
     SchedulerFactoryBean schedulerFactoryBean() {
         SchedulerFactoryBean bean = new SchedulerFactoryBean();
         bean.setTriggers(simpleTriggerFactoryBean().getObject(), cronTriggerFactoryBean().getObject());
         return bean;
     }
-
 }
