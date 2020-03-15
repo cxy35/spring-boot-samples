@@ -23,7 +23,7 @@
 |[spring-boot-web/spring-boot-thymeleaf](https://github.com/cxy35/spring-boot-samples/tree/masterspring-boot-web//spring-boot-thymeleaf)|[Spring Boot 整合 Thymeleaf](https://mp.weixin.qq.com/s/3E27wfdlEQVjJb1hZ5Rz9g)|
 |[spring-boot-web/spring-boot-freemarker](https://github.com/cxy35/spring-boot-samples/tree/masterspring-boot-web//spring-boot-freemarker)|[Spring Boot 整合 Freemarker](https://mp.weixin.qq.com/s/Nks_y5TXBHcfsbUKL5oeZw)|
 |[spring-boot-web/spring-boot-jsp](https://github.com/cxy35/spring-boot-samples/tree/masterspring-boot-web//spring-boot-jsp)|Spring Boot 整合 JSP|
-|[spring-boot-web/spring-boot-json](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-web/spring-boot-json)|[Spring Boot 整合 JSON - Jackson/Gson/FastJson](https://mp.weixin.qq.com/s/ZFC0wYYwYb_cwitPdQiFAg)|
+|[spring-boot-web/spring-boot-json](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-web/spring-boot-json)|[Spring Boot 整合 JSON（Jackson / Gson / FastJson）](https://mp.weixin.qq.com/s/ZFC0wYYwYb_cwitPdQiFAg)|
 |[spring-boot-web/spring-boot-staticresources](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-web/spring-boot-staticresources)|[Spring Boot 配置静态资源](https://mp.weixin.qq.com/s/hccivm0krDRhPrDRwTYpCg)|
 |[spring-boot-web/spring-boot-fileupload](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-web/spring-boot-fileupload)|Spring Boot 文件上传|
 |[spring-boot-web/spring-boot-controlleradvice](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-web/spring-boot-controlleradvice)|[Spring Boot 使用 @ControllerAdvice](https://mp.weixin.qq.com/s/_p6pkFx-mfFz-HEhmqR7gw)|
@@ -42,15 +42,15 @@
 |[spring-boot-dao/spring-boot-jdbctemplatemulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplatemulti)|[Spring Boot 整合 JdbcTemplate 多数据源](https://mp.weixin.qq.com/s/zXrznyvlcPSRau6hTt0YAg)|
 |[spring-boot-dao/spring-boot-mybatis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis)|[Spring Boot 整合 MyBatis](https://mp.weixin.qq.com/s/zvOBkU-BKAk-4yhwboZbzA)|
 |[spring-boot-dao/spring-boot-mybatismulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatismulti)|[Spring Boot 整合 MyBatis 多数据源](https://mp.weixin.qq.com/s/r73LdKw0gnELa7vSrNPOzw)|
-|[spring-boot-dao/spring-boot-jpa](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpa)|TODO - Spring Boot 整合 Jpa|
+|[spring-boot-dao/spring-boot-jpa](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpa)|[Spring Boot 整合 Jpa](https://mp.weixin.qq.com/s/AWQPu02VY9BD9u_PLKrL7Q)|
 |[spring-boot-dao/spring-boot-jpamulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpamulti)|TODO - Spring Boot 整合 Jpa 多数据源|
 |[spring-boot-nosql](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql)|Spring Boot 整合 NoSQL（Redis / MongoDB）|
 |[spring-boot-nosql/spring-boot-redis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis)|TODO - Spring Boot 整合 Redis|
-|[spring-boot-nosql/spring-boot-redis-springsession](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis-springsession)|TODO - Spring Boot 整合 Redis + Spring Session，实现 Session 共享|
+|[spring-boot-nosql/spring-boot-redis-springsession](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis-springsession)|TODO - Spring Boot 整合 Redis + Spring Session（实现 Session 共享）|
 |[spring-boot-nosql/spring-boot-mongodb](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-mongodb)|Spring Boot 整合 MongoDB|
-|[spring-boot-task](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task)|TODO - Spring Boot 整合定时任务（Scheduled / Quartz）|
-|[spring-boot-task/spring-boot-scheduled](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task/spring-boot-scheduled)|TODO - Spring Boot 整合定时任务（Scheduled）|
-|[spring-boot-task/spring-boot-quartz](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task/spring-boot-quartz)|TODO - Spring Boot 整合定时任务（Quartz）|
+|[spring-boot-task](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task)|TODO - Spring Boot 配置定时任务（Scheduled / Quartz）|
+|[spring-boot-task/spring-boot-scheduled](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task/spring-boot-scheduled)|TODO - Spring Boot 配置定时任务 - Scheduled|
+|[spring-boot-task/spring-boot-quartz](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task/spring-boot-quartz)|TODO - Spring Boot 配置定时任务 - Quartz|
 |[spring-boot-swagger2](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-swagger2)|TODO - SpringBoot 整合 Swagger2|
 |[spring-boot-rest](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-rest)|Spring Boot 整合 Rest|
 |[spring-boot-rest/spring-boot-jparest](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-jparest)|TODO - Spring Boot 整合 Rest + Jpa|
