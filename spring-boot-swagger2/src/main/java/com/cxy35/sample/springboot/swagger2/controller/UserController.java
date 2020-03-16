@@ -1,25 +1,19 @@
-package com.zhengjian.sample.springboot.swagger2.controller;
+package com.cxy35.sample.springboot.swagger2.controller;
 
-import com.zhengjian.sample.springboot.swagger2.bean.User;
+import com.cxy35.sample.springboot.swagger2.bean.User;
 import io.swagger.annotations.*;
 import org.springframework.web.bind.annotation.*;
-import springfox.documentation.annotations.ApiIgnore;
 
-/**
- * @Author cxy35
- * @Date 2019-06-05 9:38
- */
 @RestController
 @Api(tags = "用户管理接口")
 public class UserController {
-
     @GetMapping("/user")
     @ApiOperation(value = "查询用户", notes = "根据用户id查询用户")
     @ApiImplicitParam(name = "id", value = "用户id", required = true, defaultValue = "99")
     public User getUserById(Integer id) {
         User user = new User();
         user.setId(id);
-        user.setUsername("zhangsan");
+        user.setUsername("cxy35");
         user.setAddress("HZ");
         return user;
     }
@@ -30,7 +24,7 @@ public class UserController {
             @ApiImplicitParam(name = "id", value = "用户id", required = true, defaultValue = "99"),
             @ApiImplicitParam(name = "username", value = "用户名", required = true, defaultValue = "cxy35")
     })
-//    @ApiIgnore
+    // @ApiIgnore
     public User updateUsernameById(String username, Integer id) {
         User user = new User();
         user.setId(id);

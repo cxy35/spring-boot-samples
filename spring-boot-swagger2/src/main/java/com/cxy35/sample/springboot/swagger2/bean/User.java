@@ -1,12 +1,8 @@
-package com.zhengjian.sample.springboot.swagger2.bean;
+package com.cxy35.sample.springboot.swagger2.bean;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
-/**
- * @Author cxy35
- * @Date 2019-06-05 9:43
- */
 @ApiModel(value = "用户实体类",description = "用户信息描述类")
 public class User {
     @ApiModelProperty(value = "用户id")
