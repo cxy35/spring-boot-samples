@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.jparest.pojo;
+package com.cxy35.sample.springboot.jparest.pojo;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

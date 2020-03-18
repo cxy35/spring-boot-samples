@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.jparest;
+package com.cxy35.sample.springboot.jparest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

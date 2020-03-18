@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.jparest;
+package com.cxy35.sample.springboot.jparest;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
