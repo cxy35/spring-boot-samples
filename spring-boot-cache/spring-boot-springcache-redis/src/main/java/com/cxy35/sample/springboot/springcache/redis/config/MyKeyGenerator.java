@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springcache.redis.config;
+package com.cxy35.sample.springboot.springcache.redis.config;
 
 import org.springframework.cache.interceptor.KeyGenerator;
 import org.springframework.stereotype.Component;

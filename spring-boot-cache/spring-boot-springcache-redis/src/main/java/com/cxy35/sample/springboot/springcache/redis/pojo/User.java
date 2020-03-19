@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springcache.redis.pojo;
+package com.cxy35.sample.springboot.springcache.redis.pojo;
 
 import java.io.Serializable;
 

@@ -1,7 +1,7 @@
-package com.zhengjian.sample.springboot.springcache.redis;
+package com.cxy35.sample.springboot.springcache.redis;
 
-import com.zhengjian.sample.springboot.springcache.redis.pojo.User;
-import com.zhengjian.sample.springboot.springcache.redis.service.UserService;
+import com.cxy35.sample.springboot.springcache.redis.service.UserService;
+import com.cxy35.sample.springboot.springcache.redis.pojo.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -29,5 +29,4 @@ class SpringBootSpringcacheRedisApplicationTests {
         System.out.println(u1);
         System.out.println(u2);
     }
-
 }

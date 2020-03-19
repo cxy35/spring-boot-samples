@@ -1,6 +1,6 @@
-package com.zhengjian.sample.springboot.springcache.redis.service;
+package com.cxy35.sample.springboot.springcache.redis.service;
 
-import com.zhengjian.sample.springboot.springcache.redis.pojo.User;
+import com.cxy35.sample.springboot.springcache.redis.pojo.User;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.CachePut;
@@ -8,19 +8,21 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 @Service
+// 指定缓存名称，对应配置文件中 spring.cache.cache-names=cache-user
 @CacheConfig(cacheNames = "cache-user")
 public class UserService {
 
-    // 注意要在启动类上配置开启缓存@EnableCaching
+    // 注意要在启动类上配置开启缓存 @EnableCaching
 
-    // 默认缓存的key为所有参数的值（可通过key或keyGenerator修改），缓存的value为方法的返回值
+    // 默认缓存的 key 为所有参数的值（可通过 key 或 keyGenerator 修改），缓存的 value 为方法的返回值
     // cache-user::1
     // 查询
     @Cacheable
-//    @Cacheable(key = "#root.methodName")
-//    @Cacheable(keyGenerator = "myKeyGenerator")
+    // @Cacheable(key = "#id")
+    // @Cacheable(key = "#root.methodName")
+    // @Cacheable(keyGenerator = "myKeyGenerator")
     public User getUserById(Integer id) {
-        System.out.println("getUserById>>>" + id);
+        System.out.println("getUserById >>> " + id);
         User user = new User();
         user.setId(id);
         return user;
@@ -29,7 +31,7 @@ public class UserService {
     // 删除
     @CacheEvict
     public void deleteUserById(Integer id) {
-        System.out.println("deleteUserById>>>" + id);
+        System.out.println("deleteUserById >>> " + id);
     }
 
     // 更新
