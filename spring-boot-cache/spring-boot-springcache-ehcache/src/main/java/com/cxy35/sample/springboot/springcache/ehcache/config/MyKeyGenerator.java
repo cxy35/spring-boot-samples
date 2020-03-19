@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springcache.ehcache.config;
+package com.cxy35.sample.springboot.springcache.ehcache.config;
 
 import org.springframework.cache.interceptor.KeyGenerator;
 import org.springframework.stereotype.Component;
@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class MyKeyGenerator implements KeyGenerator {
     @Override
     public Object generate(Object o, Method method, Object... objects) {
-        // 自定义缓存的key
+        // 自定义缓存的 key
         return method.getName() + ":" + Arrays.toString(objects);
     }
 }

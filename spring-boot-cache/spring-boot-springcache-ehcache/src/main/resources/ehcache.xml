@@ -1,7 +1,6 @@
 <ehcache>
-    <diskStore path="java.io.tmpdir/ehcache"/>
     <!--
-    name:缓存名称。
+       name:缓存名称。
        maxElementsInMemory：缓存最大个数。
        eternal:对象是否永久有效，一但设置了，timeout将不起作用。
        timeToIdleSeconds：设置对象在失效前的允许闲置时间（单位：秒）。仅当eternal=false对象不是永久有效时使用，可选属性，默认值是0，也就是可闲置时间无穷大。
@@ -13,8 +12,9 @@
        diskExpiryThreadIntervalSeconds：磁盘失效线程运行时间间隔，默认是120秒。
        memoryStoreEvictionPolicy：当达到maxElementsInMemory限制时，Ehcache将会根据指定的策略去清理内存。默认策略是LRU（最近最少使用）。你可以设置为FIFO（先进先出）或是LFU（较少使用）。
        clearOnFlush：内存数量最大时是否清除。
-
+       diskStore：则表示临时缓存的硬盘目录。
     -->
+    <diskStore path="java.io.tmpdir/ehcache"/>
     <defaultCache
             maxElementsInMemory="10000"
             eternal="false"

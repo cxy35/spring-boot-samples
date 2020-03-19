@@ -1,7 +1,7 @@
-package com.zhengjian.sample.springboot.springcache.ehcache;
+package com.cxy35.sample.springboot.springcache.ehcache;
 
-import com.zhengjian.sample.springboot.springcache.ehcache.pojo.User;
-import com.zhengjian.sample.springboot.springcache.ehcache.service.UserService;
+import com.cxy35.sample.springboot.springcache.ehcache.pojo.User;
+import com.cxy35.sample.springboot.springcache.ehcache.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

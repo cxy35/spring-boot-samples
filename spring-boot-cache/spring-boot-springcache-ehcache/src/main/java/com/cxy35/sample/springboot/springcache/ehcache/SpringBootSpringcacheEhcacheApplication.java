@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springcache.ehcache;
+package com.cxy35.sample.springboot.springcache.ehcache;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
