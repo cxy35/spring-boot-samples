@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.shriostarter;
+package com.cxy35.sample.springboot.shriostarter;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
