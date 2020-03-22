@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.user.config;
+package com.cxy35.sample.springboot.springsecurity.user.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -7,12 +7,12 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-// 方法2：通过SecurityConfig配置用户名/密码
+// 方法2：通过 SecurityConfig 配置用户和角色
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Bean
     PasswordEncoder passwordEncoder() {
-//        return NoOpPasswordEncoder.getInstance();// 密码不加密
+        // return NoOpPasswordEncoder.getInstance();// 密码不加密
         return new BCryptPasswordEncoder();// 密码加密
     }
 

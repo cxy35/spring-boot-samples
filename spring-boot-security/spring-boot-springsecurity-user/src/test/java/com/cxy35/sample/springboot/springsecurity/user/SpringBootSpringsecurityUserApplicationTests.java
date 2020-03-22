@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.user;
+package com.cxy35.sample.springboot.springsecurity.user;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -6,7 +6,6 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @SpringBootTest
 class SpringBootSpringsecurityUserApplicationTests {
-
     @Test
     void contextLoads() {
         // 同样的明文加密后不重复
@@ -15,5 +14,4 @@ class SpringBootSpringsecurityUserApplicationTests {
             System.out.println(encoder.encode("123456"));
         }
     }
-
 }

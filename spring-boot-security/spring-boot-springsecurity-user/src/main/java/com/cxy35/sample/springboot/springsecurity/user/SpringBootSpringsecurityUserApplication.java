@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.user;
+package com.cxy35.sample.springboot.springsecurity.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
