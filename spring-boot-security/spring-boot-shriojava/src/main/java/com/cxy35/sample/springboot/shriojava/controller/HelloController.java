@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.shriojava.controller;
+package com.cxy35.sample.springboot.shriojava.controller;
 
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.AuthenticationException;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
     @GetMapping("/login")
-    public String loging() {
+    public String login() {
         return "please login";
     }
 

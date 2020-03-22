@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.shriojava.realm;
+package com.cxy35.sample.springboot.shriojava.realm;
 
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
@@ -19,7 +19,7 @@ public class MyRealm extends AuthorizingRealm {
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
         String username = (String) token.getPrincipal();
-        if ("zhangsan".equals(username)) {
+        if ("cxy35".equals(username)) {
             return new SimpleAuthenticationInfo(username, "123456", getName());
         }
         return null;

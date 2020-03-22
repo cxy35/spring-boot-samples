@@ -1,6 +1,6 @@
-package com.zhengjian.sample.springboot.shriojava.config;
+package com.cxy35.sample.springboot.shriojava.config;
 
-import com.zhengjian.sample.springboot.shriojava.realm.MyRealm;
+import com.cxy35.sample.springboot.shriojava.realm.MyRealm;
 import org.apache.shiro.mgt.SecurityManager;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
@@ -29,9 +29,9 @@ public class ShiroConfig {
         ShiroFilterFactoryBean bean = new ShiroFilterFactoryBean();
         bean.setSecurityManager(securityManager());
         bean.setLoginUrl("/login");// 指定登录页面
-        bean.setSuccessUrl("/index");// 指定登录成功页面
-        bean.setUnauthorizedUrl("/unauthorized");// 指定未获授权页面
-        // 配置路径拦截规则
+        bean.setSuccessUrl("/index");// 指定登录成功的跳转页面
+        bean.setUnauthorizedUrl("/unauthorized");// 指定访问未获授权的页面时，默认的跳转路径
+        // 配置路径拦截规则（注意顺序）
         Map<String, String> map = new LinkedHashMap<>();
         map.put("/doLogin", "anon");
         map.put("/**", "authc");
