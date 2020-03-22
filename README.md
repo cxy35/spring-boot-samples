@@ -43,33 +43,33 @@
 |[spring-boot-dao/spring-boot-mybatis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis)|[Spring Boot 整合 MyBatis](https://mp.weixin.qq.com/s/zvOBkU-BKAk-4yhwboZbzA)|
 |[spring-boot-dao/spring-boot-mybatismulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatismulti)|[Spring Boot 整合 MyBatis 多数据源](https://mp.weixin.qq.com/s/r73LdKw0gnELa7vSrNPOzw)|
 |[spring-boot-dao/spring-boot-jpa](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpa)|[Spring Boot 整合 Jpa](https://mp.weixin.qq.com/s/AWQPu02VY9BD9u_PLKrL7Q)|
-|[spring-boot-dao/spring-boot-jpamulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpamulti)|TODO - Spring Boot 整合 Jpa 多数据源|
+|[spring-boot-dao/spring-boot-jpamulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpamulti)|[Spring Boot 整合 Jpa 多数据源](https://mp.weixin.qq.com/s/lasazEB6Dx2-ZA_9fhxFHw)|
 |[spring-boot-nosql](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql)|Spring Boot 整合 NoSQL（Redis / MongoDB）|
-|[spring-boot-nosql/spring-boot-redis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis)|TODO - Spring Boot 整合 Redis|
-|[spring-boot-nosql/spring-boot-redis-springsession](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis-springsession)|TODO - Spring Boot 整合 Redis + Spring Session（实现 Session 共享）|
+|[spring-boot-nosql/spring-boot-redis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis)|[Spring Boot 整合 Redis](https://mp.weixin.qq.com/s/oXwCwO0Ng24xvYo3DcXjDA)|
+|[spring-boot-nosql/spring-boot-redis-springsession](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis-springsession)|[Spring Boot 整合 Redis + Spring Session（实现 Session 共享）](https://mp.weixin.qq.com/s/xwvCzYfj35N2Eld9H48tsg)|
 |[spring-boot-nosql/spring-boot-mongodb](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-mongodb)|Spring Boot 整合 MongoDB|
-|[spring-boot-task](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task)|TODO - Spring Boot 配置定时任务（Scheduled / Quartz）|
-|[spring-boot-task/spring-boot-scheduled](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task/spring-boot-scheduled)|TODO - Spring Boot 配置定时任务 - Scheduled|
-|[spring-boot-task/spring-boot-quartz](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task/spring-boot-quartz)|TODO - Spring Boot 配置定时任务 - Quartz|
-|[spring-boot-swagger2](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-swagger2)|TODO - SpringBoot 整合 Swagger2|
-|[spring-boot-rest](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-rest)|Spring Boot 整合 Rest|
-|[spring-boot-rest/spring-boot-jparest](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-jparest)|TODO - Spring Boot 整合 Rest + Jpa|
-|[spring-boot-rest/spring-boot-mongodbrest](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-mongodbrest)|Spring Boot 整合 Rest + MongoDB|
+|[spring-boot-task](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task)|[Spring Boot 配置定时任务（@Scheduled / Quartz）](https://mp.weixin.qq.com/s/8VhDY10t5ZnIxHIfEh-Trw)|
+|[spring-boot-task/spring-boot-scheduled](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task/spring-boot-scheduled)|[Spring Boot 配置定时任务（@Scheduled）](https://mp.weixin.qq.com/s/8VhDY10t5ZnIxHIfEh-Trw)|
+|[spring-boot-task/spring-boot-quartz](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task/spring-boot-quartz)|[Spring Boot 配置定时任务（Quartz）](https://mp.weixin.qq.com/s/8VhDY10t5ZnIxHIfEh-Trw)|
+|[spring-boot-swagger2](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-swagger2)|[Spring Boot 整合 Swagger2](https://mp.weixin.qq.com/s/9v8kDoqiecK5PlPo5zM8JQ)|
+|[spring-boot-rest](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-rest)|Spring Boot 构建 Rest 服务（Jpa / MongoDB）|
+|[spring-boot-rest/spring-boot-jparest](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-jparest)|[Spring Boot 构建 Rest 服务（Jpa）](https://mp.weixin.qq.com/s/kporE2HS41shwX7X77ZEJA)|
+|[spring-boot-rest/spring-boot-mongodbrest](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-mongodbrest)|Spring Boot 构建 Rest 服务（MongoDB）|
 |[spring-boot-cache](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-cache)|Spring Boot 整合缓存框架（Spring Cache + Redis / Ehcache）|
-|[spring-boot-cache/spring-boot-springcache-redis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-cache/spring-boot-springcache-redis)|TODO - Spring Boot 整合 Spring Cache + Redis|
-|[spring-boot-cache/spring-boot-springcache-ehcache](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-cache/spring-boot-springcache-ehcache)|TODO - Spring Boot 整合 Spring Cache + Ehcache|
+|[spring-boot-cache/spring-boot-springcache-redis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-cache/spring-boot-springcache-redis)|TODO - Spring Boot 整合 Spring Cache + Redis（实现数据缓存）|
+|[spring-boot-cache/spring-boot-springcache-ehcache](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-cache/spring-boot-springcache-ehcache)|TODO - Spring Boot 整合 Spring Cache + Ehcache（实现数据缓存）|
 |[spring-boot-security](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security)|Spring Boot 整合安全管理框架（Shiro / Spring Security / OAuth2）|
-|[spring-boot-security/spring-boot-shirojava](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-shirojava)|TODO - Spring Boot 整合 Shiro（原生的整合）|
-|[spring-boot-security/spring-boot-shirostarter](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-shirostarter)|TODO - Spring Boot 整合 Shiro（使用 Shiro Starter）|
+|[spring-boot-security/spring-boot-shirojava](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-shirojava)|TODO - Spring Boot 整合 Shiro（原生）|
+|[spring-boot-security/spring-boot-shirostarter](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-shirostarter)|TODO - Spring Boot 整合 Shiro（Shiro Starter）|
 |[spring-boot-security/spring-boot-springsecurity-helloworld](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-helloworld)|TODO - Spring Boot 整合 Spring Security（初次体验）|
-|[spring-boot-security/spring-boot-springsecurity-user](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-user)|TODO - Spring Boot 整合 Spring Security（用户/角色配置-内存）|
-|[spring-boot-security/spring-boot-springsecurity-userdb](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-userdb)|Spring Boot 整合 Spring Security（用户/角色配置-数据库）|
-|[spring-boot-security/spring-boot-springsecurity-urp](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-urp)|Spring Boot 整合 Spring Security（用户/角色/权限配置-数据库）|
-|[spring-boot-security/spring-boot-springsecurity-methodsecurity](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-methodsecurity)|Spring Boot 整合 Spring Security（方法安全配置）|
-|[spring-boot-security/spring-boot-springsecurity-httpsecurity](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-httpsecurity)|Spring Boot 整合 Spring Security（HttpSecurity 配置）|
-|[spring-boot-security/spring-boot-springsecurity-httpsecuritymulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-httpsecuritymulti)|Spring Boot 整合 Spring Security（HttpSecurity 配置多个）|
-|[spring-boot-security/spring-boot-springsecurity-verifycode](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-verifycode)|TODO - Spring Boot 整合 Spring Security（验证码配置）|
-|[spring-boot-security/spring-boot-springsecurity-login](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-login)|TODO - Spring Boot 整合 Spring Security（登录登出配置）|
+|[spring-boot-security/spring-boot-springsecurity-user](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-user)|TODO - Spring Boot 整合 Spring Security（配置用户/角色-基于内存）|
+|[spring-boot-security/spring-boot-springsecurity-userdb](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-userdb)|Spring Boot 整合 Spring Security（配置用户/角色-基于数据库）|
+|[spring-boot-security/spring-boot-springsecurity-urp](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-urp)|Spring Boot 整合 Spring Security（配置用户/角色/权限）|
+|[spring-boot-security/spring-boot-springsecurity-methodsecurity](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-methodsecurity)|Spring Boot 整合 Spring Security（配置方法安全）|
+|[spring-boot-security/spring-boot-springsecurity-httpsecurity](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-httpsecurity)|Spring Boot 整合 Spring Security（配置 HttpSecurity）|
+|[spring-boot-security/spring-boot-springsecurity-httpsecuritymulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-httpsecuritymulti)|Spring Boot 整合 Spring Security（配置多个 HttpSecurity）|
+|[spring-boot-security/spring-boot-springsecurity-verifycode](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-verifycode)|TODO - Spring Boot 整合 Spring Security（配置验证码）|
+|[spring-boot-security/spring-boot-springsecurity-login](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-login)|TODO - Spring Boot 整合 Spring Security（配置登录/登出）|
 |[spring-boot-security/spring-boot-springsecurity-loginbyjson](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-loginbyjson)|TODO - Spring Boot 整合 Spring Security（使用 JSON 格式数据登录）|
 |[spring-boot-security/spring-boot-springsecurity-jwt](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-jwt)|TODO - Spring Boot 整合 Spring Security + JWT|
 |[spring-boot-security/spring-boot-springsecurity-oauth2](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-oauth2)|Spring Boot 整合 Spring Security + OAuth2 + Redis|
