@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.verifycode;
+package com.cxy35.sample.springboot.springsecurity.verifycode;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

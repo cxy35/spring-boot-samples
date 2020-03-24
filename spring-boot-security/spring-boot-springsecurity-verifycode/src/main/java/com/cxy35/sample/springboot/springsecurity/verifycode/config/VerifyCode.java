@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.verifycode.config;
+package com.cxy35.sample.springboot.springsecurity.verifycode.config;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
@@ -7,12 +7,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Random;
 
-/**
- * 生成验证码的工具类
- *
- * @Author cxy35
- * @Date 2019/11/26 10:31
- */
+// 生成验证码的工具类
 public class VerifyCode {
 
     private int width = 100;// 生成验证码图片的宽度

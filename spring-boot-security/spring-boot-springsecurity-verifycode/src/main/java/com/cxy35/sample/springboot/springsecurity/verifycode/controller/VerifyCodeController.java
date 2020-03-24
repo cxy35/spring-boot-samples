@@ -1,6 +1,6 @@
-package com.zhengjian.sample.springboot.springsecurity.verifycode.controller;
+package com.cxy35.sample.springboot.springsecurity.verifycode.controller;
 
-import com.zhengjian.sample.springboot.springsecurity.verifycode.config.VerifyCode;
+import com.cxy35.sample.springboot.springsecurity.verifycode.config.VerifyCode;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,10 +11,6 @@ import javax.servlet.http.HttpSession;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 
-/**
- * @Author cxy35
- * @Date 2019/11/26 10:33
- */
 @RestController
 public class VerifyCodeController {
     @GetMapping("/vercode")

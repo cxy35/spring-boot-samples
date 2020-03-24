@@ -1,10 +1,9 @@
-package com.zhengjian.sample.springboot.springsecurity.verifycode.config;
+package com.cxy35.sample.springboot.springsecurity.verifycode.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.security.authentication.*;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
@@ -23,15 +22,15 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
-// 方法2：通过SecurityConfig配置用户名/密码
+// 方法2：通过 SecurityConfig 配置用户/角色
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
-    VerifyCodeFilter verifyCodeFilter;
+    VerifyCodeFilter verifyCodeFilter; // 验证码过滤器
 
     @Bean
     PasswordEncoder passwordEncoder() {
-//        return NoOpPasswordEncoder.getInstance();// 密码不加密
+        // return NoOpPasswordEncoder.getInstance();// 密码不加密
         return new BCryptPasswordEncoder();// 密码加密
     }
 
@@ -57,7 +56,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .formLogin()
                 .loginProcessingUrl("/doLogin")
-                // 登录失败的处理器（VerifyCodeFilter跑出的异常不会到这里？）
+                // 登录失败的处理器（VerifyCodeFilter 抛出的异常不会到这里？）
                 .failureHandler(new AuthenticationFailureHandler() {
                     @Override
                     public void onAuthenticationFailure(HttpServletRequest req, HttpServletResponse resp, AuthenticationException e) throws IOException, ServletException {
@@ -74,7 +73,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .permitAll()
                 .and()
                 .csrf().disable();
-                // 其他配置可参考spring-boot-springsecurity-login
+                // 其他配置可参考 spring-boot-springsecurity-login
     }
 
     @Override

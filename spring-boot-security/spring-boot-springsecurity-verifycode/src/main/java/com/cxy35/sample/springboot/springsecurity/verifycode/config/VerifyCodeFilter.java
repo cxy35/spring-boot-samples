@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.verifycode.config;
+package com.cxy35.sample.springboot.springsecurity.verifycode.config;
 
 import org.springframework.security.authentication.AuthenticationServiceException;
 import org.springframework.security.core.AuthenticationException;
@@ -14,10 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @Author cxy35
- * @Date 2019/11/26 10:36
- */
+// 验证码过滤器
 @Component
 public class VerifyCodeFilter extends GenericFilterBean {
     private String defaultFilterProcessUrl = "/doLogin";
