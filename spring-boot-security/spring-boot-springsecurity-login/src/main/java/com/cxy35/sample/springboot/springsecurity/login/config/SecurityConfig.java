@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.login.config;
+package com.cxy35.sample.springboot.springsecurity.login.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Bean;
@@ -27,7 +27,7 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
-// 方法2：通过SecurityConfig配置用户名/密码
+// 方法2：通过 SecurityConfig 配置用户/角色
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Bean
@@ -38,7 +38,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        // 在内存中配置2个用户
+        // 在内存中配置 2 个用户
         /*auth.inMemoryAuthentication()
                 .withUser("admin").password("123456").roles("admin")
                 .and()
@@ -54,12 +54,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         // 开启登录配置
         http.authorizeRequests()
-                // 表示admin角色能访问
+                // 表示 admin 角色能访问
                 .antMatchers("/admin/**").hasRole("admin")
-                // 表示admin或user角色都能访问
+                // 表示 admin 或 user 角色都能访问
                 // .antMatchers("/user/**").hasAnyRole("admin", "user")
-                // 表示admin或user角色都能访问
-                .antMatchers("/user/**").access("hasAnyRole('user','admin')")
+                // 表示 admin 或 user 角色都能访问
+                .antMatchers("/user/**").access("hasAnyRole('admin','user')")
                 // 表示剩余的其他接口，登录之后就能访问
                 .anyRequest().authenticated()
                 .and()
@@ -70,7 +70,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .loginProcessingUrl("/doLogin")
                 // 定义登录时，用户名的 key，默认为 username
                 .usernameParameter("uname")
-                // 定义登录时，用户密码的 key，默认为 password
+                // 定义登录时，密码的 key，默认为 password
                 .passwordParameter("passwd")
                 // 登录成功的处理器
                 .successHandler(new AuthenticationSuccessHandler() {
