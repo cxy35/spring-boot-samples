@@ -1,7 +1,7 @@
-package com.zhengjian.sample.springboot.springsecurity.loginbyjson.config;
+package com.cxy35.sample.springboot.springsecurity.loginbyjson.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.zhengjian.sample.springboot.springsecurity.loginbyjson.filter.MyAuthenticationFilter;
+import com.cxy35.sample.springboot.springsecurity.loginbyjson.filter.MyUsernamePasswordAuthenticationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.*;
@@ -24,7 +24,7 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
 
-// 方法2：通过SecurityConfig配置用户名/密码
+// 方法2：通过 SecurityConfig 配置用户/角色
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Bean
@@ -34,8 +34,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     }
 
     @Bean
-    MyAuthenticationFilter myAuthenticationFilter() throws Exception {
-        MyAuthenticationFilter filter = new MyAuthenticationFilter();
+    MyUsernamePasswordAuthenticationFilter myAuthenticationFilter() throws Exception {
+        MyUsernamePasswordAuthenticationFilter filter = new MyUsernamePasswordAuthenticationFilter();
         filter.setAuthenticationSuccessHandler(new AuthenticationSuccessHandler() {
             @Override
             public void onAuthenticationSuccess(HttpServletRequest req, HttpServletResponse resp, Authentication authentication) throws IOException, ServletException {

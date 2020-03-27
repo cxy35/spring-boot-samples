@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.loginbyjson;
+package com.cxy35.sample.springboot.springsecurity.loginbyjson;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

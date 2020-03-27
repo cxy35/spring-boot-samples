@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.loginbyjson.filter;
+package com.cxy35.sample.springboot.springsecurity.loginbyjson.filter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.http.MediaType;
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Map;
 
-public class MyAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
+public class MyUsernamePasswordAuthenticationFilter extends UsernamePasswordAuthenticationFilter {
     // 覆盖父类的方法，增加 JSON 的登录方式
     @Override
     public Authentication attemptAuthentication(HttpServletRequest request, HttpServletResponse response) throws AuthenticationException {
