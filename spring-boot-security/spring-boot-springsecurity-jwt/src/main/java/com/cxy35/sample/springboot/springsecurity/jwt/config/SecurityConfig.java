@@ -1,7 +1,7 @@
-package com.zhengjian.sample.springboot.springsecurity.jwt.config;
+package com.cxy35.sample.springboot.springsecurity.jwt.config;
 
-import com.zhengjian.sample.springboot.springsecurity.jwt.filter.JwtFilter;
-import com.zhengjian.sample.springboot.springsecurity.jwt.filter.JwtLoginFilter;
+import com.cxy35.sample.springboot.springsecurity.jwt.filter.JwtFilter;
+import com.cxy35.sample.springboot.springsecurity.jwt.filter.JwtLoginFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -12,15 +12,14 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-// 方法2：通过SecurityConfig配置用户名/密码
+// 方法2：通过 SecurityConfig 配置用户/角色
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Bean
     PasswordEncoder passwordEncoder() {
-//        return NoOpPasswordEncoder.getInstance();// 密码不加密
+        // return NoOpPasswordEncoder.getInstance();// 密码不加密
         return new BCryptPasswordEncoder();// 密码加密
     }
-
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
@@ -41,13 +40,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.authorizeRequests()
                 .antMatchers("/admin/**").hasRole("admin")
                 .antMatchers("/user/**").access("hasAnyRole('user','admin')")
-                .antMatchers(HttpMethod.POST, "/login")
-                .permitAll()
+                .antMatchers(HttpMethod.POST, "/login").permitAll()
                 .anyRequest().authenticated()
                 .and()
                 .addFilterBefore(new JwtLoginFilter("/login", authenticationManager()), UsernamePasswordAuthenticationFilter.class)
                 .addFilterBefore(new JwtFilter(), UsernamePasswordAuthenticationFilter.class)
                 .csrf().disable();
     }
-
 }

@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.jwt.pojo;
+package com.cxy35.sample.springboot.springsecurity.jwt.pojo;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

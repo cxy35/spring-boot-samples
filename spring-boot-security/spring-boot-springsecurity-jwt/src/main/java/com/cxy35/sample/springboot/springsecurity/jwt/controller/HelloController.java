@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.jwt.controller;
+package com.cxy35.sample.springboot.springsecurity.jwt.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.jwt;
+package com.cxy35.sample.springboot.springsecurity.jwt;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
