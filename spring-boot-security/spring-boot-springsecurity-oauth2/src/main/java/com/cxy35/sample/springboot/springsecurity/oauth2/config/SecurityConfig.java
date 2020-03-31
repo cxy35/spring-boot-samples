@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.oauth2.config;
+package com.cxy35.sample.springboot.springsecurity.oauth2.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -8,7 +8,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
-// 方法2：通过SecurityConfig配置用户名/密码
+// 方法2：通过 SecurityConfig 配置用户/角色
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
@@ -31,7 +31,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .withUser("user").password("123456").roles("user");// 密码不加密*/
 
-        // 明文123
         auth.inMemoryAuthentication()
                 .withUser("admin").password("$2a$10$fB2UU8iJmXsjpdk6T6hGMup8uNcJnOGwo2.QGR.e3qjIsdPYaS4LO").roles("admin")
                 .and()
@@ -40,7 +39,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-        // 1.先访问 [POST]http://127.0.0.1:8080/oauth/token 获取token
+        // 1.先访问 http://127.0.0.1:8080/oauth/token [POST] 获取 token
         // 输入参数：
         /*client_id:cid
         client_secret:123
@@ -50,28 +49,28 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         scope:all（这个貌似可以不用传）*/
         // 输出参数：
         /*{
-            "access_token": "3ef17e82-dd2e-4aef-a96f-8c964b4be47c",
-                "token_type": "bearer",
-                "refresh_token": "f555ed3d-9348-4d35-a6fe-1e2a35079d11",
-                "expires_in": 1799,
-                "scope": "all"
+            "access_token": "bd0b8836-3b9b-41da-8b7b-75620e71c8a3",
+            "token_type": "bearer",
+            "refresh_token": "9ae500a7-7789-45df-bfa3-a9d14d351ab5",
+            "expires_in": 1799,
+            "scope": "all"
         }*/
 
-        // 2.再根据1中获取的access_token访问实际的请求 [GET]http://127.0.0.1:8080/user/hello?access_token=3ef17e82-dd2e-4aef-a96f-8c964b4be47c
+        // 2.再根据上面获取的 access_token 访问实际的请求 http://127.0.0.1:8080/user/hello?access_token=bd0b8836-3b9b-41da-8b7b-75620e71c8a3 [GET]
 
-        // 另外可访问 [POST]http://127.0.0.1:8080/oauth/token 刷新token
+        // 另外可访问 http://127.0.0.1:8080/oauth/token [POST] 刷新 token
         // 输入参数：
         /*client_id:cid
         client_secret:123
         grant_type:refresh_token
-        refresh_token:f555ed3d-9348-4d35-a6fe-1e2a35079d11*/
+        refresh_token:9ae500a7-7789-45df-bfa3-a9d14d351ab5*/
         // 输出参数：
         /*{
-            "access_token": "04465dc8-f9b5-4591-bbef-dd4df442b7c3",
-                "token_type": "bearer",
-                "refresh_token": "f555ed3d-9348-4d35-a6fe-1e2a35079d11",
-                "expires_in": 1799,
-                "scope": "all"
+            "access_token": "4ba1a3c6-857b-444a-b8a2-e2c7ef06abe3",
+            "token_type": "bearer",
+            "refresh_token": "9ae500a7-7789-45df-bfa3-a9d14d351ab5",
+            "expires_in": 1799,
+            "scope": "all"
         }*/
 
         // 放过 /oauth/token 等请求

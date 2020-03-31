@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.oauth2.config;
+package com.cxy35.sample.springboot.springsecurity.oauth2.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -18,7 +18,7 @@ import org.springframework.security.oauth2.provider.token.store.redis.RedisToken
 // 授权服务配置
 @Configuration
 @EnableAuthorizationServer
-public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
+public class MyAuthorizationServerConfigurer extends AuthorizationServerConfigurerAdapter {
     @Autowired
     AuthenticationManager authenticationManager;
     @Autowired
@@ -28,17 +28,17 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 
     @Bean
     PasswordEncoder passwordEncoder() {
-//        return NoOpPasswordEncoder.getInstance();// 密码不加密
+        // return NoOpPasswordEncoder.getInstance();// 密码不加密
         return new BCryptPasswordEncoder();// 密码加密
     }
 
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         clients.inMemory()
-                .withClient("cid")// 客户端id
+                .withClient("cid")// 客户端 id
                 .authorizedGrantTypes("password", "refresh_token")// 授权方式
                 .accessTokenValiditySeconds(1800)
-                .resourceIds("rid")// 资源id，与资源服务配置中的保持一致
+                .resourceIds("rid")// 资源 id，与资源服务配置中的保持一致
                 .scopes("all")
                 .secret("$2a$10$kwLIAqAupvY87OM.O25.Yu1QKEXV1imAv7jWbDaQRFUFWSnSiDEwG");// 客户端秘钥（123）
     }

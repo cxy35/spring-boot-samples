@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.springsecurity.oauth2.config;
+package com.cxy35.sample.springboot.springsecurity.oauth2.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -9,10 +9,10 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Res
 // 资源服务配置
 @Configuration
 @EnableResourceServer
-public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
+public class MyResourceServerConfigurer extends ResourceServerConfigurerAdapter {
     @Override
     public void configure(ResourceServerSecurityConfigurer resources) throws Exception {
-        // 资源id = rid
+        // 资源 id = rid
         resources.resourceId("rid").stateless(true);
     }
 
