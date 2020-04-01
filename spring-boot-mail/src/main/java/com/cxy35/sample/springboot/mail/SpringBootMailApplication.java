@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.mail;
+package com.cxy35.sample.springboot.mail;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

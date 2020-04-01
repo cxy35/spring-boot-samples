@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.mail;
+package com.cxy35.sample.springboot.mail;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;
@@ -39,13 +39,13 @@ class SpringBootMailApplicationTests {
     @Test
     public void sendSimpleMail() {
         SimpleMailMessage msg = new SimpleMailMessage();
-        msg.setSubject("这是测试邮件主题");
-        msg.setFrom(mailProperties.getUsername());
-        msg.setTo("454407628@qq.com");
-        msg.setCc("454407628@qq.com");
-        msg.setBcc("454407628@qq.com");
-        msg.setSentDate(new Date());
-        msg.setText("这是测试邮件内容");
+        msg.setSubject("这是测试邮件主题"); // 邮件主题
+        msg.setFrom(mailProperties.getUsername()); // 邮件发送者
+        msg.setTo("799737179@qq.com"); // 邮件接收者，可以有多个
+        msg.setCc("799737179@qq.com"); // 邮件抄送人，可以有多个
+        msg.setBcc("799737179@qq.com"); // 隐秘抄送人，可以有多个
+        msg.setSentDate(new Date()); // 邮件发送日期
+        msg.setText("这是测试邮件内容"); // 邮件正文
         javaMailSender.send(msg);
     }
 
@@ -56,9 +56,9 @@ class SpringBootMailApplicationTests {
         MimeMessageHelper helper = new MimeMessageHelper(msg, true);
         helper.setSubject("这是测试邮件主题(带附件)");
         helper.setFrom(mailProperties.getUsername());
-        helper.setTo("454407628@qq.com");
-//        helper.setCc("454407628@qq.com");
-//        helper.setBcc("454407628@qq.com");
+        helper.setTo("799737179@qq.com");
+        // helper.setCc("799737179@qq.com");
+        // helper.setBcc("799737179@qq.com");
         helper.setSentDate(new Date());
         helper.setText("这是测试邮件内容(带附件)");
         helper.addAttachment("1.png", new File("D:\\1.png"));
@@ -72,9 +72,9 @@ class SpringBootMailApplicationTests {
         MimeMessageHelper helper = new MimeMessageHelper(msg, true);
         helper.setSubject("这是测试邮件主题(带图片)");
         helper.setFrom(mailProperties.getUsername());
-        helper.setTo("454407628@qq.com");
-//        helper.setCc("454407628@qq.com");
-//        helper.setBcc("454407628@qq.com");
+        helper.setTo("799737179@qq.com");
+        // helper.setCc("799737179@qq.com");
+        // helper.setBcc("799737179@qq.com");
         helper.setSentDate(new Date());
         helper.setText("这是测试邮件内容(带图片)，这是第一张图片：<img src='cid:p01'/>，这是第二张图片：<img src='cid:p02'/>", true);
         helper.addInline("p01", new FileSystemResource(new File("D:\\1.png")));
@@ -89,13 +89,16 @@ class SpringBootMailApplicationTests {
         MimeMessageHelper helper = new MimeMessageHelper(msg, true);
         helper.setSubject("这是测试邮件主题(Freemarker 模板)");
         helper.setFrom(mailProperties.getUsername());
-        helper.setTo("454407628@qq.com");
-//        helper.setCc("454407628@qq.com");
-//        helper.setBcc("454407628@qq.com");
+        helper.setTo("799737179@qq.com");
+        // helper.setCc("799737179@qq.com");
+        // helper.setBcc("799737179@qq.com");
         helper.setSentDate(new Date());
 
+        // 构建 Freemarker 的基本配置
         Configuration configuration = new Configuration(Configuration.VERSION_2_3_28);
+        // 配置模板位置
         configuration.setClassLoaderForTemplateLoading(this.getClass().getClassLoader(), "templates");
+        // 加载模板
         Template template = configuration.getTemplate("mail.ftl");
         Map<String, Object> map = new HashMap<>();
         map.put("username", "zhangsan");
@@ -104,6 +107,7 @@ class SpringBootMailApplicationTests {
         map.put("salary", 999999);
         map.put("joblevel", "高级工程师");
         StringWriter out = new StringWriter();
+        // 模板渲染，渲染的结果将被保存到 out 中 ，将 out 中的 html 字符串发送即可
         template.process(map, out);
         helper.setText(out.toString(), true);
         javaMailSender.send(msg);
@@ -120,9 +124,9 @@ class SpringBootMailApplicationTests {
         try {
             helper.setSubject("这是测试邮件主题(Thymeleaf 模板)");
             helper.setFrom(mailProperties.getUsername());
-            helper.setTo("454407628@qq.com");
-//        helper.setCc("454407628@qq.com");
-//        helper.setBcc("454407628@qq.com");
+            helper.setTo("799737179@qq.com");
+            // helper.setCc("799737179@qq.com");
+            // helper.setBcc("799737179@qq.com");
             helper.setSentDate(new Date());
 
             Context context = new Context();
