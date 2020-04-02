@@ -1,4 +1,4 @@
-## Spring Boot 学习示例
+## Spring Boot 教程合集示例
 
 > Spring Boot 教程合集持续更新中，链接会逐步加上，敬请期待。
 
@@ -6,6 +6,7 @@
 
 - [Spring Boot 教程合集](https://mp.weixin.qq.com/s/9vOiAxHFnfJnRwSlTfAHwg)
 - [Spring Boot 教程合集示例代码](https://github.com/cxy35/spring-boot-samples)
+- [Spring Boot 实战项目（人力资源管理系统）](https://github.com/cxy35/hr)
 
 ---
 
@@ -73,7 +74,7 @@
 |[spring-boot-security/spring-boot-springsecurity-loginbyjson](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-loginbyjson)|[Spring Boot 整合 Spring Security（使用 JSON 格式数据登录）](https://mp.weixin.qq.com/s/XOFGOwCHRGBk-53Tu5Su6A)|
 |[spring-boot-security/spring-boot-springsecurity-jwt](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-jwt)|[Spring Boot 整合 Spring Security + JWT（实现无状态登录）](https://mp.weixin.qq.com/s/gJZOfJ58CSe2zcB2YgMW1g)|
 |[spring-boot-security/spring-boot-springsecurity-oauth2](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-security/spring-boot-springsecurity-oauth2)|[Spring Boot 整合 Spring Security + OAuth2](https://mp.weixin.qq.com/s/3GjpfsF-l6pynczhspF2fg)|
-|[spring-boot-mail](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-mail)|TODO - Spring Boot 整合邮件发送|
+|[spring-boot-mail](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-mail)|[Spring Boot 整合邮件发送](https://mp.weixin.qq.com/s/zUWwm3l5QIQhuR5Kgs301w)|
 |[spring-boot-message](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-message)|Spring Boot 整合消息服务（WebSocket / ActiveMQ / RabbitMQ）|
 |[spring-boot-message/spring-boot-websocket-groupchat](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-message/spring-boot-websocket-groupchat)|Spring Boot 整合 WebSocket（实现在线群聊）|
 |[spring-boot-message/spring-boot-websocket-privatechat](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-message/spring-boot-websocket-privatechat)|Spring Boot 整合 WebSocket（实现在线私聊）|
