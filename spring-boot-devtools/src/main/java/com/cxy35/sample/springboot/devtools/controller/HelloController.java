@@ -1,4 +1,4 @@
-package com.zhengjian.sample.springboot.devtools.controller;
+package com.cxy35.sample.springboot.devtools.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/hello")
     public String  hello() {
-        return "hello devtools...";
+        return "Hello DevTools";
     }
 }
