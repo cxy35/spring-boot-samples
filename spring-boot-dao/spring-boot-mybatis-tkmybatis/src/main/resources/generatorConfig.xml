@@ -1,0 +1,72 @@
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!-- 引入外部属性文件 -->
+    <properties resource="application.properties"/>
+
+    <context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <!-- 是否使用通用 Mapper 提供的注释工具，默认 true 使用，这样在生成代码时会包含字段的注释（目前只有 mysql 和 oracle 支持），设置 false 后会用默认的，或者你可以配置自己的注释插件。 -->
+        <property name="useMapperCommentGenerator" value="true"/>
+
+        <!-- 为模型生成序列化方法-->
+        <!--<plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>-->
+        <!-- 为生成的 Java 模型创建一个 toString 方法 -->
+        <!--<plugin type="org.mybatis.generator.plugins.ToStringPlugin"/>-->
+
+        <!-- 通用 Mapper 专用代码生成器插件 -->
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <!-- 生成的 Mapper 接口会自动继承这里配置的接口 -->
+            <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>
+            <!-- 是否区分大小写，默认值 false。如果数据库区分大小写，这里就需要配置为 true，这样当表名为 USER 时，会生成 @Table(name = "USER") 注解，否则使用小写 user 时会找不到表。 -->
+            <property name="caseSensitive" value="true"/>
+            <!-- 是否强制生成注解，默认 false，如果设置为 true，不管数据库名和字段名是否一致，都会生成注解（包含 @Table 和 @Column）。 -->
+            <property name="forceAnnotation" value="true"/>
+            <!-- 在生成的 model 中，增加字段名的常量，便于使用 Example 拼接查询条件的时候使用。 -->
+            <property name="generateColumnConsts" value="true"/>
+            <!-- -->
+            <!--<property name="generateDefaultInstanceMethod" value="true"/>-->
+            <!-- 开始和结束分隔符，对于有关键字的情况下适用。 -->
+            <property name="beginningDelimiter" value="`"/>
+            <property name="endingDelimiter" value="`"/>
+            <!-- 生成 model 类时，可以直接生成 lombok 的 @Getter@Setter@ToString@Accessors(chain = true) 等注解。 -->
+            <!--<property name="lombok" value="Getter,Setter,ToString,Accessors,EqualsAndHashCode"/>-->
+            <!-- 注意：使用 Data 注解时，Getter,Setter,ToString,EqualsAndHashCode 注解无效 -->
+            <!--<property name="lombok" value="Data,Accessors"/>-->
+            <!--<property name="lombokEqualsAndHashCodeCallSuper" value="true"/>-->
+            <!-- -->
+            <!--<property name="swagger" value="true"/>-->
+        </plugin>
+
+        <!-- 配置数据库连接 -->
+        <jdbcConnection driverClass="${spring.datasource.driver-class-name}"
+                        connectionURL="${spring.datasource.url}"
+                        userId="${spring.datasource.username}"
+                        password="${spring.datasource.password}">
+            <!-- 解决 mysql 驱动升级到 8.0 后不生成指定数据库代码的问题 -->
+            <property name="nullCatalogMeansCurrent" value="true" />
+        </jdbcConnection>
+
+        <!-- 指定生成 model 的路径 -->
+        <javaModelGenerator targetPackage="com.cxy35.sample.springboot.mybatis.tkmybatis.mbg.model" targetProject="spring-boot-dao/spring-boot-mybatis-tkmybatis/src/main/java"/>
+
+        <!-- 指定生成 mapper 接口的的路径 -->
+        <javaClientGenerator targetPackage="com.cxy35.sample.springboot.mybatis.tkmybatis.mbg.mapper" targetProject="spring-boot-dao/spring-boot-mybatis-tkmybatis/src/main/java" type="XMLMAPPER"/>
+
+        <!-- 非必须 -->
+        <!-- 指定生成 mapper.xml 的路径 -->
+        <!--<sqlMapGenerator targetPackage="com.cxy35.sample.springboot.mybatis.tkmybatis.mbg.mapper" targetProject="spring-boot-dao/spring-boot-mybatis-tkmybatis/src/main/java"/>-->
+
+        <!-- 如果要生成全部表，tableName 设为% -->
+        <table tableName="t_user">
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>
+        <!--<table tableName="t_user_role">
+            <generatedKey column="id" sqlStatement="JDBC"/>
+        </table>-->
+    </context>
+</generatorConfiguration>

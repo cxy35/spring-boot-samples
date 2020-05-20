@@ -13,6 +13,7 @@
         <module>spring-boot-jdbctemplatemulti</module>
         <module>spring-boot-mybatis</module>
         <module>spring-boot-mybatismulti</module>
+        <module>spring-boot-mybatis-tkmybatis</module>
         <module>spring-boot-jpa</module>
         <module>spring-boot-jpamulti</module>
     </modules>
