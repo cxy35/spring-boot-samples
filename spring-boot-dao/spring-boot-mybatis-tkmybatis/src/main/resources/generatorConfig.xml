@@ -10,15 +10,15 @@
         <property name="beginningDelimiter" value="`"/>
         <property name="endingDelimiter" value="`"/>
         <property name="javaFileEncoding" value="UTF-8"/>
-        <!-- 是否使用通用 Mapper 提供的注释工具，默认 true 使用，这样在生成代码时会包含字段的注释（目前只有 mysql 和 oracle 支持），设置 false 后会用默认的，或者你可以配置自己的注释插件。 -->
-        <property name="useMapperCommentGenerator" value="true"/>
+        <!--配置是否使用通用 Mapper 自带的注释扩展，默认 true-->
+        <!--<property name="useMapperCommentGenerator" value="false"/>-->
 
         <!-- 为模型生成序列化方法-->
         <!--<plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>-->
         <!-- 为生成的 Java 模型创建一个 toString 方法 -->
         <!--<plugin type="org.mybatis.generator.plugins.ToStringPlugin"/>-->
 
-        <!-- 通用 Mapper 专用代码生成器插件 -->
+        <!-- 通用 Mapper 插件，可以生成带注解的实体类 -->
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
             <!-- 生成的 Mapper 接口会自动继承这里配置的接口 -->
             <property name="mappers" value="tk.mybatis.mapper.common.Mapper"/>
@@ -33,14 +33,33 @@
             <!-- 开始和结束分隔符，对于有关键字的情况下适用。 -->
             <property name="beginningDelimiter" value="`"/>
             <property name="endingDelimiter" value="`"/>
-            <!-- 生成 model 类时，可以直接生成 lombok 的 @Getter@Setter@ToString@Accessors(chain = true) 等注解。 -->
-            <!--<property name="lombok" value="Getter,Setter,ToString,Accessors,EqualsAndHashCode"/>-->
-            <!-- 注意：使用 Data 注解时，Getter,Setter,ToString,EqualsAndHashCode 注解无效 -->
-            <!--<property name="lombok" value="Data,Accessors"/>-->
+            <!-- 配置是否启用lombok, 支持如下6种注解 -->
+            <!-- 注意：当配置 Data 后，Getter Setter ToString EqualsAndHashCode 会被忽略-->
+            <!--<property name="lombok" value="Getter,Setter,Data,ToString,Accessors,EqualsAndHashCode"/>-->
             <!--<property name="lombokEqualsAndHashCodeCallSuper" value="true"/>-->
             <!-- -->
             <!--<property name="swagger" value="true"/>-->
         </plugin>
+
+        <!-- 通用代码生成器插件：支持基于 Freemarker 模板生成各种代码（未实测） -->
+        <!-- mapper接口 -->
+        <!--<plugin type="tk.mybatis.mapper.generator.TemplateFilePlugin">
+            <property name="targetProject" value="spring-boot-dao/spring-boot-mybatis-tkmybatis/src/main/java"/>
+            <property name="targetPackage" value="com.cxy35.sample.springboot.mybatis.tkmybatis.mbg.mapper"/>
+            <property name="templatePath" value="generator/mapper.ftl"/>
+            <property name="fileName" value="${tableClass.shortClassName}${mapperSuffix}.java"/>
+            <property name="mapperSuffix" value="Dao"/>
+        </plugin>-->
+
+        <!-- mapper.xml -->
+        <!--<plugin type="tk.mybatis.mapper.generator.TemplateFilePlugin">
+            <property name="targetProject" value="spring-boot-dao/spring-boot-mybatis-tkmybatis/src/main/java"/>
+            <property name="targetPackage" value="com.cxy35.sample.springboot.mybatis.tkmybatis.mbg.mapper"/>
+            <property name="templatePath" value="generator/mapperXml.ftl"/>
+            <property name="fileName" value="${tableClass.shortClassName}${mapperSuffix}.xml"/>
+            <property name="mapperSuffix" value="Dao"/>
+            <property name="mapperPackage" value="com.cxy35.sample.springboot.mybatis.tkmybatis.mbg.mapper"/>
+        </plugin>-->
 
         <!-- 配置数据库连接 -->
         <jdbcConnection driverClass="${spring.datasource.driver-class-name}"
@@ -61,7 +80,7 @@
         <!-- 指定生成 mapper.xml 的路径 -->
         <!--<sqlMapGenerator targetPackage="com.cxy35.sample.springboot.mybatis.tkmybatis.mbg.mapper" targetProject="spring-boot-dao/spring-boot-mybatis-tkmybatis/src/main/java"/>-->
 
-        <!-- 如果要生成全部表，tableName 设为% -->
+        <!-- tableName 可以使用 % 通配符 -->
         <table tableName="t_user">
             <generatedKey column="id" sqlStatement="JDBC"/>
         </table>
