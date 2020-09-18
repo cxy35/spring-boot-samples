@@ -43,7 +43,7 @@
 |[Spring Boot 整合 JdbcTemplate 多数据源](https://mp.weixin.qq.com/s/zXrznyvlcPSRau6hTt0YAg)|[spring-boot-dao/spring-boot-jdbctemplatemulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jdbctemplatemulti)|
 |[Spring Boot 整合 MyBatis](https://mp.weixin.qq.com/s/zvOBkU-BKAk-4yhwboZbzA)|[spring-boot-dao/spring-boot-mybatis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis)|
 |[Spring Boot 整合 MyBatis 多数据源](https://mp.weixin.qq.com/s/r73LdKw0gnELa7vSrNPOzw)|[spring-boot-dao/spring-boot-mybatismulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatismulti)|
-|[Spring Boot 整合 MyBatis 通用 Mapper（TkMybatis）](https://mp.weixin.qq.com/s/ALz1TL8KXPIbS2xBjK3kvQ)|[spring-boot-dao/spring-boot-mybatis-tkmybatis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/sspring-boot-mybatis-tkmybatis)|
+|[Spring Boot 整合 MyBatis 通用 Mapper（TkMybatis）](https://mp.weixin.qq.com/s/ALz1TL8KXPIbS2xBjK3kvQ)|[spring-boot-dao/spring-boot-mybatis-tkmybatis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis-tkmybatis)|
 |[Spring Boot 整合 Jpa](https://mp.weixin.qq.com/s/AWQPu02VY9BD9u_PLKrL7Q)|[spring-boot-dao/spring-boot-jpa](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpa)|
 |[Spring Boot 整合 Jpa 多数据源](https://mp.weixin.qq.com/s/lasazEB6Dx2-ZA_9fhxFHw)|[spring-boot-dao/spring-boot-jpamulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpamulti)|
 |Spring Boot 整合 NoSQL（Redis / MongoDB）|[spring-boot-nosql](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql)|

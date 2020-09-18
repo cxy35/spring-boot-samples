@@ -1,8 +1,6 @@
 package com.cxy35.sample.springboot.mybatis.tkmybatis;
 
 import com.cxy35.sample.springboot.mybatis.tkmybatis.mapper.UserMapper;
-import com.cxy35.sample.springboot.mybatis.tkmybatis.mbg.mapper.TUserMapper;
-import com.cxy35.sample.springboot.mybatis.tkmybatis.mbg.model.TUser;
 import com.cxy35.sample.springboot.mybatis.tkmybatis.pojo.User;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +15,6 @@ class SpringBootMybatisTkmybatisApplicationTests {
 
     @Autowired
     UserMapper userMapper;
-    @Autowired
-    TUserMapper tUserMapper;
 
     @Test
     public void insertSelective() {
@@ -40,12 +36,18 @@ class SpringBootMybatisTkmybatisApplicationTests {
     @Test
     public void updateByPrimaryKeySelective() {
         User user = new User();
-        user.setId(1);
+        user.setId(2);
         user.setUsername("zhangsan2");
         user.setPassword("654321");
         user.setNickName("zs2");
         user.setAddress("上海");
         userMapper.updateByPrimaryKeySelective(user);
+    }
+
+    @Test
+    public void selectByPrimaryKey() {
+        User user = userMapper.selectByPrimaryKey(4);
+        System.out.println(user);
     }
 
     @Test
@@ -67,12 +69,6 @@ class SpringBootMybatisTkmybatisApplicationTests {
     @Test
     public void selectByRoleId() {
         List<User> users = userMapper.selectByRoleId(2);
-        System.out.println(users);
-    }
-
-    @Test
-    public void selectAll2() {
-        List<TUser> users = tUserMapper.selectAll();
         System.out.println(users);
     }
 }
