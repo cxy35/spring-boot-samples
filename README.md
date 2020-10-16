@@ -46,11 +46,11 @@
 |[Spring Boot 整合 MyBatis 通用 Mapper（TkMybatis）](https://mp.weixin.qq.com/s/ALz1TL8KXPIbS2xBjK3kvQ)|[spring-boot-dao/spring-boot-mybatis-tkmybatis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis-tkmybatis)|
 |[Spring Boot 整合 Jpa](https://mp.weixin.qq.com/s/AWQPu02VY9BD9u_PLKrL7Q)|[spring-boot-dao/spring-boot-jpa](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpa)|
 |[Spring Boot 整合 Jpa 多数据源](https://mp.weixin.qq.com/s/lasazEB6Dx2-ZA_9fhxFHw)|[spring-boot-dao/spring-boot-jpamulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpamulti)|
-|Spring Boot 整合 NoSQL（Redis / MongoDB）|[spring-boot-nosql](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql)|
+|Spring Boot 整合 NoSQL（Redis / MongoDB / Elasticsearch）|[spring-boot-nosql](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql)|
 |[Spring Boot 整合 Redis](https://mp.weixin.qq.com/s/oXwCwO0Ng24xvYo3DcXjDA)|[spring-boot-nosql/spring-boot-redis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis)|
 |[Spring Boot 整合 Redis + Spring Session（实现 Session 共享）](https://mp.weixin.qq.com/s/xwvCzYfj35N2Eld9H48tsg)|[spring-boot-nosql/spring-boot-redis-springsession](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-redis-springsession)|
 |Spring Boot 整合 MongoDB|[spring-boot-nosql/spring-boot-mongodb](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-mongodb)|
-|Spring Boot 整合 Elasticsearch|[spring-boot-nosql/spring-boot-elasticsearch](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-elasticsearch)|
+|[Spring Boot 整合 Elasticsearch]()|[spring-boot-nosql/spring-boot-elasticsearch](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql/spring-boot-elasticsearch)|
 |[Spring Boot 配置定时任务（@Scheduled / Quartz）](https://mp.weixin.qq.com/s/8VhDY10t5ZnIxHIfEh-Trw)|[spring-boot-task](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task)|
 |[Spring Boot 配置定时任务（@Scheduled）](https://mp.weixin.qq.com/s/8VhDY10t5ZnIxHIfEh-Trw)|[spring-boot-task/spring-boot-scheduled](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task/spring-boot-scheduled)|
 |[Spring Boot 配置定时任务（Quartz）](https://mp.weixin.qq.com/s/8VhDY10t5ZnIxHIfEh-Trw)|[spring-boot-task/spring-boot-quartz](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task/spring-boot-quartz)|
