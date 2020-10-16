@@ -1,0 +1,13 @@
+package com.cxy35.sample.springboot.elasticsearch;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringBootElasticsearchApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootElasticsearchApplication.class, args);
+    }
+
+}
