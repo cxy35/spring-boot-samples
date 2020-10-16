@@ -66,9 +66,9 @@ class SpringBootJpaApplicationTests {
         System.out.println("总记录数：" + page.getTotalElements());
         System.out.println("当前页记录数：" + page.getNumberOfElements());
         System.out.println("每页记录数：" + page.getSize());
-        System.out.println("获取总页数：" + page.getTotalPages());
+        System.out.println("总页数：" + page.getTotalPages());
         System.out.println("查询结果：" + page.getContent());
-        System.out.println("当前页（从0开始计）" + page.getNumber());
+        System.out.println("当前页（从0开始计）：" + page.getNumber());
         System.out.println("是否为首页：" + page.isFirst());
         System.out.println("是否为尾页：" + page.isLast());
     }
