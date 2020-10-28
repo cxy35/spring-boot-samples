@@ -54,7 +54,7 @@
 |[Spring Boot 配置定时任务（@Scheduled / Quartz）](https://mp.weixin.qq.com/s/8VhDY10t5ZnIxHIfEh-Trw)|[spring-boot-task](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task)|
 |[Spring Boot 配置定时任务（@Scheduled）](https://mp.weixin.qq.com/s/8VhDY10t5ZnIxHIfEh-Trw)|[spring-boot-task/spring-boot-scheduled](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task/spring-boot-scheduled)|
 |[Spring Boot 配置定时任务（Quartz）](https://mp.weixin.qq.com/s/8VhDY10t5ZnIxHIfEh-Trw)|[spring-boot-task/spring-boot-quartz](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-task/spring-boot-quartz)|
-|[Spring Boot 整合 Swagger2](https://mp.weixin.qq.com/s/9v8kDoqiecK5PlPo5zM8JQ)|[spring-boot-swagger2](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-swagger2)|
+|[Spring Boot 整合 Swagger2](https://mp.weixin.qq.com/s/w4N4c3eN9j6RYheWMAn0DA)|[spring-boot-swagger2](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-swagger2)|
 |Spring Boot 构建 Rest 服务（Jpa / MongoDB）|[spring-boot-rest](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-rest)|
 |[Spring Boot 构建 Rest 服务（Jpa）](https://mp.weixin.qq.com/s/kporE2HS41shwX7X77ZEJA)|[spring-boot-rest/spring-boot-jparest](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-jparest)|
 |Spring Boot 构建 Rest 服务（MongoDB）|[spring-boot-rest/spring-boot-mongodbrest](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-rest/spring-boot-mongodbrest)|
