@@ -15,6 +15,7 @@
         <module>spring-boot-mybatismulti</module>
         <module>spring-boot-mybatis-tkmybatis</module>
         <module>spring-boot-mybatis-mybatisplus</module>
+        <module>spring-boot-mybatis-mybatisplusmulti</module>
         <module>spring-boot-jpa</module>
         <module>spring-boot-jpamulti</module>
     </modules>

@@ -1,0 +1,39 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    dynamic:
+      primary: master #设置默认的数据源或者数据源组,默认值即为master
+      strict: false # 设置严格模式，默认 false 不启动. 启动后在未匹配到指定数据源时候会抛出异常，不启动则使用默认数据源.
+      datasource:
+        master:
+          driver-class-name: com.mysql.jdbc.Driver # 3.2.0 开始支持 SPI 可省略此配置
+          url: jdbc:mysql://127.0.0.1:3306/cxy35?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&autoReconnectForPools=true&serverTimezone=Asia/Shanghai
+          username: root
+          password: '000000'
+        slave_1:
+          driver-class-name: com.mysql.jdbc.Driver # 3.2.0 开始支持 SPI 可省略此配置
+          url: jdbc:mysql://127.0.0.1:3306/cxy35_2?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&autoReconnectForPools=true&serverTimezone=Asia/Shanghai
+          username: root
+          password: '000000'
+        # slave_2:
+          # url: ENC(xxxxx) # 内置加密，使用请查看详细文档
+          # username: ENC(xxxxx)
+          # password: ENC(xxxxx)
+          # driver-class-name: com.mysql.jdbc.Driver
+          # schema: db/schema.sql # 配置则生效，自动初始化表结构
+          # data: db/data.sql # 配置则生效，自动初始化数据
+          # continue-on-error: true # 默认 true，初始化失败是否继续
+          # separator: ";" # sql 默认分号分隔符
+        # ......省略
+        # 以上会配置一个默认库 master，一个组 slave 下有两个子库 slave_1，slave_2
+
+mybatis-plus:
+  #  mapper-locations: classpath:/mapper/**/*.xml # 指定 mapper.xml 路径
+  global-config:
+    db-config:
+      id-type: auto # 全局默认主键类型设置为自增
+  configuration:
+    auto-mapping-behavior: partial # 只对非嵌套的 resultMap 进行自动映射
+    map-underscore-to-camel-case: true # 开启自动驼峰命名规则映射
+
+# [MyBatis-Plus 代码生成器](https://github.com/cxy35/generators/tree/master/generator-mybatisplus)
