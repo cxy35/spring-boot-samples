@@ -45,6 +45,7 @@
 |[Spring Boot 整合 MyBatis 多数据源](https://mp.weixin.qq.com/s/r73LdKw0gnELa7vSrNPOzw)|[spring-boot-dao/spring-boot-mybatismulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatismulti)|
 |[Spring Boot 整合 MyBatis 通用 Mapper（TkMybatis）](https://mp.weixin.qq.com/s/ALz1TL8KXPIbS2xBjK3kvQ)|[spring-boot-dao/spring-boot-mybatis-tkmybatis](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis-tkmybatis)|
 |[Spring Boot 整合 MyBatis-Plus](https://mp.weixin.qq.com/s/VE1a-Nf8ZmybCDSvIK27bg)|[spring-boot-dao/spring-boot-mybatis-mybatisplus](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis-mybatisplus)|
+|[Spring Boot 整合 MyBatis-Plus 多数据源]()|[spring-boot-dao/spring-boot-mybatis-mybatisplusmulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-mybatis-mybatisplusmulti)|
 |[Spring Boot 整合 Jpa](https://mp.weixin.qq.com/s/AWQPu02VY9BD9u_PLKrL7Q)|[spring-boot-dao/spring-boot-jpa](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpa)|
 |[Spring Boot 整合 Jpa 多数据源](https://mp.weixin.qq.com/s/lasazEB6Dx2-ZA_9fhxFHw)|[spring-boot-dao/spring-boot-jpamulti](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-dao/spring-boot-jpamulti)|
 |Spring Boot 整合 NoSQL（Redis / MongoDB / Elasticsearch）|[spring-boot-nosql](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-nosql)|
