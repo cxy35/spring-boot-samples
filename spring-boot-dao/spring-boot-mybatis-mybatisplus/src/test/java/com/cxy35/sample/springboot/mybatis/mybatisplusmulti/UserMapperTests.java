@@ -73,6 +73,7 @@ class UserMapperTests {
         Page<User> page = new Page<>(1, 3);
         QueryWrapper<User> qw = new QueryWrapper<>();
         qw.between("id", 1, 20).eq("enabled", 1).orderByDesc("id");
+        // qw.lambda().between(User::getId, 1, 20).eq(User::getEnabled, 1).orderByDesc(User::getId);
         Page<User> pageResult = userMapper.selectPage(page, qw);
         System.out.println("总记录数：" + pageResult.getTotal());
         System.out.println("当前页：" + pageResult.getCurrent());
