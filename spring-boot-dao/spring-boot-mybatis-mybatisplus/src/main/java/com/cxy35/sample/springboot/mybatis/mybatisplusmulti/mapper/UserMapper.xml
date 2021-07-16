@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 位置1（推荐）：放在UserMapper所在的包下面，会被自动扫描到，但需要在pom.xml中配置maven构建时的资源路径 -->
+<mapper namespace="com.xxx.UserMapper">
+    <insert id="addUser" parameterType="com.xxx.pojo.User">
+        insert into t_user (username,address) values (#{username},#{address});
+    </insert>
+
+    <delete id="deleteUserById">
+        delete from t_user where id=#{id}
+    </delete>
+
+    <update id="updateUserById" parameterType="com.xxx.pojo.User">
+        update t_user set username=#{username},address=#{address} where id=#{id}
+    </update>
+
+    <select id="getAllUser" resultType="com.xxx.pojo.User">
+        select * from t_user;
+    </select>
+</mapper>
