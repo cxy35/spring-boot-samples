@@ -8,19 +8,19 @@ import org.springframework.stereotype.Component;
 public class TopicReceiver {
     // 监听队列
     @RabbitListener(queues = RabbitMQTopicConfig.QUEUE_NAME_TOPIC_XIAOMI)
-    public void handler1(String msg) {
-        System.out.println("TopicReceiver:handler1:" + msg);
+    public void handlerXiaomi(String msg) {
+        System.out.println("TopicReceiver:handlerXiaomi:" + msg);
     }
 
     // 监听队列
     @RabbitListener(queues = RabbitMQTopicConfig.QUEUE_NAME_TOPIC_HUAWEI)
-    public void handler2(String msg) {
-        System.out.println("TopicReceiver:handler2:" + msg);
+    public void handlerHuawei(String msg) {
+        System.out.println("TopicReceiver:handlerHuawei:" + msg);
     }
 
     // 监听队列
     @RabbitListener(queues = RabbitMQTopicConfig.QUEUE_NAME_TOPIC_PHONE)
-    public void handler3(String msg) {
-        System.out.println("TopicReceiver:handler3:" + msg);
+    public void handlerPhone(String msg) {
+        System.out.println("TopicReceiver:handlerPhone:" + msg);
     }
 }

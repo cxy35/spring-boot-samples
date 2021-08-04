@@ -9,19 +9,9 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class RabbitMQFanoutConfig {
+    public static final String EXCHANGE_NAME_FANOUT = "exchange_fanout";
     public static final String QUEUE_NAME_FANOUT_ONE = "queue_fanout_one";
     public static final String QUEUE_NAME_FANOUT_TWO = "queue_fanout_two";
-    public static final String EXCHANGE_NAME_FANOUT = "exchange_fanout";
-
-    @Bean
-    Queue queueOne() {
-        return new Queue(RabbitMQFanoutConfig.QUEUE_NAME_FANOUT_ONE);
-    }
-
-    @Bean
-    Queue queueTwo() {
-        return new Queue(RabbitMQFanoutConfig.QUEUE_NAME_FANOUT_TWO);
-    }
 
     @Bean
     FanoutExchange fanoutExchange() {
@@ -29,12 +19,22 @@ public class RabbitMQFanoutConfig {
     }
 
     @Bean
-    Binding bindingOne() {
-        return BindingBuilder.bind(queueOne()).to(fanoutExchange());
+    Queue fanoutOneQueue() {
+        return new Queue(RabbitMQFanoutConfig.QUEUE_NAME_FANOUT_ONE, true);
     }
 
     @Bean
-    Binding bindingTwo() {
-        return BindingBuilder.bind(queueTwo()).to(fanoutExchange());
+    Queue fanoutTwoQueue() {
+        return new Queue(RabbitMQFanoutConfig.QUEUE_NAME_FANOUT_TWO, true);
+    }
+
+    @Bean
+    Binding fanoutOneBinding() {
+        return BindingBuilder.bind(fanoutOneQueue()).to(fanoutExchange());
+    }
+
+    @Bean
+    Binding fanoutTwoBinding() {
+        return BindingBuilder.bind(fanoutTwoQueue()).to(fanoutExchange());
     }
 }

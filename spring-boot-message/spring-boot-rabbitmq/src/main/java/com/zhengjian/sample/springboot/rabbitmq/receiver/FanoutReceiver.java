@@ -8,13 +8,13 @@ import org.springframework.stereotype.Component;
 public class FanoutReceiver {
     // 监听队列
     @RabbitListener(queues = RabbitMQFanoutConfig.QUEUE_NAME_FANOUT_ONE)
-    public void handler1(String msg) {
-        System.out.println("FanoutReceiver:handler1:" + msg);
+    public void handlerOne(String msg) {
+        System.out.println("FanoutReceiver:handlerOne:" + msg);
     }
 
     // 监听队列
     @RabbitListener(queues = RabbitMQFanoutConfig.QUEUE_NAME_FANOUT_TWO)
-    public void handler2(String msg) {
-        System.out.println("FanoutReceiver:handler2:" + msg);
+    public void handlerTwo(String msg) {
+        System.out.println("FanoutReceiver:handlerTwo:" + msg);
     }
 }
