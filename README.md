@@ -83,7 +83,7 @@
 |Spring Boot 整合 WebSocket（实现在线群聊）|[spring-boot-message/spring-boot-websocket-groupchat](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-message/spring-boot-websocket-groupchat)|
 |Spring Boot 整合 WebSocket（实现在线私聊）|[spring-boot-message/spring-boot-websocket-privatechat](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-message/spring-boot-websocket-privatechat)|
 |Spring Boot 整合 ActiveMQ|[spring-boot-message/spring-boot-activemq](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-message/spring-boot-activemq)|
-|Spring Boot 整合 RabbitMQ|[spring-boot-message/spring-boot-rabbitmq](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-message/spring-boot-rabbitmq)|
+|[Spring Boot 整合 RabbitMQ](https://www.cxy35.com/#/docs/mq/rabbitmq)|[spring-boot-message/spring-boot-rabbitmq](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-message/spring-boot-rabbitmq)|
 |Spring Boot 整合监控服务（Admin）|[spring-boot-monitor](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-monitor)|
 |Spring Boot Admin Server|[spring-boot-monitor/spring-boot-admin-server](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-monitor/spring-boot-admin-server)|
 |Spring Boot Admin Client|[spring-boot-monitor/spring-boot-admin-client](https://github.com/cxy35/spring-boot-samples/tree/master/spring-boot-monitor/spring-boot-admin-client)|
